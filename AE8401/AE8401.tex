@@ -202,11 +202,11 @@ Slicing is shown in Fig.1 by $aa'$, $bb'$ and $cc'$.
 \textbf{\Large Keep in mind:} Moment is simply force times the ``perpendicular distance" $(\vec M=\vec r\times \vec F)$. So, the forces that pass through the point do not contribute any moment. And, while resolving, stick to a particular direction (clockwise/anticlockwise).
 \newline
 
-For e.g., taking left slice of $aa'$ in Fig.1, moments $\vec M_A$, $\vec M_F$ and $\vec M_B$ can be equated to zero. Regarding the perpendicular direction, (for e.g.) while using $\vec M_F=0$, the force $\mathrm{1\ kN}$ is at $\mathrm{r=2.5\ m}$ (horizontal), whereas $\mathrm{2\ kN}$ is at $\mathrm{r=2.5\ m}$ (vertical).
+For e.g., taking left slice of $aa'$ in Fig.1, moments $\vec M_A$, $\vec M_F$ and $\vec M_B$ can be equated to zero. Regarding the perpendicular direction, (for e.g.) while using $\vec M_F=0$, the force $\mathrm{1\ kN}$ is at $r=\mathrm{2.5\ m}$ (horizontal), whereas $\mathrm{2\ kN}$ is at $r=\mathrm{2.5\ m}$ (vertical).
 \end{enumerate}
 \newpage
 \subsection{\LARGE Space Truss}
-Analyze the forces on members from the given orthographically projected truss work.
+Analyze the forces on members from the orthographically projected truss work.
 \para{\Large Moment recall:}
 \\
 Moment is always taken about a line. So, the moment of a force about a line parallel to its direction is \textbf{zero!}
@@ -223,21 +223,26 @@ Resolution of moments, and magnitude of net moment are similar to that of the fo
 \newpage
 \paragraph{\Large Procedure:}
 \begin{enumerate}[(a)]
-\item If the given members in 3D space, then project them orthographically in 2D (front and side views).
-\item Tabulate the distance of the members relative to the vertical or horizontal (depending on {\LARGE $D$},{\LARGE $S$}, or {\LARGE $V$}).
+\item If the given members are in 3D space, then project them orthographically in 2D (front and side views).
+\item Tabulate the distances of members relative to the vertical or horizontal (for each $D$, $S$, and $V$).
 \item Find the magnitude of the net distance using,
 {\LARGE $$|L|=\sqrt{D^2+S^2+V^2}$$}
 \item Find {\LARGE $D\over L$},{\LARGE $S\over L$}, and {\LARGE $V\over L$}.
 \item Now that the direction cosines are found, apply the force equilibrium to find the forces on members,
 \begin{center}
-{\LARGE $\sum D=0$}, {\LARGE $\sum S=0$}, and {\LARGE $\sum V=0$}
+{\LARGE $\sum F_i\cdot \frac{D}L=0$}, {\LARGE $\sum F_i\cdot \frac{S}L=0$}, {\LARGE $\sum F_i\cdot \frac{V}L=0$}
 \end{center}
 \end{enumerate}
 $\ $
 \\
 \textbf{\Large Note:} 
+\begin{itemize}
+\item All the forces should be accounted for equilibrium (including the externally applied ones, with appropriate SI units).
+\item $D$, $S$ and $V$ \textit{can} be negative, when the members extend from origin to the negative region of the co-ordinate system
+\end{itemize}
 \newpage
-\para{\Large Simply-supported beams: (Formulas recall)}
+\paragraph{\LARGE Formulas Recall:}
+\para{\Large Simply-supported beams:}
 \begin{itemize}
 \item For a point load $P$ at a distance {\LARGE $a$} from the support,
 \end{itemize}
