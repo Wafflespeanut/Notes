@@ -413,4 +413,57 @@ Most of the ``linear PDE" can be solved by using variable-separable method.
 \item Individually solve the ODE by integrating the terms along with {\LARGE $a$}.
 \item Substitute the obtained $X$ and $Y$ in the assumption (a) to get the required function $\textbf{Z}$.
 \end{enumerate}
+\newpage
+\textbf{\section{\huge Fourier Transform}}
+$\ $
+\subsection{\LARGE Transformation:}
+\newpage
+\textbf{\section{\huge Z-Transform}}
+$\ $
+\subsection{\LARGE Transformation rule:}
+{\LARGE $$\textbf{Z}\{u_n\}=U(\textbf{z})=\sum_{n=0}^\infty u_n\  \textbf{z}^{-n}$$}
+\subsection{\LARGE Properties:}
+$\ $
+\begin{enumerate}[(i)]
+\item \textbf{Linearity:}
+{\LARGE $$\textbf{Z}\{a\ u_n+b\ v_n\}=a\ \textbf{Z}\{u_n\}+b\ \textbf{Z}\{v_n\}$$}
+\item \textbf{Damping:}
+{\LARGE $$\textbf{Z}\{a^n\ u_n\}=U(\textbf{z}/a)$$
+$$\textbf{Z}\{a^{-n}\ u_n\}=U(a\textbf{z})$$}
+\newpage
+\item \textbf{Shifting:}
+\begin{itemize}
+\item To right: ($k>0$)
+{\LARGE $$\textbf{Z}\{u_{(n-k)}\}=\textbf{z}^{-k}\ U(\textbf{z})$$}
+\item To left:
+{\LARGE \begin{center}
+$\textbf{Z}\{u_{(n+k)}\}=\textbf{z}^{k}\bigg( U(\textbf{z})-U(0)-U(1)\ \textbf{z}^{-1}$
+\end{center}
+\begin{flushright}
+$-U(2)\ \textbf{z}^{-2}+ ... -U(k-1)\ \textbf{z}^{-(k-1)}\bigg)$
+\end{flushright}}
+\end{itemize}
+\item \textbf{Differentiation:}
+{\LARGE $$\textbf{Z}\{n^p\ u_n\}=(-\textbf{z})^p\  \frac{d^p}{d\textbf{z}^p}\ U(\textbf{z})$$}
+\item \textbf{Initial Value Theorem:}
+{\LARGE $$U(0)=\lim\limits_{\textbf{z}\rightarrow\infty}U(\textbf{z})$$}
+\item \textbf{Final Value Theorem:}
+{\LARGE $$\lim\limits_{n\rightarrow\infty}U_n=\lim\limits_{\textbf{z}\rightarrow 1}\ (\textbf{z}-1)\ U(\textbf{z})$$}
+\end{enumerate}
+\newpage
+\subsection{\LARGE List of Transformations:}
+\begin{enumerate}[(i)]
+{\LARGE \item $$ \textbf{Z}(a^n)=\frac{\textbf{z}}{\textbf{z}-a}$$
+\item $$\textbf{Z}(a^{n-1})=\frac{1}{\textbf{z}-a}$$
+\item $$ \textbf{Z}(n)=\frac{\textbf{z}}{(\textbf{z}-1)^2}$$
+\item $$ \textbf{Z}(n\ a^n)=\frac{a\textbf{z}}{(\textbf{z}-a)^2}$$
+\item $$\textbf{Z}(n\ a^{n-1})=\frac{\textbf{z}}{(\textbf{z}-a)^2}$$
+\item $$\textbf{Z}(n(n-1))=\frac{2\ \textbf{z}}{(\textbf{z}-1)^3}$$
+\item $$\textbf{Z}(a^n \mathrm{cos\bigg(\frac{n\pi}{2}\bigg)})=\frac{\textbf{z}^2}{\textbf{z}^2+a^2}$$
+\item $$\textbf{Z}(a^n \mathrm{sin\bigg(\frac{n\pi}{2}\bigg)})=\frac{a\textbf{z}}{\textbf{z}^2+a^2}$$
+\item $$\textbf{Z}((n-1)\ a^{n-2})=\frac{1}{(\textbf{z}-a)^2}$$
+\item $$\textbf{Z}((n-1)(n-2)\ a^{n-3})=\frac{2}{(\textbf{z}-a)^3}$$
+\item $$\textbf{Z}((n+1)\ a^n)=\frac{\textbf{z}}{(\textbf{z}-a)^2}$$
+}
+\end{enumerate}
 \end{document}
