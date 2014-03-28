@@ -74,7 +74,7 @@ A solution can either be made of arbitrary constants or arbitrary functions. Bot
         [.Homogeneous ]
         [.Non-homogeneous ]
     ]}
-\draw [decorate,decoration={brace,amplitude=12pt,mirror,raise=4pt},yshift=0pt]
+\draw [decorate,decoration={brace,amplitude=12pt,mirror,raise=4pt},thick,yshift=0pt]
     (9.2,0.1) -- (9.2,2.3) node [black,midway,xshift=2.35cm,yshift=-0.1cm] {\footnotesize
     {\Large \textit{First order only}}};
 \end{tikzpicture}
@@ -416,7 +416,20 @@ Most of the ``linear PDE" can be solved by using variable-separable method.
 \newpage
 \textbf{\section{\huge Fourier Transform}}
 $\ $
-\subsection{\LARGE Transformation:}
+\subsection{\LARGE Fourier Integral Theorem:}
+{\LARGE $$f(x)=\frac 1{\pi}\int_0^{\infty}\bigg[\int_{-\infty}^{\infty}f(t)\ \mathrm{cos}\ s(t-x)\cdot dt\bigg]\cdot ds$$}
+\\
+\begin{itemize}
+\item \textbf{Cosine Integral:} (if $f(x)$ is even)
+{\LARGE $$f(x)=\frac 2{\pi}\int_0^{\infty}\bigg[\int_0^{\infty}f(t)\ \mathrm{cos}\ st\cdot dt\bigg]\mathrm{cos}\ sx\cdot ds$$}
+\item \textbf{Sine Integral:} (if $f(x)$ is odd)
+{\LARGE $$f(x)=\frac 2{\pi}\int_0^{\infty}\bigg[\int_0^{\infty}f(t)\ \mathrm{sin}\ st\cdot dt\bigg]\mathrm{sin}\ sx\cdot ds$$}
+\end{itemize}
+$\ $
+\subsection{\LARGE Fourier Transform Pair:}
+{\LARGE $$F(s)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}f(x)\ e^{isx}\cdot dx$$
+\\
+$$f(x)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}F(s)\ e^{-isx}\cdot ds$$}
 \newpage
 \textbf{\section{\huge Z-Transform}}
 $\ $
