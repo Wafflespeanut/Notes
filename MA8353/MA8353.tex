@@ -1,7 +1,7 @@
 \documentclass{article}
 \title{\Huge Numerical Methods}
 \Large{\author{$\mathcal{WAFFLE'S\ \ CRAZY\ \ PEANUT}$}}
-\date{(Last updated: 15/4/14)}
+\date{(Last updated: 26/4/14)}
 \usepackage{enumerate}
 \usepackage{tikz}
 \usepackage[utf8]{inputenc}
@@ -123,14 +123,10 @@ The "faster" iteration rule is (substitute all the known values),
 \item If the given square matrix A is of order {\LARGE $n$}, then choose an Eigen vector {\LARGE $\chi_0$} of order $n\times 1$.
 \item Find {\LARGE $\mathrm A\chi_0$} and take the largest number out. This number is {\LARGE $\lambda_1$} and the remaining $n\times 1$ matrix is {\LARGE $\chi_1$}
 \item Proceed for rounded-number-repetition, which gives the final values for the largest Eigen value {\LARGE $\lambda$}, and the corresponding Eigen vector {\LARGE $\chi$}.
-\item To get the least Eigen value, find {\LARGE $\mathrm{B=A-\lambda I}$} and choose an Eigen vector {\LARGE $\psi_0$}
+\item To get the least Eigen value, find {\LARGE $\mathrm{B=A-\lambda I}$} and choose an Eigen vector {\LARGE $\psi_0$} of order $n\times 1$.
 \item Follow the same step, now taking the least value out. The final value obtained is the Eigen value for B. To get the Eigen value for A, add both the Eigen values. This is the least Eigen value of A.
 \item Use other identities to find the last Eigen value,
 {\LARGE $$\mathrm{Sum\ of\ Eigen\ values=Sum\ of\ Diagonal\ elements}$$ $$\mathrm{Product\ of\ Eigen\ values=|A|}$$}
-\end{enumerate}
-\subsection{\LARGE Eigen values using Jacobian method:}
-\begin{enumerate}[(i)]
-\item 
 \end{enumerate}
 \newpage
 \textbf{\section{\huge Interpolation:}}

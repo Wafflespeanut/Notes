@@ -1,7 +1,7 @@
 \documentclass{article}
 \title{\Huge Aircraft Structures - I}
 \Large{\author{$\mathcal{WAFFLE'S\ \ CRAZY\ \ PEANUT}$}}
-\date{(Last updated: 21/12/13)}
+\date{(Last updated: 26/4/14)}
 \usepackage{enumerate}
 \usepackage{amssymb}
 \usepackage{tikz-qtree}
@@ -272,20 +272,19 @@ $\ $
 \draw [->,dash pattern=on 2pt off 2pt] (3.86,0.69) -- (5.46,0.69);
 \draw [->,dash pattern=on 2pt off 2pt] (3.86,0.69) -- (2.05,0.69);
 \draw [->,color=ffqqqq] (12.05,0.96) -- (12.05,2.16);
-\draw [->,color=ffqqqq] (2.02,0.96) -- (2.04,2.21);
+\draw [->,color=ffqqqq] (2.02,0.96) -- (2.02,2.21);
 \draw [line width=1.2pt] (2.05,3.69)-- (12.05,3.69);
-\draw (1,4.4) node[anchor=north west] {$\mathrm A$};
-\draw (12.2,4.4) node[anchor=north west] {$\mathrm B$};
-\draw (1,4.4) node[anchor=north west] {$\mathrm A$};
-\draw (5.6,4.55) node[anchor=north west] {$\mathrm C$};
-\draw [->,color=qqqqcc] (5.44,5.4) -- (5.46,3.86);
-\draw (4.8,6.2) node[anchor=north west] {$P\ $};
+\draw (1,4.4) node[anchor=north west] {\LARGE $\mathrm A$};
+\draw (12.2,4.4) node[anchor=north west] {\LARGE $\mathrm B$};
+\draw (5.6,4.55) node[anchor=north west] {\LARGE $\mathrm C$};
+\draw [->,color=qqqqcc] (5.44,5.4) -- (5.44,3.86);
+\draw (4.8,6.2) node[anchor=north west] {\LARGE $P$};
 \draw [->,dash pattern=on 2pt off 2pt] (8.86,0.69) -- (12.05,0.69);
 \draw [->,dash pattern=on 2pt off 2pt] (8.86,0.69) -- (5.46,0.69);
-\draw (3.6,1.4) node[anchor=north west] {$a$};
-\draw (8.6,1.55) node[anchor=north west] {$b$};
-\draw (0.9,1.5) node[anchor=north west] {$V_A$};
-\draw (12.1,1.5) node[anchor=north west] {$V_B$};
+\draw (3.6,1.4) node[anchor=north west] {\LARGE $a$};
+\draw (8.6,1.55) node[anchor=north west] {\LARGE $b$};
+\draw (0.9,1.5) node[anchor=north west] {\LARGE $V_A$};
+\draw (12.1,1.5) node[anchor=north west] {\LARGE $V_B$};
 \begin{scriptsize}
 \draw [color=qqqqff] (5.44,3.69)-- ++(-3.0pt,-3.0pt) -- ++(6.0pt,6.0pt) ++(-6.0pt,0) -- ++(6.0pt,-6.0pt);
 \end{scriptsize}
@@ -298,49 +297,109 @@ $\ $
 {\LARGE $$\delta_C=-\frac{Pa^2b^2}{3EIl}{}$$}
 \end{enumerate}
 \newpage
+\begin{itemize}
+\item For a distributed load of intensity {\LARGE $q$} throughout the length of the beam,
+\end{itemize}
+\definecolor{qqqqff}{rgb}{0,0,1}
+\definecolor{ffqqqq}{rgb}{1,0,0}
+\definecolor{zzttqq}{rgb}{0.6,0.2,0}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\hspace*{2cm}\raisebox{1.5pt}
+\clip(-3.31,-4.56) rectangle (17.17,5.86);
+\fill[color=zzttqq,fill=zzttqq,fill opacity=0.1] (1.93,1.73) -- (1.43,0.73) -- (2.43,0.73) -- cycle;
+\fill[color=zzttqq,fill=zzttqq,fill opacity=0.1] (11.93,1.73) -- (11.43,0.73) -- (12.43,0.73) -- cycle;
+\fill[color=qqqqff,fill=qqqqff,fill opacity=0.2] (1.93,1.73) -- (1.93,2.85) -- (11.93,2.85) -- (11.93,1.73) -- cycle;
+\draw [color=zzttqq] (1.93,1.73)-- (1.43,0.73);
+\draw [color=zzttqq] (1.43,0.73)-- (2.43,0.73);
+\draw [color=zzttqq] (2.43,0.73)-- (1.93,1.73);
+\draw [color=zzttqq] (11.93,1.73)-- (11.43,0.73);
+\draw [color=zzttqq] (11.43,0.73)-- (12.43,0.73);
+\draw [color=zzttqq] (12.43,0.73)-- (11.93,1.73);
+\draw(11.54,0.51) circle (0.2cm);
+\draw(11.97,0.51) circle (0.2cm);
+\draw(12.4,0.51) circle (0.2cm);
+\draw (1.49,0.41)-- (1.73,0.72);
+\draw (1.29,0.42)-- (1.54,0.74);
+\draw (1.75,0.42)-- (2,0.74);
+\draw (1.95,0.42)-- (2.2,0.74);
+\draw (2.16,0.42)-- (2.41,0.74);
+\draw [->,color=ffqqqq] (11.93,-1) -- (11.93,0.2);
+\draw [->,color=ffqqqq] (1.9,-1) -- (1.92,0.25);
+\draw [line width=1.2pt] (1.93,1.73)-- (11.93,1.73);
+\draw (1.09,2.64) node[anchor=north west] {$\mathrm A$};
+\draw (12.2,2.59) node[anchor=north west] {$\mathrm B$};
+\draw (0.75,-0.46) node[anchor=north west] {\LARGE $V_A$};
+\draw (12.09,-0.55) node[anchor=north west] {\LARGE $V_B$};
+\draw [color=qqqqff] (1.93,1.73)-- (1.93,2.85);
+\draw [color=qqqqff] (1.93,2.85)-- (11.93,2.85);
+\draw [color=qqqqff] (11.93,2.85)-- (11.93,1.73);
+\draw [color=qqqqff] (11.93,1.73)-- (1.93,1.73);
+\draw [->,color=qqqqff] (2.64,2.84) -- (2.64,1.72);
+\draw [->,color=qqqqff] (3.34,2.84) -- (3.34,1.72);
+\draw [->,color=qqqqff] (4.04,2.86) -- (4.04,1.74);
+\draw [->,color=qqqqff] (4.72,2.82) -- (4.72,1.7);
+\draw [->,color=qqqqff] (5.42,2.82) -- (5.42,1.7);
+\draw [->,color=qqqqff] (7.38,2.85) -- (7.38,1.73);
+\draw [->,color=qqqqff] (5.93,2.83) -- (5.93,1.71);
+\draw [->,color=qqqqff] (6.56,2.83) -- (6.56,1.71);
+\draw [->,color=qqqqff] (8.01,2.85) -- (8.01,1.73);
+\draw [->,color=qqqqff] (8.65,2.84) -- (8.65,1.72);
+\draw [->,color=qqqqff] (9.35,2.84) -- (9.35,1.72);
+\draw [->,color=qqqqff] (10.06,2.81) -- (10.05,1.69);
+\draw [->,color=qqqqff] (10.77,2.83) -- (10.76,1.71);
+\draw [->,color=qqqqff] (11.37,2.83) -- (11.37,1.71);
+\draw (6.8,3.83) node[anchor=north west] {\LARGE $q$};
+\end{tikzpicture}
+\begin{enumerate}[(i)]
+\item Maximum Bending Moment: {\LARGE $$M_{max}=\frac{ql^2}{8}$$}
+\item Maximum deflection:
+{\LARGE $$\delta_C=-\frac{5ql^4}{384EI}{}$$}
+\end{enumerate}
+\newpage
 \para{\Large Cantilever beams:}
 \begin{itemize}
-\item For a point load $P$ acting at the tip of the beam,
+\item For a point load $P$ acting at a distance {\LARGE $a$} from the fixed end,
 \end{itemize}
 \definecolor{ffqqqq}{rgb}{1,0,0}
 \definecolor{qqqqcc}{rgb}{0,0,0.8}
 \definecolor{qqqqff}{rgb}{0,0,1}
 \begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
-\hspace*{1cm}\raisebox{1.2pt}
-\clip(-3.72,-3.18) rectangle (19.18,8.52);
+\hspace*{0.1cm}\raisebox{1pt}
+\clip(-5.58,-5.09) rectangle (17.78,6.8);
 \draw [line width=1.2pt] (1.02,3)-- (1.02,1);
 \draw (1.02,3)-- (0.82,2.68);
 \draw (1.02,2.74)-- (0.82,2.42);
 \draw (1,2.35)-- (0.8,2.03);
 \draw (1.02,1.16)-- (0.82,0.84);
 \draw (1.01,1.53)-- (0.81,1.21);
-\draw [line width=1.2pt] (1.04,2)-- (11.04,2);
 \draw (1.01,1.89)-- (0.81,1.57);
-\draw [->,color=qqqqcc] (11.01,3.72) -- (11.03,2.18);
-\draw (10.78,4.7) node[anchor=north west] {\LARGE $P$};
-\draw (0.1,2.62) node[anchor=north west] {\LARGE $\mathrm A$};
-\draw (11.46,2.72) node[anchor=north west] {\LARGE $\mathrm B$};
-\draw [->,color=ffqqqq] (0.46,-0.37) -- (0.44,1.17);
-\draw (-0.24,-0.6) node[anchor=north west] {\LARGE $V_A$};
-\draw (-1.75,3.3) node[anchor=north west] {\LARGE $M_C$};
-\draw [shift={(-0.18,1.83)},line width=1.2pt,color=ffqqqq] plot[domain=1.52:4.76,variable=\t]({1*0.75*cos(\t r)+0*0.75*sin(\t r)},{0*0.75*cos(\t r)+1*0.75*sin(\t r)});
-\draw [->,line width=1.2pt,color=ffqqqq] (-0.14,1.1) -- (0.11,1.1);
-\draw [->,dash pattern=on 2pt off 2pt] (5.92,0.5) -- (11.1,0.5);
-\draw [->,dash pattern=on 2pt off 2pt] (5.92,0.5) -- (1,0.5);
-\draw (5.7,1.34) node[anchor=north west] {\LARGE $l$};
+\draw (-0.6,2.79) node[anchor=north west] {\LARGE $\mathrm A$};
+\draw (10.42,2.84) node[anchor=north west] {\LARGE $\mathrm B$};
+\draw [->,dash pattern=on 3pt off 3pt] (2.53,0.48) -- (7.69,0.48);
+\draw [->,dash pattern=on 3pt off 3pt] (2.53,0.48) -- (1.02,0.48);
+\draw (3.97,1.18) node[anchor=north west] {\LARGE $a$};
+\draw [->,color=qqqqcc] (7.62,3.82) -- (7.62,2.28);
+\draw (7.28,4.7) node[anchor=north west] {\LARGE $P$};
+\draw [line width=1.2pt] (0.29,2.04)-- (10.29,2.04);
+\draw (-2.37,3.61) node[anchor=north west] {\LARGE $M_A$};
+\draw [shift={(-0.69,1.98)},line width=1.2pt,color=ffqqqq]  plot[domain=1.52:4.76,variable=\t]({1*0.75*cos(\t r)+0*0.75*sin(\t r)},{0*0.75*cos(\t r)+1*0.75*sin(\t r)});
+\draw [->,line width=1.2pt,color=ffqqqq] (-0.65,1.25) -- (-0.4,1.25);
+\draw (-0.52,-0.17) node[anchor=north west] {\LARGE $P$};
+\draw [->,color=ffqqqq] (0.51,-0.6) -- (0.51,0.94);
 \begin{scriptsize}
-\draw [color=qqqqff] (11.05,2)-- ++(-3.0pt,-3.0pt) -- ++(6.0pt,6.0pt) ++(-6.0pt,0) -- ++(6.0pt,-6.0pt);
+\draw [color=qqqqff] (7.64,2.03)-- ++(-3.0pt,-3.0pt) -- ++(6.0pt,6.0pt) ++(-6.0pt,0) -- ++(6.0pt,-6.0pt);
 \end{scriptsize}
 \end{tikzpicture}
 \\
 \begin{enumerate}[(i)]
-\item Maximum Bending Moment: {\LARGE $$M_C=Pl$$}
-\item Slope at B: {\LARGE $$\theta_B=-\frac{Pl^2}{2EI}$$}
+\item Maximum Bending Moment: {\LARGE $$M_A=-Pa$$}
+\item Slope at B: {\LARGE $$\theta_B=-\frac{Pa^2}{2EI}$$}
 \item Maximum deflection:
-{\LARGE $$\delta_C=-\frac{Pl^3}{3EI}{}$$}
+{\LARGE $$\delta_{max}=-\frac{Pl^2}{6EI}\ (3l-a)$$}
 \end{enumerate}
 \newpage
 \subsection{\LARGE Clapeyron's 3-moment equation:}
+
 \newpage
 \textbf{\section{\huge Failure Theories}}
 \subsection{\LARGE Maximum Principal Stress Theory:}
@@ -352,6 +411,12 @@ Principal stresses,
 $$\sigma_{1,2}=\frac{\sigma_{xx}+\sigma_{yy}}{2}\pm\sqrt{\bigg(\frac{\sigma_{xx}-\sigma_{yy}}{2}\bigg)^2+\tau_{xy}^2}$$
 $\ $
 $$\mathrm{Max}\ (\sigma_1,\sigma_2)<\sigma_{yp}$$}
+\paragraph{\Large Theory of Rankine \& Mohr: (Procedure)}
+\begin{enumerate}[(i)]
+\item Positive axes correspond to tensile {\LARGE $\sigma_{yp}$}, whereas negative axes correspond to compressive {\LARGE $\sigma_{yp}$}. Form a rectangle from the values.
+\item For Rankine, check whether {\LARGE $\mathrm{Max}\ (\sigma_1,\sigma_2)$} lies within the rectangle.
+\item For Mohr, join {\LARGE $\sigma_t$} and {\LARGE $\sigma_c$}  to form a trapezium and finally check the same.
+\end{enumerate}
 \subsection{\LARGE Maximum Principal Strain Theory:}
 $\ $
 {\LARGE $$\epsilon_1=\frac{1}E\ \big(\sigma_1-\nu(\sigma_2+\sigma_3)\big)$$
@@ -366,5 +431,10 @@ $\ $
 $$\sigma_c<\sigma_{yp}$$}
 \subsection{\LARGE Maximum Shear Stress Theory:}
 $\ $
-{\LARGE $$\tau_{\mathrm{max}_1}=\frac{\sigma_1-\sigma_2}{2}$$}
+{\LARGE $$\tau_{\mathrm{max}_1}=\frac{\sigma_1-\sigma_2}{2}, \ \ \tau_{\mathrm{max}_2}=\frac{\sigma_2-\sigma_3}{2},\ \ \tau_{\mathrm{max}_3}=\frac{\sigma_3-\sigma_1}{2}$$}
+{\LARGE $$\mathrm{Max}\ \big(|\tau_1|,|\tau_2|,|\tau_3|\big)<\frac{\sigma_{yp}}2$$}
+\subsection{\LARGE Octahedral Shear Stress Theory:}
+{\LARGE $$(\sigma_1-\sigma_2)^2+(\sigma_2-\sigma_3)^2+(\sigma_3-\sigma_1)^2<2\sigma_{yp}^2$$}
+\subsection{\LARGE Maximum Strain Energy Theory:}
+{\LARGE $$\sigma_1^2+\sigma_2^2+\sigma_3^2-2\gamma(\sigma_1\sigma_2+\sigma_2\sigma_3+\sigma_3\sigma_1)<\sigma_{yp}^2$$}
 \end{document}
