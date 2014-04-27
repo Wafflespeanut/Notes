@@ -171,7 +171,7 @@ Resolve the forces joint by joint.
 \item As the forces are concurrent, the equilibrium equations $F_x=0$ and $F_y=0$ are suffice to resolve.
 \newline
 
-*\textbf{Note:} Some joints may have a greater number of unknowns. For e.g., joint $\mathrm F$ in the above truss has five tensile forces acting on it. They can be used to check your calculations.
+*\textbf{Note:} Some joints may have a greater number of unknowns. For e.g., joint $\mathrm F$ in the above truss has five tensile forces acting on it. They can be used to check the calculations.
 \end{enumerate}
 \newpage
 \paragraph{\Large Keep in mind:}
@@ -202,7 +202,10 @@ Slicing is shown in Fig.1 by $aa'$, $bb'$ and $cc'$.
 \textbf{\Large Keep in mind:} Moment is simply force times the ``perpendicular distance" $(\vec M=\vec r\times \vec F)$. So, the forces that pass through the point do not contribute any moment. And, while resolving, stick to a particular direction (clockwise/anticlockwise).
 \newline
 
-For e.g., taking left slice of $aa'$ in Fig.1, moments $\vec M_A$, $\vec M_F$ and $\vec M_B$ can be equated to zero. Regarding the perpendicular direction, (for e.g.) while using $\vec M_F=0$, the force $\mathrm{1\ kN}$ is at $r=\mathrm{2.5\ m}$ (horizontal), whereas $\mathrm{2\ kN}$ is at $r=\mathrm{2.5\ m}$ (vertical).
+For example, taking left slice of $aa'$ in Fig.1, moments $\vec M_A$, $\vec M_F$ and $\vec M_B$ can be equated to zero.
+\\
+\\
+Regarding the perpendicular distance, (for e.g.) while using $\vec M_F=0$, $\mathrm{1\ kN}$ is at $r=\mathrm{2.5\ m}$ (horizontal), whereas $\mathrm{2\ kN}$ is at $r=\mathrm{2.5\ m}$ (vertical).
 \end{enumerate}
 \newpage
 \subsection{\LARGE Space Truss}
@@ -399,7 +402,41 @@ $\ $
 \end{enumerate}
 \newpage
 \subsection{\LARGE Clapeyron's 3-moment equation:}
+\paragraph{\Large Procedure:}
+\begin{enumerate}[(a)]
+\item Split the given indeterminate beam into spans, and use Clapeyron's equation for the spans. Each span should be ``statically determinate".
+{\LARGE $$M_1L_1\ +\ 2M_2(L_1+L_2)\ +\ M_3L_2=\ -\ \frac{6A_1a_1}{L_1}\ -\ \frac{6A_2b_2}{L_2}$$}
+\\
+{\LARGE $L_1$, $L_2$} = Lengths of spans considered
 
+{\LARGE $M_1$, $M_2$, $M_3$} = Support moments
+
+{\LARGE $A_1$, $A_2$} = Area of Bending moment diagrams
+
+{\LARGE $a_1$, $b_2$} = Centroidal distance from moment diagrams
+\\
+\item Apply the formula for two spans at a time, to obtain a solvable set of equations.
+\item Solve the equations to get the moments.
+\item Take moments at the right/left of a support from a certain joint, to get the respective reactions.
+\end{enumerate}
+\subsection{\LARGE Moment Distribution method:}
+\begin{itemize}
+\item {\LARGE $\mathrm{Stiffness\ factor:}$} Factor (number) multiplied to the magnitude of couple required to produce unit rotation at that end of span.
+{\LARGE $$\bigg(\frac{4EI}{L},\ \frac{3EI}{L}\bigg)$$}
+\item {\LARGE $\mathrm{Distribution\ factor:}$} Fraction of chosen stiffness factor with respect to the total stiffness factor at the chosen joint.
+{\LARGE $$\bigg(\frac{sf_1}{sf_1+sf_2},\ \frac{sf_2}{sf_1+sf_2}\bigg)$$}
+\\
+\item {\LARGE $\mathrm{Carry-over\ factor:}$} When an external moment is applied, {\LARGE $50$} \% of the moment is carried over to the near end of the span.
+\item {\LARGE $\mathrm{Fixed-end\ moments:}$} Moments in the member when it's fixed against rotation.
+{\LARGE $$\bigg(\frac{Pa^2b}{L^2},\ \frac{Pab^2}{L^2},\ \frac{qL^2}{12}\bigg)$$}
+\end{itemize}
+\paragraph{\Large Procedure:}
+\begin{enumerate}[(a)]
+\item Write down the factors and calculate the fixed-end moments.
+\item Apply counter moments at the extreme ends of the beam, which is then carried over to the near end of the span.
+\item Any unbalanced moment at a particular joint is now shared on either side as per the distribution factor. (carry-over if any, is also taken into account)
+\item Sum up the values of moments and iterate (c) till there's a repetition in the moment values.
+\end{enumerate}
 \newpage
 \textbf{\section{\huge Failure Theories}}
 \subsection{\LARGE Maximum Principal Stress Theory:}
