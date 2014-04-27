@@ -4,12 +4,14 @@
 \date{(Last updated: 26/4/14)}
 \usepackage{enumerate}
 \usepackage{amssymb}
+\usepackage{caption}
 \usepackage{tikz-qtree}
 \usetikzlibrary{trees}
 \usepackage{graphicx}
 \usepackage{caption,subcaption}
 \usepackage{calc}
 \usepackage{amsmath}
+\usepackage{import}
 \newcommand{\para}[1]{\paragraph{#1}\mbox{}\\}
 \usepackage{pgf,tikz}
 \usetikzlibrary{arrows}
@@ -40,7 +42,7 @@ $\ $
 \begin{itemize}
 \item If the number of unknown reactions developed $>$ number of static equilibrium equations, then it is a  \textbf{statically indeterminate} structure.
 
-(While truss works can make such cases statically determinate ``externally", the trusses themselves need to be statically determinate ``internally").
+(While trusses can make such cases statically determinate ``externally", they themselves need to be statically determinate ``internally").
 \item The stability of a truss work is governed by
 {\LARGE $$n=2j-3$$} $n=$ number of members, $\ j=$ number of joints
 \begin{enumerate}[(a)]
@@ -56,106 +58,11 @@ $\ $
 \item Members resist the point loads in the form of tension and compression.
 \item Loads are applied only at joints.
 \end{itemize}
-\begin{flushleft}
-\definecolor{qqccqq}{rgb}{0,0.8,0}
-\definecolor{ffqqqq}{rgb}{1,0,0}
-\definecolor{zzttqq}{rgb}{0.6,0.2,0}
-\definecolor{qqqqcc}{rgb}{0,0,0.8}
-\begin{tikzpicture}[scale=1.2]\hspace*{-5.5cm}
-\clip(-18.6,-3.54) rectangle (3.89,7.74);
-\draw [shift={(-13,1)},color=qqqqcc,fill=qqqqcc,fill opacity=0.1] (0,0) -- (0:1.09) arc (0:45:1.09) -- cycle;
-\fill[color=zzttqq,fill=zzttqq,fill opacity=0.1] (-13,1) -- (-13.5,0) -- (-12.5,0) -- cycle;
-\fill[color=zzttqq,fill=zzttqq,fill opacity=0.1] (-3,1) -- (-3.5,0) -- (-2.5,0) -- cycle;
-\draw (-3,1)-- (-13,1);
-\draw (-13,1)-- (-8,6);
-\draw (-8,6)-- (-3,1);
-\draw (-8,1)-- (-5.5,3.5);
-\draw (-8,1)-- (-10.5,3.5);
-\draw (-8,6)-- (-8,1);
-\draw [color=zzttqq] (-13,1)-- (-13.5,0);
-\draw [color=zzttqq] (-13.5,0)-- (-12.5,0);
-\draw [color=zzttqq] (-12.5,0)-- (-13,1);
-\draw [color=zzttqq] (-3,1)-- (-3.5,0);
-\draw [color=zzttqq] (-3.5,0)-- (-2.5,0);
-\draw [color=zzttqq] (-2.5,0)-- (-3,1);
-\draw(-3.39,-0.22) circle (0.2cm);
-\draw(-2.96,-0.22) circle (0.2cm);
-\draw(-2.53,-0.22) circle (0.2cm);
-\draw (-13.44,-0.32)-- (-13.19,-0.01);
-\draw (-13.64,-0.31)-- (-13.39,0.01);
-\draw (-13.18,-0.31)-- (-12.93,0.01);
-\draw (-12.98,-0.31)-- (-12.73,0.01);
-\draw (-12.76,-0.31)-- (-12.52,0.01);
-\draw (-13.54,1.75) node[anchor=north west] {$\mathrm A$};
-\draw (-3.05,1.65) node[anchor=north west] {$\mathrm E$};
-\draw (-8.3,6.75) node[anchor=north west] {$\mathrm C$};
-\draw (-11.13,4.28) node[anchor=north west] {$\mathrm B$};
-\draw (-5.35,4.3) node[anchor=north west] {$\mathrm D$};
-\draw (-8.17,0.94) node[anchor=north west] {$\mathrm F$};
-\draw[->,arrow head=0.15, line width=1.5pt, color=ffqqqq] (-5.5,5.5) -- (-5.5,3.7);
-\draw[->, arrow head=0.15, line width=1.5pt, color=ffqqqq] (-10.5,5.5) -- (-10.5,3.7);
-\draw[->, arrow head=0.15, line width=1.5pt, color=ffqqqq] (-12,3.5) -- (-10.7,3.5);
-\draw[->, arrow head=0.15, line width=1.5pt, color=ffqqqq] (-5.3,3.5) -- (-4,3.52);
-\draw (-10.85,6.31) node[anchor=north west] {$1\ \mathrm {kN}$};
-\draw (-13.09,4.07) node[anchor=north west] {$2\ \mathrm {kN}$};
-\draw (-3.94,4.05) node[anchor=north west] {$3\ \mathrm {kN}$};
-\draw (-5.84,6.29) node[anchor=north west] {$4\ \mathrm {kN}$};
-\draw [->,dash pattern=on 3pt off 3pt] (-8,-2) -- (-3,-2);
-\draw [->, dash pattern=on 3pt off 3pt] (-8,-2) -- (-13,-2);
-\draw (-8.6,-1.24) node[anchor=north west] {$\mathrm {10\ m}$};
-\draw [->, arrow head=0.15in, line width=1.5pt, color=ffqqqq] (-3,-1.73) -- (-3,-0.53);
-\draw [->, arrow head=0.15in, line width=1.5pt, color=ffqqqq] (-13.03,-1.73) -- (-13.01,-0.48);
-\draw (-12.95,-0.64) node[anchor=north west] {$\vec V_A=0.5\ \mathrm{kN}$};
-\draw [->, arrow head=0.15in, line width=1.5pt, color=ffqqqq] (-14.69,1.01) -- (-13.2,0.99);
-\draw (-16.3,1.1) node[anchor=north west] {$\vec H_A=-5\ \mathrm{kN}$};
-\draw (-5.45,-0.56) node[anchor=north west] {$\vec V_E=4.5\ \mathrm{kN}$};
-\draw [line width=2pt,dash pattern=on 1pt off 3pt on 5pt off 4pt,color=qqccqq] (-9.02,6.5)-- (-9.02,-0.5);
-\draw [line width=2pt,dash pattern=on 1pt off 3pt on 5pt off 4pt,color=qqccqq] (-7.01,6.5)-- (-7.01,-0.5);
-\draw [line width=2pt,dash pattern=on 1pt off 3pt on 5pt off 4pt,color=qqccqq] (-3.6,2.93)-- (-6.05,0.47);
-\draw (-9.35,7.1) node[anchor=north west] {$a$};
-\draw (-9.35,-0.45) node[anchor=north west] {$a'$};
-\draw (-7.25,7.2) node[anchor=north west] {$b$};
-\draw (-7.22,-0.48) node[anchor=north west] {$b'$};
-\draw (-3.65,3.4) node[anchor=north west] {$c$};
-\draw (-6.6,0.51) node[anchor=north west] {$c'$};
-\draw [->, arrow head=0.1in, line width=1pt] (-13,1) -- (-11.73,1);
-\draw [->, arrow head=0.1in, line width=1pt] (-13,1) -- (-12.06,1.94);
-\draw [->, arrow head=0.1in, line width=1pt] (-10.5,3.5) -- (-11.32,2.68);
-\draw [->, arrow head=0.1in, line width=1pt] (-10.5,3.5) -- (-9.78,2.78);
-\draw [->, arrow head=0.1in, line width=1pt] (-10.5,3.5) -- (-9.677,4.333);
-\draw [->, arrow head=0.1in, line width=1pt] (-8,6) -- (-8.74,5.26);
-\draw [->, arrow head=0.1in, line width=1pt] (-8,6) -- (-8,4.89);
-\draw [->, arrow head=0.1in, line width=1pt] (-8,6) -- (-7.27,5.27);
-\draw [->, arrow head=0.1in, line width=1pt] (-5.5,3.5) -- (-6.27,2.73);
-\draw [->, arrow head=0.1in, line width=1pt] (-5.5,3.5) -- (-6.24,4.24);
-\draw [->, arrow head=0.1in, line width=1pt] (-5.5,3.5) -- (-4.71,2.71);
-\draw [->, arrow head=0.1in, line width=1pt] (-3,1) -- (-4.21,1);
-\draw [->, arrow head=0.1in, line width=1pt] (-3,1) -- (-3.81,1.81);
-\draw [->, arrow head=0.1in, line width=1pt] (-8,1) -- (-7.13,1);
-\draw [->, arrow head=0.1in, line width=1pt] (-8,1) -- (-8.87,1);
-\draw [->, arrow head=0.1in, line width=1pt] (-8,1) -- (-8,1.99);
-\draw [->, arrow head=0.1in, line width=1pt] (-8,1) -- (-7.36,1.64);
-\draw [->, arrow head=0.1in, line width=1pt] (-8,1) -- (-8.64,1.64);
-\draw (-12.59,3.22) node[anchor=north west] {$\vec F_{AB}$};
-\draw (-11.6,1.03) node[anchor=north west] {$\vec F_{AF}$};
-\draw (-10.31,5.5) node[anchor=north west] {$\vec F_{BC}$};
-\draw (-6.79,5.6) node[anchor=north west] {$\vec F_{CD}$};
-\draw (-3.86,2.57) node[anchor=north west] {$\vec F_{DE}$};
-\draw (-4.93,1.02) node[anchor=north west] {$\vec F_{EF}$};
-\draw (-6.3,2.9) node[anchor=north west] {$\vec F_{DF}$};
-\draw (-8.06,4.35) node[anchor=north west] {$\vec F_{CF}$};
-\draw (-10.45,2.8) node[anchor=north west] {$\vec F_{BF}$};
-\draw [->,dash pattern=on 3pt off 3pt] (-15,3.01) -- (-15,6.01);
-\draw [->, dash pattern=on 3pt off 3pt] (-15,3.01) -- (-15,1.01);
-\draw (-14.85,4.01) node[anchor=north west] {$\mathrm {5\ m}$};
-\begin{scriptsize}
-\draw[color=qqqqcc] (-12.3,1.32) node {$45\textrm{\degre}$};
-\end{scriptsize}
-\end{tikzpicture}
-\end{flushleft}
-\begin{center}
-\textbf{{\Large Figure 1: Plane truss}}
-\end{center}
+\begin{figure}
+\caption*{\Large \textbf{Figure 1: Plane Truss (Example)}}
+\hbox{\hspace{-4.5cm}\includegraphics[scale=1.35]{Truss.pdf}}
+\end{figure}
+\newpage
 \paragraph{\Large Methods:}
 \begin{enumerate}[(i)]
 \item Method of Joints
@@ -180,17 +87,17 @@ Resolve the forces joint by joint.
 \item The mutually perpendicular directions can be in any orientation. Even a tangent and normal to a given joint can do the resolution of forces.
 \item Don't confuse yourselves with \textbf{Newton's third law}. This convention does not mean that.
 
-For e.g., in the above truss, $F_{AB}$ is the tension between $\mathrm A$ and $\mathrm B$. At joint $\mathrm A$, $\vec F_{AB}$ acts from $\mathrm A\to\mathrm B$, whereas at the joint $\mathrm B$, it acts from $\mathrm B\to\mathrm A$, according to our assumption (see \textbf{1st point}).
+For e.g., in the above truss, $F_{AB}$ is the tension between $\mathrm A$ and $\mathrm B$. At joint $\mathrm A$, $\vec F_{AB}$ acts from $\mathrm A\to\mathrm B$, whereas at the joint $\mathrm B$, it acts from $\mathrm B\to\mathrm A$, according to our assumption (see \textbf{1st}).
 
 But, it's true. Because, tension is similar to reaction. You resolve it once, and get the direction, then that direction remains the same throughout the problem. So, $\vec F_{AB}=\vec F_{BA}$
 \end{enumerate}
 \subsection{\LARGE Method of Section:}
-Slice the structure into sections. As the truss needs tensile and compressive forces to be stable, you apply the tensile forces manually at the loose ends of the section, and resolve them.
+Slice the given structure into sections. As the truss needs tensile and compressive forces to be stable, you apply the tensile forces manually at the loose ends of the section, and resolve them.
 \newpage
-$\\ $
-(It's very similar to D'Alembert's principle, used to analyze an accelerating object, wherein you provide an opposing force to balance the acceleration of the object, and thereby resolve it using static equilibrium equations. This analysis is common in classical mechanics)
-$\\ $
-
+$\ $
+(It's very similar to D'Alembert's principle, used to analyze an accelerating object, wherein you provide an opposing force to balance the acceleration of the object, and thereby resolve it using static equilibrium eqns.)
+\\
+\\
 Slicing is shown in Fig.1 by $aa'$, $bb'$ and $cc'$.
 
 \paragraph{\Large Procedure:}
@@ -200,7 +107,7 @@ Slicing is shown in Fig.1 by $aa'$, $bb'$ and $cc'$.
 \newline
 
 \textbf{\Large Keep in mind:} Moment is simply force times the ``perpendicular distance" $(\vec M=\vec r\times \vec F)$. So, the forces that pass through the point do not contribute any moment. And, while resolving, stick to a particular direction (clockwise/anticlockwise).
-\newline
+\\
 
 For example, taking left slice of $aa'$ in Fig.1, moments $\vec M_A$, $\vec M_F$ and $\vec M_B$ can be equated to zero.
 \\
@@ -211,7 +118,7 @@ Regarding the perpendicular distance, (for e.g.) while using $\vec M_F=0$, $\mat
 \subsection{\LARGE Space Truss}
 Analyze the forces on members from the orthographically projected truss work.
 \para{\Large Moment recall:}
-\\
+$\ $
 Moment is always taken about a line. So, the moment of a force about a line parallel to its direction is \textbf{zero!}
 $$\mathrm{Moment=Force\times Perpendicular\ distance}$$
 Moment is a vector. Its direction is perpendicular to the plane containing $\vec r$ and $\vec F$
@@ -244,156 +151,33 @@ $\ $
 \item $D$, $S$ and $V$ \textit{can} be negative, when the members extend from the origin to the negative region of the co-ordinate system
 \end{itemize}
 \newpage
-\paragraph{\LARGE Formulas Recall:}
-\para{\Large Simply-supported beams:}
-\begin{itemize}
-\item For a point load $P$ at a distance {\LARGE $a$} from the support,
-\end{itemize}
-\definecolor{qqqqcc}{rgb}{0,0,0.8}
-\definecolor{qqqqff}{rgb}{0,0,1}
-\definecolor{ffqqqq}{rgb}{1,0,0}
-\definecolor{zzttqq}{rgb}{0.6,0.2,0}
-\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45]
-\hspace*{2cm}\raisebox{1.5pt}
-\clip(-3.72,-3.18) rectangle (19.18,8.52);
-\fill[color=zzttqq,fill=zzttqq,fill opacity=0.1] (2.05,3.69) -- (1.55,2.69) -- (2.55,2.69) -- cycle;
-\fill[color=zzttqq,fill=zzttqq,fill opacity=0.1] (12.05,3.69) -- (11.55,2.69) -- (12.55,2.69) -- cycle;
-\draw [color=zzttqq] (2.05,3.69)-- (1.55,2.69);
-\draw [color=zzttqq] (1.55,2.69)-- (2.55,2.69);
-\draw [color=zzttqq] (2.55,2.69)-- (2.05,3.69);
-\draw [color=zzttqq] (12.05,3.69)-- (11.55,2.69);
-\draw [color=zzttqq] (11.55,2.69)-- (12.55,2.69);
-\draw [color=zzttqq] (12.55,2.69)-- (12.05,3.69);
-\draw(11.66,2.47) circle (0.2cm);
-\draw(12.09,2.47) circle (0.2cm);
-\draw(12.52,2.47) circle (0.2cm);
-\draw (1.61,2.37)-- (1.85,2.68);
-\draw (1.41,2.38)-- (1.66,2.7);
-\draw (1.87,2.38)-- (2.12,2.7);
-\draw (2.07,2.38)-- (2.32,2.7);
-\draw (2.28,2.38)-- (2.53,2.7);
-\draw [->,dash pattern=on 2pt off 2pt] (3.86,0.69) -- (5.46,0.69);
-\draw [->,dash pattern=on 2pt off 2pt] (3.86,0.69) -- (2.05,0.69);
-\draw [->,color=ffqqqq] (12.05,0.96) -- (12.05,2.16);
-\draw [->,color=ffqqqq] (2.02,0.96) -- (2.02,2.21);
-\draw [line width=1.2pt] (2.05,3.69)-- (12.05,3.69);
-\draw (1,4.4) node[anchor=north west] {\LARGE $\mathrm A$};
-\draw (12.2,4.4) node[anchor=north west] {\LARGE $\mathrm B$};
-\draw (5.6,4.55) node[anchor=north west] {\LARGE $\mathrm C$};
-\draw [->,color=qqqqcc] (5.44,5.4) -- (5.44,3.86);
-\draw (4.8,6.2) node[anchor=north west] {\LARGE $P$};
-\draw [->,dash pattern=on 2pt off 2pt] (8.86,0.69) -- (12.05,0.69);
-\draw [->,dash pattern=on 2pt off 2pt] (8.86,0.69) -- (5.46,0.69);
-\draw (3.6,1.4) node[anchor=north west] {\LARGE $a$};
-\draw (8.6,1.55) node[anchor=north west] {\LARGE $b$};
-\draw (0.9,1.5) node[anchor=north west] {\LARGE $V_A$};
-\draw (12.1,1.5) node[anchor=north west] {\LARGE $V_B$};
-\begin{scriptsize}
-\draw [color=qqqqff] (5.44,3.69)-- ++(-3.0pt,-3.0pt) -- ++(6.0pt,6.0pt) ++(-6.0pt,0) -- ++(6.0pt,-6.0pt);
-\end{scriptsize}
-\end{tikzpicture}
-\\
-\\
+{\LARGE For a point load $P$ at a distance $a$ from support,}
+\begin{figure}
+\caption*{\Large \textbf{Figure 2: Simply-supported Beam}}
+\hbox{\hspace{-2.2cm}\includegraphics{Beam_A.pdf}}
+\end{figure}
 \begin{enumerate}[(i)]
 \item Maximum Bending Moment: {\LARGE $$M_C=\frac{Pab}{l}$$}
 \item Maximum deflection:
 {\LARGE $$\delta_C=-\frac{Pa^2b^2}{3EIl}{}$$}
 \end{enumerate}
 \newpage
-\begin{itemize}
-\item For a distributed load of intensity {\LARGE $q$} throughout the length of the beam,
-\end{itemize}
-\definecolor{qqqqff}{rgb}{0,0,1}
-\definecolor{ffqqqq}{rgb}{1,0,0}
-\definecolor{zzttqq}{rgb}{0.6,0.2,0}
-\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
-\hspace*{2cm}\raisebox{1.5pt}
-\clip(-3.31,-4.56) rectangle (17.17,5.86);
-\fill[color=zzttqq,fill=zzttqq,fill opacity=0.1] (1.93,1.73) -- (1.43,0.73) -- (2.43,0.73) -- cycle;
-\fill[color=zzttqq,fill=zzttqq,fill opacity=0.1] (11.93,1.73) -- (11.43,0.73) -- (12.43,0.73) -- cycle;
-\fill[color=qqqqff,fill=qqqqff,fill opacity=0.2] (1.93,1.73) -- (1.93,2.85) -- (11.93,2.85) -- (11.93,1.73) -- cycle;
-\draw [color=zzttqq] (1.93,1.73)-- (1.43,0.73);
-\draw [color=zzttqq] (1.43,0.73)-- (2.43,0.73);
-\draw [color=zzttqq] (2.43,0.73)-- (1.93,1.73);
-\draw [color=zzttqq] (11.93,1.73)-- (11.43,0.73);
-\draw [color=zzttqq] (11.43,0.73)-- (12.43,0.73);
-\draw [color=zzttqq] (12.43,0.73)-- (11.93,1.73);
-\draw(11.54,0.51) circle (0.2cm);
-\draw(11.97,0.51) circle (0.2cm);
-\draw(12.4,0.51) circle (0.2cm);
-\draw (1.49,0.41)-- (1.73,0.72);
-\draw (1.29,0.42)-- (1.54,0.74);
-\draw (1.75,0.42)-- (2,0.74);
-\draw (1.95,0.42)-- (2.2,0.74);
-\draw (2.16,0.42)-- (2.41,0.74);
-\draw [->,color=ffqqqq] (11.93,-1) -- (11.93,0.2);
-\draw [->,color=ffqqqq] (1.9,-1) -- (1.92,0.25);
-\draw [line width=1.2pt] (1.93,1.73)-- (11.93,1.73);
-\draw (1.09,2.64) node[anchor=north west] {$\mathrm A$};
-\draw (12.2,2.59) node[anchor=north west] {$\mathrm B$};
-\draw (0.75,-0.46) node[anchor=north west] {\LARGE $V_A$};
-\draw (12.09,-0.55) node[anchor=north west] {\LARGE $V_B$};
-\draw [color=qqqqff] (1.93,1.73)-- (1.93,2.85);
-\draw [color=qqqqff] (1.93,2.85)-- (11.93,2.85);
-\draw [color=qqqqff] (11.93,2.85)-- (11.93,1.73);
-\draw [color=qqqqff] (11.93,1.73)-- (1.93,1.73);
-\draw [->,color=qqqqff] (2.64,2.84) -- (2.64,1.72);
-\draw [->,color=qqqqff] (3.34,2.84) -- (3.34,1.72);
-\draw [->,color=qqqqff] (4.04,2.86) -- (4.04,1.74);
-\draw [->,color=qqqqff] (4.72,2.82) -- (4.72,1.7);
-\draw [->,color=qqqqff] (5.42,2.82) -- (5.42,1.7);
-\draw [->,color=qqqqff] (7.38,2.85) -- (7.38,1.73);
-\draw [->,color=qqqqff] (5.93,2.83) -- (5.93,1.71);
-\draw [->,color=qqqqff] (6.56,2.83) -- (6.56,1.71);
-\draw [->,color=qqqqff] (8.01,2.85) -- (8.01,1.73);
-\draw [->,color=qqqqff] (8.65,2.84) -- (8.65,1.72);
-\draw [->,color=qqqqff] (9.35,2.84) -- (9.35,1.72);
-\draw [->,color=qqqqff] (10.06,2.81) -- (10.05,1.69);
-\draw [->,color=qqqqff] (10.77,2.83) -- (10.76,1.71);
-\draw [->,color=qqqqff] (11.37,2.83) -- (11.37,1.71);
-\draw (6.8,3.83) node[anchor=north west] {\LARGE $q$};
-\end{tikzpicture}
+{\LARGE For a distributed load of intensity $q$,}
+\begin{figure}
+\caption*{\Large \textbf{Figure 3: Simply-supported Beam}}
+\hbox{\hspace{-2.2cm}\includegraphics{Beam_B.pdf}}
+\end{figure}
 \begin{enumerate}[(i)]
 \item Maximum Bending Moment: {\LARGE $$M_{max}=\frac{ql^2}{8}$$}
 \item Maximum deflection:
 {\LARGE $$\delta_C=-\frac{5ql^4}{384EI}{}$$}
 \end{enumerate}
-\newpage
-\para{\Large Cantilever beams:}
-\begin{itemize}
-\item For a point load $P$ acting at a distance {\LARGE $a$} from the fixed end,
-\end{itemize}
-\definecolor{ffqqqq}{rgb}{1,0,0}
-\definecolor{qqqqcc}{rgb}{0,0,0.8}
-\definecolor{qqqqff}{rgb}{0,0,1}
-\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
-\hspace*{0.1cm}\raisebox{1pt}
-\clip(-5.58,-5.09) rectangle (17.78,6.8);
-\draw [line width=1.2pt] (1.02,3)-- (1.02,1);
-\draw (1.02,3)-- (0.82,2.68);
-\draw (1.02,2.74)-- (0.82,2.42);
-\draw (1,2.35)-- (0.8,2.03);
-\draw (1.02,1.16)-- (0.82,0.84);
-\draw (1.01,1.53)-- (0.81,1.21);
-\draw (1.01,1.89)-- (0.81,1.57);
-\draw (-0.6,2.79) node[anchor=north west] {\LARGE $\mathrm A$};
-\draw (10.42,2.84) node[anchor=north west] {\LARGE $\mathrm B$};
-\draw [->,dash pattern=on 3pt off 3pt] (2.53,0.48) -- (7.69,0.48);
-\draw [->,dash pattern=on 3pt off 3pt] (2.53,0.48) -- (1.02,0.48);
-\draw (3.97,1.18) node[anchor=north west] {\LARGE $a$};
-\draw [->,color=qqqqcc] (7.62,3.82) -- (7.62,2.28);
-\draw (7.28,4.7) node[anchor=north west] {\LARGE $P$};
-\draw [line width=1.2pt] (0.29,2.04)-- (10.29,2.04);
-\draw (-2.37,3.61) node[anchor=north west] {\LARGE $M_A$};
-\draw [shift={(-0.69,1.98)},line width=1.2pt,color=ffqqqq]  plot[domain=1.52:4.76,variable=\t]({1*0.75*cos(\t r)+0*0.75*sin(\t r)},{0*0.75*cos(\t r)+1*0.75*sin(\t r)});
-\draw [->,line width=1.2pt,color=ffqqqq] (-0.65,1.25) -- (-0.4,1.25);
-\draw (-0.52,-0.17) node[anchor=north west] {\LARGE $P$};
-\draw [->,color=ffqqqq] (0.51,-0.6) -- (0.51,0.94);
-\begin{scriptsize}
-\draw [color=qqqqff] (7.64,2.03)-- ++(-3.0pt,-3.0pt) -- ++(6.0pt,6.0pt) ++(-6.0pt,0) -- ++(6.0pt,-6.0pt);
-\end{scriptsize}
-\end{tikzpicture}
-\\
+-\newpage
+{\LARGE For point load $P$ at a distance $a$ from fixed end,}
+\begin{figure}
+\caption*{\Large \textbf{Figure 3: Cantilever Beam}}
+\hbox{\hspace{-2.2cm}\includegraphics{Beam_C.pdf}}
+\end{figure}
 \begin{enumerate}[(i)]
 \item Maximum Bending Moment: {\LARGE $$M_A=-Pa$$}
 \item Slope at B: {\LARGE $$\theta_B=-\frac{Pa^2}{2EI}$$}
@@ -425,7 +209,7 @@ $\ $
 {\LARGE $$\bigg(\frac{4EI}{L},\ \frac{3EI}{L}\bigg)$$}
 \paragraph{\Large Note:} If one end of the chosen span has a moment, then the other end has a stiffness factor of $4$. If not, then it becomes $3$.
 \item {\LARGE $\mathrm{Distribution\ factor:}$} Fraction of chosen stiffness factor with respect to the total stiffness factor at the chosen joint.
-{\LARGE $$\bigg(\frac{sf_1}{sf_1+sf_2},\ \frac{sf_2}{sf_1+sf_2}\bigg)$$}
+{\Large $$\bigg(\frac{sf_1}{sf_1+sf_2},\ \frac{sf_2}{sf_1+sf_2}\bigg)$$}
 \item {\LARGE $\mathrm{Carry-over\ factor:}$} When an external moment is applied, {\LARGE $50$} \% of the moment is carried over to near end of the span, \textbf{provided} the joint has a moment.
 \item {\LARGE $\mathrm{Fixed-end\ moments:}$} Moments in the member when it's fixed against rotation.
 {\LARGE $$\bigg(\frac{Pa^2b}{L^2},\ \frac{Pab^2}{L^2},\ \frac{qL^2}{12}\bigg)$$}
@@ -437,6 +221,10 @@ $\ $
 \item Any unbalanced moment at a particular joint is now shared on either side as per the distribution factor. (carry-over if any, is also taken into account)
 \item Sum up the values of moments and iterate (c) till there's a repetition in the moment values.
 \end{enumerate}
+\begin{figure}
+\hbox{\hspace{-9.2cm}\includegraphics[scale=0.9]{Moment.pdf}}
+\caption*{\Large \textbf{Figure 2: Moment-Distribution (Example)}}
+\end{figure}
 \newpage
 \textbf{\section{\huge Failure Theories}}
 \subsection{\LARGE Maximum Principal Stress Theory:}
