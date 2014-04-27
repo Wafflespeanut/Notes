@@ -241,7 +241,7 @@ $\ $
 \textbf{\Large Note:} 
 \begin{itemize}
 \item All the forces should be accounted for equilibrium (including the externally applied ones, with appropriate SI units).
-\item $D$, $S$ and $V$ \textit{can} be negative, when the members extend from origin to the negative region of the co-ordinate system
+\item $D$, $S$ and $V$ \textit{can} be negative, when the members extend from the origin to the negative region of the co-ordinate system
 \end{itemize}
 \newpage
 \paragraph{\LARGE Formulas Recall:}
@@ -421,19 +421,19 @@ $\ $
 \end{enumerate}
 \subsection{\LARGE Moment Distribution method:}
 \begin{itemize}
-\item {\LARGE $\mathrm{Stiffness\ factor:}$} Factor (number) multiplied to the magnitude of couple required to produce unit rotation at that end of span.
+\item {\LARGE $\mathrm{Stiffness\ factor:}$} Factor (a number) multiplied to the magnitude of couple required to produce unit rotation at that end of span.
 {\LARGE $$\bigg(\frac{4EI}{L},\ \frac{3EI}{L}\bigg)$$}
+\paragraph{\Large Note:} If one end of the chosen span has a moment, then the other end has a stiffness factor of $4$. If not, then it becomes $3$.
 \item {\LARGE $\mathrm{Distribution\ factor:}$} Fraction of chosen stiffness factor with respect to the total stiffness factor at the chosen joint.
 {\LARGE $$\bigg(\frac{sf_1}{sf_1+sf_2},\ \frac{sf_2}{sf_1+sf_2}\bigg)$$}
-\\
-\item {\LARGE $\mathrm{Carry-over\ factor:}$} When an external moment is applied, {\LARGE $50$} \% of the moment is carried over to the near end of the span.
+\item {\LARGE $\mathrm{Carry-over\ factor:}$} When an external moment is applied, {\LARGE $50$} \% of the moment is carried over to near end of the span, \textbf{provided} the joint has a moment.
 \item {\LARGE $\mathrm{Fixed-end\ moments:}$} Moments in the member when it's fixed against rotation.
 {\LARGE $$\bigg(\frac{Pa^2b}{L^2},\ \frac{Pab^2}{L^2},\ \frac{qL^2}{12}\bigg)$$}
 \end{itemize}
 \paragraph{\Large Procedure:}
 \begin{enumerate}[(a)]
-\item Write down the factors and calculate the fixed-end moments.
-\item Apply counter moments at the extreme ends of the beam, which is then carried over to the near end of the span.
+\item Write the factors, and calculate fixed-end moments.
+\item Apply counter moments at the extreme ends of beam, which is then carried over to near end of the span.
 \item Any unbalanced moment at a particular joint is now shared on either side as per the distribution factor. (carry-over if any, is also taken into account)
 \item Sum up the values of moments and iterate (c) till there's a repetition in the moment values.
 \end{enumerate}
