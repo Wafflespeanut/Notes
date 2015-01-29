@@ -1,0 +1,3 @@
+### Note on compiling:
+
+All the files /PDFs/*.pdf are required for compiling the TeX file. SVGs are there just for the sake of *reproducing* the PDFs... 

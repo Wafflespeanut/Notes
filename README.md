@@ -7,3 +7,5 @@ Being a terrible undergrad student, I'm not very good with numbers and formulas.
 - Transform Techniques & Partial Differential Equations (MA8357)
 
 #### I don't write notes these days!
+
+But, I do need LaTeX for submitting reports (say, for our Aircraft Design Project) - LyX makes it easy...
