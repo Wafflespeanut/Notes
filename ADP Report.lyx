@@ -100,7 +100,10 @@ by Ravi Shankar, Sooriyan, Boomadevi, Vaishnavi and Surendar
 
 
 \size larger
-Aircraft Specifications:
+\noun on
+Aircraft Specifications
+\noun default
+:
 \end_layout
 
 \begin_layout Standard
@@ -135,7 +138,37 @@ Seats:
 \begin_inset space \quad{}
 \end_inset
 
-(I-class - || II-class - )
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+I-class: 28
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+II-class: 392
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -164,7 +197,10 @@ Range:
 
 
 \size larger
-Data #1:
+\noun on
+Data #1
+\noun default
+:
 \end_layout
 
 \begin_layout Standard
@@ -180,20 +216,20 @@ Data #1:
 
 \size large
 \begin_inset space \hspace{}
-\length -1cm
+\length -2.5cm
 \end_inset
 
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="24" columns="5">
 <features rotate="0" tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -208,6 +244,8 @@ Data #1:
 \begin_layout Plain Layout
 
 \series bold
+\size large
+\noun on
 A350-800
 \end_layout
 
@@ -219,6 +257,8 @@ A350-800
 \begin_layout Plain Layout
 
 \series bold
+\size large
+\noun on
 A350-900
 \end_layout
 
@@ -230,6 +270,8 @@ A350-900
 \begin_layout Plain Layout
 
 \series bold
+\size large
+\noun on
 A350-1000
 \end_layout
 
@@ -241,20 +283,22 @@ A350-1000
 \begin_layout Plain Layout
 
 \series bold
+\size large
+\noun on
 A330-200
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Aspect Ratio [no unit]
 \end_layout
 
@@ -297,14 +341,14 @@ Aspect Ratio [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Cruise Altitude [m]
 \end_layout
 
@@ -347,14 +391,14 @@ Cruise Altitude [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Cruise Velocity [no unit]
 \end_layout
 
@@ -397,14 +441,14 @@ Cruise Velocity [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Empty Weight [N]
 \end_layout
 
@@ -447,14 +491,14 @@ Empty Weight [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Fuselage Width [m]
 \end_layout
 
@@ -497,14 +541,14 @@ Fuselage Width [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Height [m]
 \end_layout
 
@@ -547,14 +591,14 @@ Height [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Landing Speed [knots]
 \end_layout
 
@@ -597,14 +641,14 @@ Landing Speed [knots]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Length of Aircraft [m]
 \end_layout
 
@@ -647,14 +691,14 @@ Length of Aircraft [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Landing Weight [N]
 \end_layout
 
@@ -697,14 +741,14 @@ Maximum Landing Weight [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Rate of Climb [ft/s]
 \end_layout
 
@@ -747,14 +791,14 @@ Maximum Rate of Climb [ft/s]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Speed [no unit]
 \end_layout
 
@@ -797,14 +841,14 @@ Maximum Speed [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Takeoff Weight [N]
 \end_layout
 
@@ -847,14 +891,14 @@ Maximum Takeoff Weight [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Payload [N]
 \end_layout
 
@@ -897,14 +941,14 @@ Payload [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Range [km]
 \end_layout
 
@@ -947,14 +991,14 @@ Range [km]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Runway Length [m]
 \end_layout
 
@@ -997,14 +1041,14 @@ Runway Length [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Seating Capacity [seats]
 \end_layout
 
@@ -1047,14 +1091,14 @@ Seating Capacity [seats]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Service Ceiling [m]
 \end_layout
 
@@ -1097,14 +1141,14 @@ Service Ceiling [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Taper Ratio [no unit]
 \end_layout
 
@@ -1147,14 +1191,14 @@ Taper Ratio [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Thrust Loading [no unit]
 \end_layout
 
@@ -1197,14 +1241,14 @@ Thrust Loading [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Thrust (per engine) [N]
 \end_layout
 
@@ -1247,14 +1291,14 @@ Thrust (per engine) [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Wing Area [m
 \begin_inset Formula $^{2}$
 \end_inset
@@ -1301,14 +1345,14 @@ Wing Area [m
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Wing Loading [kg/m
 \begin_inset Formula $^{2}$
 \end_inset
@@ -1355,14 +1399,14 @@ Wing Loading [kg/m
 \end_inset
 </cell>
 </row>
-<row>
-<cell multirow="3" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Wing Span [m]
 \end_layout
 
@@ -1426,7 +1470,10 @@ Wing Span [m]
 
 \series bold
 \size larger
-Data #2:
+\noun on
+Data #2
+\noun default
+:
 \end_layout
 
 \begin_layout Standard
@@ -1442,20 +1489,20 @@ Data #2:
 
 \size large
 \begin_inset space \hspace{}
-\length -1.5cm
+\length -2.5cm
 \end_inset
 
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="24" columns="5">
 <features rotate="0" tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1470,6 +1517,7 @@ Data #2:
 \begin_layout Plain Layout
 
 \series bold
+\size large
 A330-300
 \end_layout
 
@@ -1481,6 +1529,7 @@ A330-300
 \begin_layout Plain Layout
 
 \series bold
+\size large
 A340-200
 \end_layout
 
@@ -1492,6 +1541,7 @@ A340-200
 \begin_layout Plain Layout
 
 \series bold
+\size large
 A340-300
 \end_layout
 
@@ -1503,20 +1553,21 @@ A340-300
 \begin_layout Plain Layout
 
 \series bold
+\size large
 A340-600
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Aspect Ratio [no unit]
 \end_layout
 
@@ -1559,14 +1610,14 @@ Aspect Ratio [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Cruise Altitude [m]
 \end_layout
 
@@ -1609,14 +1660,14 @@ Cruise Altitude [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Cruise Velocity [no unit]
 \end_layout
 
@@ -1659,14 +1710,14 @@ Cruise Velocity [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Empty Weight [N]
 \end_layout
 
@@ -1709,14 +1760,14 @@ Empty Weight [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Fuselage Width [m]
 \end_layout
 
@@ -1759,14 +1810,14 @@ Fuselage Width [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Height [m]
 \end_layout
 
@@ -1809,14 +1860,14 @@ Height [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Landing Speed [knots]
 \end_layout
 
@@ -1859,14 +1910,14 @@ Landing Speed [knots]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Length of Aircraft [m]
 \end_layout
 
@@ -1909,14 +1960,14 @@ Length of Aircraft [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Landing Weight [N]
 \end_layout
 
@@ -1959,14 +2010,14 @@ Maximum Landing Weight [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Rate of Climb [ft/s]
 \end_layout
 
@@ -2009,14 +2060,14 @@ Maximum Rate of Climb [ft/s]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Speed [no unit]
 \end_layout
 
@@ -2059,14 +2110,14 @@ Maximum Speed [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Takeoff Weight [N]
 \end_layout
 
@@ -2109,14 +2160,14 @@ Maximum Takeoff Weight [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Payload [N]
 \end_layout
 
@@ -2159,14 +2210,14 @@ Payload [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Range [km]
 \end_layout
 
@@ -2209,14 +2260,14 @@ Range [km]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Runway Length [m]
 \end_layout
 
@@ -2259,14 +2310,14 @@ Runway Length [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Seating Capacity [seats]
 \end_layout
 
@@ -2309,14 +2360,14 @@ Seating Capacity [seats]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Service Ceiling [m]
 \end_layout
 
@@ -2359,14 +2410,14 @@ Service Ceiling [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Taper Ratio [no unit]
 \end_layout
 
@@ -2409,14 +2460,14 @@ Taper Ratio [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Thrust Loading [no unit]
 \end_layout
 
@@ -2459,14 +2510,14 @@ Thrust Loading [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Thrust (per engine) [N]
 \end_layout
 
@@ -2509,14 +2560,14 @@ Thrust (per engine) [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Wing Area [m
 \begin_inset Formula $^{2}$
 \end_inset
@@ -2563,14 +2614,14 @@ Wing Area [m
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Wing Loading [kg/m
 \begin_inset Formula $^{2}$
 \end_inset
@@ -2617,14 +2668,14 @@ Wing Loading [kg/m
 \end_inset
 </cell>
 </row>
-<row>
-<cell multirow="3" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Wing Span [m]
 \end_layout
 
@@ -2687,7 +2738,10 @@ Wing Span [m]
 
 \series bold
 \size larger
-Data #3:
+\noun on
+Data #3
+\noun default
+:
 \end_layout
 
 \begin_layout Standard
@@ -2703,19 +2757,19 @@ Data #3:
 
 \size large
 \begin_inset space \hspace{}
-\length -0.5cm
+\length -1cm
 \end_inset
 
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="24" columns="4">
 <features rotate="0" tabularvalignment="middle">
-<column alignment="left" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2730,6 +2784,7 @@ Data #3:
 \begin_layout Plain Layout
 
 \series bold
+\size large
 A380-800
 \end_layout
 
@@ -2741,6 +2796,7 @@ A380-800
 \begin_layout Plain Layout
 
 \series bold
+\size large
 747-8I
 \end_layout
 
@@ -2752,20 +2808,21 @@ A380-800
 \begin_layout Plain Layout
 
 \series bold
+\size large
 747-400
 \end_layout
 
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Aspect Ratio [no unit]
 \end_layout
 
@@ -2799,14 +2856,14 @@ Aspect Ratio [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Cruise Altitude [m]
 \end_layout
 
@@ -2840,14 +2897,14 @@ Cruise Altitude [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Cruise Velocity [no unit]
 \end_layout
 
@@ -2881,14 +2938,14 @@ Cruise Velocity [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Empty Weight [N]
 \end_layout
 
@@ -2922,14 +2979,14 @@ Empty Weight [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Fuselage Width [m]
 \end_layout
 
@@ -2963,14 +3020,14 @@ Fuselage Width [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Height [m]
 \end_layout
 
@@ -3004,14 +3061,14 @@ Height [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Landing Speed [knots]
 \end_layout
 
@@ -3045,14 +3102,14 @@ Landing Speed [knots]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Length of Aircraft [m]
 \end_layout
 
@@ -3086,14 +3143,14 @@ Length of Aircraft [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Landing Weight [N]
 \end_layout
 
@@ -3127,14 +3184,14 @@ Maximum Landing Weight [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Rate of Climb [ft/s]
 \end_layout
 
@@ -3168,14 +3225,14 @@ Maximum Rate of Climb [ft/s]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Speed [no unit]
 \end_layout
 
@@ -3209,14 +3266,14 @@ Maximum Speed [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Maximum Takeoff Weight [N]
 \end_layout
 
@@ -3250,14 +3307,14 @@ Maximum Takeoff Weight [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Payload [N]
 \end_layout
 
@@ -3291,14 +3348,14 @@ Payload [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Range [km]
 \end_layout
 
@@ -3332,14 +3389,14 @@ Range [km]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Runway Length [m]
 \end_layout
 
@@ -3373,14 +3430,14 @@ Runway Length [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Seating Capacity [seats]
 \end_layout
 
@@ -3414,14 +3471,14 @@ Seating Capacity [seats]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Service Ceiling [m]
 \end_layout
 
@@ -3455,14 +3512,14 @@ Service Ceiling [m]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Taper Ratio [no unit]
 \end_layout
 
@@ -3496,14 +3553,14 @@ Taper Ratio [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Thrust Loading [no unit]
 \end_layout
 
@@ -3537,14 +3594,14 @@ Thrust Loading [no unit]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Thrust (per engine) [N]
 \end_layout
 
@@ -3578,14 +3635,14 @@ Thrust (per engine) [N]
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Wing Area [m
 \begin_inset Formula $^{2}$
 \end_inset
@@ -3623,14 +3680,14 @@ Wing Area [m
 \end_inset
 </cell>
 </row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Wing Loading [kg/m
 \begin_inset Formula $^{2}$
 \end_inset
@@ -3668,14 +3725,14 @@ Wing Loading [kg/m
 \end_inset
 </cell>
 </row>
-<row>
-<cell multirow="3" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
+\series bold
 \size large
-\noun on
 Wing Span [m]
 \end_layout
 
