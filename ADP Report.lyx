@@ -77,11 +77,7 @@ Aircraft Design Project - I
 \begin_layout Date
 
 \size larger
-(
-\size default
-by Ravi Shankar, Sooriyan, Boomadevi, Vaishnavi and Surendar
-\size larger
-)
+(Rough Draft)
 \end_layout
 
 \begin_layout Standard
@@ -149,7 +145,7 @@ Seats:
 \begin_inset Text
 
 \begin_layout Plain Layout
-I-class: 28
+I-class: 44
 \end_layout
 
 \end_inset
@@ -158,7 +154,7 @@ I-class: 28
 \begin_inset Text
 
 \begin_layout Plain Layout
-II-class: 392
+II-class: 376
 \end_layout
 
 \end_inset
@@ -179,6 +175,10 @@ II-class: 392
 Range:
 \series default
  14,000 km
+\begin_inset Newline newline
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
@@ -1353,8 +1353,8 @@ Wing Area [m
 
 \series bold
 \size large
-Wing Loading [kg/m
-\begin_inset Formula $^{2}$
+Wing Loading [Nm
+\begin_inset Formula $^{-2}$
 \end_inset
 
 ]
@@ -2622,8 +2622,8 @@ Wing Area [m
 
 \series bold
 \size large
-Wing Loading [kg/m
-\begin_inset Formula $^{2}$
+Wing Loading [Nm
+\begin_inset Formula $^{-2}$
 \end_inset
 
 ]
@@ -3688,8 +3688,8 @@ Wing Area [m
 
 \series bold
 \size large
-Wing Loading [kg/m
-\begin_inset Formula $^{2}$
+Wing Loading [Nm
+\begin_inset Formula $^{-2}$
 \end_inset
 
 ]
@@ -3777,6 +3777,100 @@ Wing Span [m]
 
 \end_layout
 
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -1.5cm
+\end_inset
+
+
+\family typewriter
+\size larger
+\noun on
+Weighted Average
+\family default
+ 
+\family typewriter
+Values:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Net Weight, 
+\begin_inset Formula $W_{0}=2700693$
+\end_inset
+
+ N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Empty Weight, 
+\begin_inset Formula $W_{E}=1277252.2$
+\end_inset
+
+ N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Crew Weight, 
+\begin_inset Formula $W_{C}=21974.4$
+\end_inset
+
+ N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Payload Weight, 
+\begin_inset Formula $W_{P}=507373.2$
+\end_inset
+
+ N
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Thrust Loading, 
+\begin_inset Formula $\frac{T}{W_{0}}=0.2659$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Cruise Velocity, 
+\begin_inset Formula $v_{cr}=894.268733$
+\end_inset
+
+ km/hr
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Cruise Altitude, 
+\begin_inset Formula $h_{cr}=10448$
+\end_inset
+
+ m
+\end_layout
+
 \begin_layout Subsection*
 
 \size large
@@ -3787,61 +3881,180 @@ Wing Span [m]
 
 \size larger
 \noun on
-Iterations:
+Weight Estimation:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Formulas used:
+\size larger
+
+\begin_inset Formula 
+\[
+W_{0}=\frac{W_{C}+W_{P}}{1-\frac{W_{F}}{W_{0}}-\frac{W_{E}}{W_{0}}}\ \ \ \ \ T=W_{0}\times\bigg(\frac{T}{W_{0}}\bigg)\times1.2
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+T_{cr}=T_{E}\times\sigma^{1.2}\ \ \ \ \ W_{F}=\frac{SFC\times T_{cr}\times R\times1.2}{v_{cr}}
+\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size large
+For later iterations, 
+\size larger
+
+\begin_inset Formula 
+\[
+W_{0}=\frac{W_{C}+W_{P}+W_{PP}+W_{F}}{1-\frac{W_{E}-W_{PP}}{W_{0}}}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\family default
+\noun default
+Assumptions made:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\frac{W_{F}}{W_{0}}=0.3,\ \ R=7000\ \mathrm{km\ (refueling)},\ \ T_{E}\approx T
+\]
+
+\end_inset
+
+
+\size default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
 Iteration 0
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 237641.183152 kg
+Net weight: 237641.183152 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 41808.5905432 lbf
+Thrust (per engine): 41808.5905432 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 9195
+Engine Weight (
+\noun default
+lb
+\noun on
+): 9195
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 42000
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 42000
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust at Cruise (per engine): 47336.4277352 N
+Thrust at Cruise (per engine): 47336.4277352 
+\noun default
+N
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.373
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.373
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.284567192984
 \end_layout
@@ -3849,6 +4062,7 @@ Fuel Weight ratio: 0.284567192984
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.402731961123
 \begin_inset Newline newline
@@ -3860,48 +4074,65 @@ Empty Weight ratio: 0.402731961123
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 1
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 231500.773352 kg
+Net weight: 231500.773352 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 40728.2985009 lbf
+Thrust (per engine): 40728.2985009 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 7896
+Engine Weight (
+\noun default
+lb
+\noun on
+): 7896
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 41500
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 41500
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Thrust at Cruise (per engine): 46772.8988336 N
 \end_layout
@@ -3909,13 +4140,19 @@ Thrust at Cruise (per engine): 46772.8988336 N
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.35
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.35
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.270839565615
 \end_layout
@@ -3923,6 +4160,7 @@ Fuel Weight ratio: 0.270839565615
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.411050684112
 \begin_inset Newline newline
@@ -3934,62 +4172,87 @@ Empty Weight ratio: 0.411050684112
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 2
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 222405.948563 kg
+Net weight: 222405.948563 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 39128.2315402 lbf
+Thrust (per engine): 39128.2315402 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 8047
+Engine Weight (
+\noun default
+lb
+\noun on
+): 8047
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 39683
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 39683
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust at Cruise (per engine): 44725.0348052 N
+Thrust at Cruise (per engine): 44725.0348052 
+\noun default
+N
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.235
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.235
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.180998249251
 \end_layout
@@ -3997,6 +4260,7 @@ Fuel Weight ratio: 0.180998249251
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.407288209935
 \begin_inset Newline newline
@@ -4008,48 +4272,65 @@ Empty Weight ratio: 0.407288209935
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 3
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 183588.923501 kg
+Net weight: 183588.923501 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 32299.0907094 lbf
+Thrust (per engine): 32299.0907094 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 5700
+Engine Weight (
+\noun default
+lb
+\noun on
+): 5700
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 32500
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 32500
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Thrust at Cruise (per engine): 36629.3786046 N
 \end_layout
@@ -4057,13 +4338,19 @@ Thrust at Cruise (per engine): 36629.3786046 N
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.32
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.32
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.244531762259
 \end_layout
@@ -4071,6 +4358,7 @@ Fuel Weight ratio: 0.244531762259
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.416603113574
 \begin_inset Newline newline
@@ -4082,48 +4370,65 @@ Empty Weight ratio: 0.416603113574
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 4
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 187171.430386 kg
+Net weight: 187171.430386 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 32929.3668319 lbf
+Thrust (per engine): 32929.3668319 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 5139
+Engine Weight (
+\noun default
+lb
+\noun on
+): 5139
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 33000
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 33000
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Thrust at Cruise (per engine): 37192.9075062 N
 \end_layout
@@ -4131,13 +4436,19 @@ Thrust at Cruise (per engine): 37192.9075062 N
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.37
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.37
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.28159472711
 \end_layout
@@ -4145,8 +4456,13 @@ Fuel Weight ratio: 0.28159472711
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.423119442708
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -4156,62 +4472,87 @@ Empty Weight ratio: 0.423119442708
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 5
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 201065.076246 kg
+Net weight: 201065.076246 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 35373.6980005 lbf
+Thrust (per engine): 35373.6980005 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 7185
+Engine Weight (
+\noun default
+lb
+\noun on
+): 7185
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 36600
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 36600
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 N
+Thrust at Cruise (per engine): 41250.3155978 
+\noun default
+N
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.335
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.335
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.263231381599
 \end_layout
@@ -4219,6 +4560,7 @@ Fuel Weight ratio: 0.263231381599
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.408099028302
 \begin_inset Newline newline
@@ -4230,62 +4572,87 @@ Empty Weight ratio: 0.408099028302
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 6
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 202606.329643 kg
+Net weight: 202606.329643 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 35644.8531569 lbf
+Thrust (per engine): 35644.8531569 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 7185
+Engine Weight (
+\noun default
+lb
+\noun on
+): 7185
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 36600
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 36600
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 N
+Thrust at Cruise (per engine): 41250.3155978 
+\noun default
+N
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.335
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.335
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.261228945339
 \end_layout
@@ -4293,6 +4660,7 @@ Fuel Weight ratio: 0.261228945339
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.408592244042
 \begin_inset Newline newline
@@ -4304,62 +4672,87 @@ Empty Weight ratio: 0.408592244042
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 7
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 202775.297043 kg
+Net weight: 202775.297043 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 35674.5798598 lbf
+Thrust (per engine): 35674.5798598 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 7185
+Engine Weight (
+\noun default
+lb
+\noun on
+): 7185
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 36600
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 36600
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 N
+Thrust at Cruise (per engine): 41250.3155978 
+\noun default
+N
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.335
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.335
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.261011270029
 \end_layout
@@ -4367,6 +4760,7 @@ Fuel Weight ratio: 0.261011270029
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.408645859177
 \begin_inset Newline newline
@@ -4378,62 +4772,87 @@ Empty Weight ratio: 0.408645859177
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 8
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 202793.681669 kg
+Net weight: 202793.681669 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 35677.8142962 lbf
+Thrust (per engine): 35677.8142962 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 7185
+Engine Weight (
+\noun default
+lb
+\noun on
+): 7185
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 36600
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 36600
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 N
+Thrust at Cruise (per engine): 41250.3155978 
+\noun default
+N
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.335
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.335
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.260987607583
 \end_layout
@@ -4441,6 +4860,7 @@ Fuel Weight ratio: 0.260987607583
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.408651687422
 \begin_inset Newline newline
@@ -4452,62 +4872,87 @@ Empty Weight ratio: 0.408651687422
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 9
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 202795.680375 kg
+Net weight: 202795.680375 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 35678.1659318 lbf
+Thrust (per engine): 35678.1659318 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 7185
+Engine Weight (
+\noun default
+lb
+\noun on
+): 7185
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 36600
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 36600
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 N
+Thrust at Cruise (per engine): 41250.3155978 
+\noun default
+N
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.335
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.335
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.260985035351
 \end_layout
@@ -4515,6 +4960,7 @@ Fuel Weight ratio: 0.260985035351
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.408652320983
 \begin_inset Newline newline
@@ -4526,48 +4972,65 @@ Empty Weight ratio: 0.408652320983
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 10
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 202795.897647 kg
+Net weight: 202795.897647 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 35678.2041568 lbf
+Thrust (per engine): 35678.2041568 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 7185
+Engine Weight (
+\noun default
+lb
+\noun on
+): 7185
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 36600
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 36600
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Thrust at Cruise (per engine): 41250.3155978 N
 \end_layout
@@ -4575,13 +5038,19 @@ Thrust at Cruise (per engine): 41250.3155978 N
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.335
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.335
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.260984755736
 \end_layout
@@ -4589,6 +5058,7 @@ Fuel Weight ratio: 0.260984755736
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.408652389855
 \begin_inset Newline newline
@@ -4600,48 +5070,65 @@ Empty Weight ratio: 0.408652389855
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 11
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 202795.921266 kg
+Net weight: 202795.921266 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 35678.2083121 lbf
+Thrust (per engine): 35678.2083121 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 7185
+Engine Weight (
+\noun default
+lb
+\noun on
+): 7185
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 36600
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 36600
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Thrust at Cruise (per engine): 41250.3155978 N
 \end_layout
@@ -4649,13 +5136,19 @@ Thrust at Cruise (per engine): 41250.3155978 N
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.335
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.335
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.26098472534
 \end_layout
@@ -4663,6 +5156,7 @@ Fuel Weight ratio: 0.26098472534
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.408652397341
 \begin_inset Newline newline
@@ -4674,48 +5168,65 @@ Empty Weight ratio: 0.408652397341
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 12
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 202795.923833 kg
+Net weight: 202795.923833 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 35678.2087638 lbf
+Thrust (per engine): 35678.2087638 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 7185
+Engine Weight (
+\noun default
+lb
+\noun on
+): 7185
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 36600
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 36600
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Thrust at Cruise (per engine): 41250.3155978 N
 \end_layout
@@ -4723,13 +5234,19 @@ Thrust at Cruise (per engine): 41250.3155978 N
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.335
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.335
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.260984722036
 \end_layout
@@ -4737,6 +5254,7 @@ Fuel Weight ratio: 0.260984722036
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.408652398155
 \begin_inset Newline newline
@@ -4748,48 +5266,65 @@ Empty Weight ratio: 0.408652398155
 \begin_layout Standard
 
 \family typewriter
-\size large
+\size larger
 \noun on
 \begin_inset space \hspace{}
 \length -0.5cm
 \end_inset
 
 
-\size default
+\size large
 Iteration 13
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Net weight: 202795.924112 kg
+Net weight: 202795.924112 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Thrust (per engine): 35678.2088129 lbf
+Thrust (per engine): 35678.2088129 
+\noun default
+lbf
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Weight (lb): 7185
+Engine Weight (
+\noun default
+lb
+\noun on
+): 7185
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-Engine Thrust (lbf): 36600
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 36600
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Thrust at Cruise (per engine): 41250.3155978 N
 \end_layout
@@ -4797,13 +5332,19 @@ Thrust at Cruise (per engine): 41250.3155978 N
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
-SFC (lb/lbf-hr): 0.335
+SFC (
+\noun default
+lb/lbf-hr
+\noun on
+): 0.335
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Fuel Weight ratio: 0.260984721677
 \end_layout
@@ -4811,8 +5352,339 @@ Fuel Weight ratio: 0.260984721677
 \begin_layout Standard
 
 \family typewriter
+\size large
 \noun on
 Empty Weight ratio: 0.408652398244
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size large
+
+\begin_inset space \hspace{}
+\length -1.5cm
+\end_inset
+
+
+\size larger
+Iteration Results:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Net Weight 
+\begin_inset Formula $W_{0}=1989428.01554$
+\end_inset
+
+ 
+\family default
+\noun default
+N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size large
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+Chosen Engine: 
+\family default
+\noun default
+Pratt Whitney
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size large
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+Engine Thrust 
+\family default
+\noun default
+
+\begin_inset Formula $T_{E}=36600$
+\end_inset
+
+
+\family typewriter
+\size default
+\noun on
+ 
+\family default
+\size large
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size large
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+Engine Weight 
+\begin_inset Formula $W_{PP}=7185$
+\end_inset
+
+ 
+\family default
+\noun default
+lb
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Engine SFC
+\family default
+
+\begin_inset Formula $=0.335$
+\end_inset
+
+
+\family typewriter
+\size default
+ 
+\family default
+\size large
+\noun default
+lb/lbf-hr
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Empty Weight
+\family default
+ 
+\family typewriter
+
+\begin_inset Formula $W_{E}=812984.5297$
+\end_inset
+
+ 
+\family default
+\noun default
+N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Fuel Weight
+\family default
+ 
+\family typewriter
+
+\begin_inset Formula $W_{F}=519210.3169$
+\end_inset
+
+ 
+\family default
+\noun default
+N
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -1.5cm
+\end_inset
+
+
+\family typewriter
+\size larger
+\noun on
+Weighted Average
+\family default
+ 
+\family typewriter
+Values:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Aspect Ratio, 
+\begin_inset Formula $AR=9.372$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Taper Ratio, 
+\begin_inset Formula $\lambda=0.24805$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Wing Loading 
+\begin_inset Formula $\frac{W_{0}}{S}=6615.33426$
+\end_inset
+
+ Nm
+\begin_inset Formula $^{-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Runway Length, 
+\begin_inset Formula $s=2888.8$
+\end_inset
+
+ m
+\end_layout
+
+\begin_layout Subsection*
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Airfoil Selection:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Formulas used:
+\size larger
+
+\begin_inset Formula 
+\[
+b=\sqrt{AR\times S}\ \ \ \ \ c_{m}=\frac{S}{b}\ \ \ \ \ c_{r}=\frac{2\, c_{m}}{\lambda+1}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+V_{F}=\frac{W_{F}/g}{\rho_{F}}\ \ \ \ \ V_{F}=0.75\times\frac{t}{c}\times\frac{b}{2}\times\bigg(\frac{c_{m}}{2}\bigg)^{2}\times2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+W_{L}=W_{0}-0.8\times W_{F}\ \ \ \ \ W_{cr}=\frac{W_{L}+W_{0}}{2}\ \implies\ C_{L(cr)}=\frac{2\, W_{cr}}{S\rho_{cr}v_{cr}^{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+v_{L}=\sqrt{2\times0.2g\times s}\ \ \ \ \ v_{L}=v_{S}\times1.2\ \implies\ C_{L(max)}=\frac{2\, W_{L}}{S\rho_{0}v_{L}^{2}}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \end_body
