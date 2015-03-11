@@ -137,8 +137,9 @@ Seats:
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="1" columns="2">
+<lyxtabular version="3" rows="1" columns="3">
 <features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <row>
@@ -146,7 +147,16 @@ Seats:
 \begin_inset Text
 
 \begin_layout Plain Layout
-I-class: 44
+I-class: 24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+II-class: 80
 \end_layout
 
 \end_inset
@@ -155,7 +165,7 @@ I-class: 44
 \begin_inset Text
 
 \begin_layout Plain Layout
-II-class: 376
+III-class: 316
 \end_layout
 
 \end_inset
@@ -260,7 +270,7 @@ A350-800
 \series bold
 \size large
 \noun on
-A350-900
+A330-200
 \end_layout
 
 \end_inset
@@ -272,8 +282,7 @@ A350-900
 
 \series bold
 \size large
-\noun on
-A350-1000
+A340-600
 \end_layout
 
 \end_inset
@@ -285,8 +294,7 @@ A350-1000
 
 \series bold
 \size large
-\noun on
-A330-200
+A380-800
 \end_layout
 
 \end_inset
@@ -318,7 +326,7 @@ Aspect Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-9.25
+10.06
 \end_layout
 
 \end_inset
@@ -327,7 +335,7 @@ Aspect Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-9.25
+9.3
 \end_layout
 
 \end_inset
@@ -336,7 +344,7 @@ Aspect Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-10.06
+7.5
 \end_layout
 
 \end_inset
@@ -368,7 +376,7 @@ Cruise Altitude [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-10800
+10227
 \end_layout
 
 \end_inset
@@ -377,7 +385,7 @@ Cruise Altitude [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-10800
+10200
 \end_layout
 
 \end_inset
@@ -386,7 +394,7 @@ Cruise Altitude [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-10227
+10700
 \end_layout
 
 \end_inset
@@ -418,7 +426,7 @@ Cruise Velocity [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.85
+0.82
 \end_layout
 
 \end_inset
@@ -427,7 +435,7 @@ Cruise Velocity [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.85
+0.83
 \end_layout
 
 \end_inset
@@ -436,7 +444,7 @@ Cruise Velocity [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.82
+0.85
 \end_layout
 
 \end_inset
@@ -468,7 +476,7 @@ Empty Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-1135017
+1173276
 \end_layout
 
 \end_inset
@@ -477,7 +485,7 @@ Empty Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1744218
 \end_layout
 
 \end_inset
@@ -486,7 +494,7 @@ Empty Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-1173276
+2715408
 \end_layout
 
 \end_inset
@@ -518,7 +526,7 @@ Fuselage Width [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.96
+5.64
 \end_layout
 
 \end_inset
@@ -527,7 +535,7 @@ Fuselage Width [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.96
+5.64
 \end_layout
 
 \end_inset
@@ -536,7 +544,7 @@ Fuselage Width [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.64
+7.14
 \end_layout
 
 \end_inset
@@ -568,7 +576,7 @@ Height [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-17.05
+17.39
 \end_layout
 
 \end_inset
@@ -577,7 +585,7 @@ Height [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-17.05
+17.3
 \end_layout
 
 \end_inset
@@ -586,7 +594,7 @@ Height [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-17.39
+24.1
 \end_layout
 
 \end_inset
@@ -618,7 +626,7 @@ Landing Speed [knots]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+135
 \end_layout
 
 \end_inset
@@ -627,7 +635,7 @@ Landing Speed [knots]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+153
 \end_layout
 
 \end_inset
@@ -636,7 +644,7 @@ Landing Speed [knots]
 \begin_inset Text
 
 \begin_layout Plain Layout
-135
+138
 \end_layout
 
 \end_inset
@@ -668,7 +676,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-66.89
+58.82
 \end_layout
 
 \end_inset
@@ -677,7 +685,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-73.88
+75.3
 \end_layout
 
 \end_inset
@@ -686,7 +694,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-58.82
+72.73
 \end_layout
 
 \end_inset
@@ -718,7 +726,7 @@ Maximum Landing Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2011050
+1785420
 \end_layout
 
 \end_inset
@@ -727,7 +735,7 @@ Maximum Landing Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2285730
+2540790
 \end_layout
 
 \end_inset
@@ -736,7 +744,7 @@ Maximum Landing Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-1785420
+3865140
 \end_layout
 
 \end_inset
@@ -768,7 +776,7 @@ Maximum Rate of Climb [ft/s]
 \begin_inset Text
 
 \begin_layout Plain Layout
-3000
+
 \end_layout
 
 \end_inset
@@ -777,7 +785,7 @@ Maximum Rate of Climb [ft/s]
 \begin_inset Text
 
 \begin_layout Plain Layout
-3000
+4000
 \end_layout
 
 \end_inset
@@ -786,7 +794,7 @@ Maximum Rate of Climb [ft/s]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+4500
 \end_layout
 
 \end_inset
@@ -818,7 +826,7 @@ Maximum Speed [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.89
+0.86
 \end_layout
 
 \end_inset
@@ -827,7 +835,7 @@ Maximum Speed [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.89
+0.86
 \end_layout
 
 \end_inset
@@ -836,7 +844,7 @@ Maximum Speed [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.86
+0.89
 \end_layout
 
 \end_inset
@@ -868,7 +876,7 @@ Maximum Takeoff Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2629080
+2374020
 \end_layout
 
 \end_inset
@@ -877,7 +885,7 @@ Maximum Takeoff Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-3021480
+3610080
 \end_layout
 
 \end_inset
@@ -886,7 +894,7 @@ Maximum Takeoff Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2374020
+5640750
 \end_layout
 
 \end_inset
@@ -918,7 +926,7 @@ Payload [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-440469
+357084
 \end_layout
 
 \end_inset
@@ -927,7 +935,7 @@ Payload [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-622935
+
 \end_layout
 
 \end_inset
@@ -936,7 +944,7 @@ Payload [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-357084
+
 \end_layout
 
 \end_inset
@@ -968,7 +976,7 @@ Range [km]
 \begin_inset Text
 
 \begin_layout Plain Layout
-14350
+13400
 \end_layout
 
 \end_inset
@@ -977,7 +985,7 @@ Range [km]
 \begin_inset Text
 
 \begin_layout Plain Layout
-14800
+14350
 \end_layout
 
 \end_inset
@@ -986,7 +994,7 @@ Range [km]
 \begin_inset Text
 
 \begin_layout Plain Layout
-13400
+15700
 \end_layout
 
 \end_inset
@@ -1018,7 +1026,7 @@ Runway Length [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2440
+2770
 \end_layout
 
 \end_inset
@@ -1027,7 +1035,7 @@ Runway Length [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3100
 \end_layout
 
 \end_inset
@@ -1036,7 +1044,7 @@ Runway Length [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2770
+2950
 \end_layout
 
 \end_inset
@@ -1068,7 +1076,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-440
+406
 \end_layout
 
 \end_inset
@@ -1077,7 +1085,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-475
+440
 \end_layout
 
 \end_inset
@@ -1086,7 +1094,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-406
+440
 \end_layout
 
 \end_inset
@@ -1114,11 +1122,11 @@ Service Ceiling [m]
 
 \end_inset
 </cell>
-<cell mroffset="0.2cm" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-13100
+12527
 \end_layout
 
 \end_inset
@@ -1127,7 +1135,7 @@ Service Ceiling [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-13100
+12500
 \end_layout
 
 \end_inset
@@ -1136,7 +1144,7 @@ Service Ceiling [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-12527
+13136
 \end_layout
 
 \end_inset
@@ -1168,7 +1176,7 @@ Taper Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.251
 \end_layout
 
 \end_inset
@@ -1177,7 +1185,7 @@ Taper Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.22
 \end_layout
 
 \end_inset
@@ -1186,7 +1194,7 @@ Taper Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.251
+
 \end_layout
 
 \end_inset
@@ -1218,7 +1226,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.28451
+0.269585
 \end_layout
 
 \end_inset
@@ -1227,7 +1235,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.285291
+0.3047
 \end_layout
 
 \end_inset
@@ -1236,7 +1244,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.269585
+0.22692
 \end_layout
 
 \end_inset
@@ -1268,7 +1276,7 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-374000
+320000
 \end_layout
 
 \end_inset
@@ -1277,7 +1285,7 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-431000
+550000
 \end_layout
 
 \end_inset
@@ -1286,7 +1294,7 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-320000
+640000
 \end_layout
 
 \end_inset
@@ -1318,29 +1326,29 @@ Wing Area [m
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-443
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-460
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 361.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+439.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+845
 \end_layout
 
 \end_inset
@@ -1376,7 +1384,7 @@ Wing Loading [Nm
 \begin_inset Text
 
 \begin_layout Plain Layout
-5868.342
+6213.9483
 \end_layout
 
 \end_inset
@@ -1385,7 +1393,7 @@ Wing Loading [Nm
 \begin_inset Text
 
 \begin_layout Plain Layout
-6532.479
+8193.312
 \end_layout
 
 \end_inset
@@ -1394,7 +1402,7 @@ Wing Loading [Nm
 \begin_inset Text
 
 \begin_layout Plain Layout
-6213.9483
+6501.087
 \end_layout
 
 \end_inset
@@ -1426,7 +1434,7 @@ Wing Span [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-64.8
+60.3
 \end_layout
 
 \end_inset
@@ -1435,7 +1443,7 @@ Wing Span [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-64.8
+63.45
 \end_layout
 
 \end_inset
@@ -1444,7 +1452,7 @@ Wing Span [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-60.3
+79.75
 \end_layout
 
 \end_inset
@@ -1519,7 +1527,7 @@ Data #2
 
 \series bold
 \size large
-A330-300
+747-300
 \end_layout
 
 \end_inset
@@ -1531,1279 +1539,12 @@ A330-300
 
 \series bold
 \size large
-A340-200
+747-400 ER
 \end_layout
 
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-A340-300
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-A340-600
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Aspect Ratio [no unit]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10.06
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10.1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10.1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-9.3
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Cruise Altitude [m]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10227
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10200
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10200
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10200
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Cruise Velocity [no unit]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.82
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.82
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.82
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.83
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Empty Weight [N]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1221345
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1265490
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1277262
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1744218
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Fuselage Width [m]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.64
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.64
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.64
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5.64
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Height [m]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-16.83
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-16.7
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-16.825
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-17.3
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Landing Speed [knots]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-136.6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-134
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-136
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-153
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Length of Aircraft [m]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-58.82
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-59.39
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-63.6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-75.3
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Maximum Landing Weight [N]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1834470
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1775610
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1830546
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2540790
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Maximum Rate of Climb [ft/s]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4000
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Maximum Speed [no unit]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.86
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.86
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.86
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.86
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Maximum Takeoff Weight [N]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2374020
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2697750
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2712465
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3610080
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Payload [N]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-451642.59
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-402700.5
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Range [km]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-13400
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-15000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-13700
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-14350
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Runway Length [m]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2770
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2990
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3100
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3100
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Seating Capacity [seats]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-440
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-420
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-440
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-440
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Service Ceiling [m]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12527
-\end_layout
-
-\end_inset
-</cell>
-<cell mroffset="0.2cm" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12500
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12500
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12500
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Taper Ratio [no unit]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.251
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.251
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.251
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.22
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Thrust Loading [no unit]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.269585
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.22389
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.2226757
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.3047
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Thrust (per engine) [N]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-320000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-302000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-302000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-550000
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Wing Area [m
-\begin_inset Formula $^{2}$
-\end_inset
-
-]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-361.6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-361.6
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-361.6
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-439.4
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Wing Loading [Nm
-\begin_inset Formula $^{-2}$
-\end_inset
-
-]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-5862.7503
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7460.505
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-7460.505
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-8193.312
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-Wing Span [m]
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-60.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-60.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-60.3
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-63.45
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\size default
-
-\begin_inset Newpage newpage
-\end_inset
-
-
-\size large
-
-\begin_inset space \hspace{}
-\length -2cm
-\end_inset
-
-
-\series bold
-\size larger
-\noun on
-Data #3
-\noun default
-:
-\end_layout
-
-\begin_layout Standard
-
-\size large
-\begin_inset VSpace 0.5cm
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\size large
-\begin_inset space \hspace{}
-\length -1cm
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="24" columns="4">
-<features rotate="0" tabularvalignment="middle">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0pt">
-<column alignment="center" valignment="top" width="0pt">
-<row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-A380-800
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-747-8I
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2815,6 +1556,18 @@ A380-800
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+747-8I
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row topspace="0.1cm" bottomspace="0.1cm">
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -2833,7 +1586,7 @@ Aspect Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-7.5
+6.9
 \end_layout
 
 \end_inset
@@ -2842,7 +1595,16 @@ Aspect Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-8.5
+7.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.9
 \end_layout
 
 \end_inset
@@ -2851,7 +1613,7 @@ Aspect Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-7.9
+8.5
 \end_layout
 
 \end_inset
@@ -2874,7 +1636,7 @@ Cruise Altitude [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-10700
+
 \end_layout
 
 \end_inset
@@ -2883,7 +1645,16 @@ Cruise Altitude [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-10363.2
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11000
 \end_layout
 
 \end_inset
@@ -2892,7 +1663,7 @@ Cruise Altitude [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-11000
+10363.2
 \end_layout
 
 \end_inset
@@ -2915,7 +1686,7 @@ Cruise Velocity [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.85
+
 \end_layout
 
 \end_inset
@@ -2924,7 +1695,16 @@ Cruise Velocity [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.855
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.85
 \end_layout
 
 \end_inset
@@ -2933,7 +1713,7 @@ Cruise Velocity [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.85
+0.855
 \end_layout
 
 \end_inset
@@ -2956,7 +1736,7 @@ Empty Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2715408
+
 \end_layout
 
 \end_inset
@@ -2965,7 +1745,16 @@ Empty Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2104274.43
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1753596.36
 \end_layout
 
 \end_inset
@@ -2974,7 +1763,7 @@ Empty Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-1753596.36
+2104274.43
 \end_layout
 
 \end_inset
@@ -2997,7 +1786,16 @@ Fuselage Width [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-7.14
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3038,7 +1836,16 @@ Height [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-24.1
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3079,7 +1886,7 @@ Landing Speed [knots]
 \begin_inset Text
 
 \begin_layout Plain Layout
-138
+
 \end_layout
 
 \end_inset
@@ -3088,7 +1895,16 @@ Landing Speed [knots]
 \begin_inset Text
 
 \begin_layout Plain Layout
-150
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+157
 \end_layout
 
 \end_inset
@@ -3097,7 +1913,7 @@ Landing Speed [knots]
 \begin_inset Text
 
 \begin_layout Plain Layout
-157
+150
 \end_layout
 
 \end_inset
@@ -3120,7 +1936,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-72.73
+
 \end_layout
 
 \end_inset
@@ -3129,7 +1945,16 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-76.25
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.6
 \end_layout
 
 \end_inset
@@ -3138,7 +1963,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-70.6
+76.25
 \end_layout
 
 \end_inset
@@ -3161,7 +1986,7 @@ Maximum Landing Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-3865140
+
 \end_layout
 
 \end_inset
@@ -3170,12 +1995,12 @@ Maximum Landing Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-3003576.75
+
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -3184,8 +2009,17 @@ Maximum Landing Weight [N]
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3003576.75
+\end_layout
+
+\end_inset
+</cell>
 </row>
-<row topspace="0.1cm" bottomspace="0.1cm">
+<row topspace="0.05cm" bottomspace="0.05cm">
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -3202,7 +2036,16 @@ Maximum Rate of Climb [ft/s]
 \begin_inset Text
 
 \begin_layout Plain Layout
-4500
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3226,7 +2069,7 @@ Maximum Rate of Climb [ft/s]
 \end_inset
 </cell>
 </row>
-<row topspace="0.1cm" bottomspace="0.1cm">
+<row topspace="0.05cm" bottomspace="0.05cm">
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -3243,7 +2086,16 @@ Maximum Speed [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.89
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3284,7 +2136,7 @@ Maximum Takeoff Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-5640750
+
 \end_layout
 
 \end_inset
@@ -3293,7 +2145,16 @@ Maximum Takeoff Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-4316252.85
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3893530.14
 \end_layout
 
 \end_inset
@@ -3302,7 +2163,7 @@ Maximum Takeoff Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-3893530.14
+4316252.85
 \end_layout
 
 \end_inset
@@ -3317,6 +2178,15 @@ Maximum Takeoff Weight [N]
 \series bold
 \size large
 Payload [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3366,7 +2236,7 @@ Range [km]
 \begin_inset Text
 
 \begin_layout Plain Layout
-15700
+
 \end_layout
 
 \end_inset
@@ -3375,7 +2245,16 @@ Range [km]
 \begin_inset Text
 
 \begin_layout Plain Layout
-15000
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13450
 \end_layout
 
 \end_inset
@@ -3384,7 +2263,7 @@ Range [km]
 \begin_inset Text
 
 \begin_layout Plain Layout
-13450
+15000
 \end_layout
 
 \end_inset
@@ -3407,7 +2286,16 @@ Runway Length [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2950
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3448,7 +2336,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-440
+
 \end_layout
 
 \end_inset
@@ -3457,7 +2345,16 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-467
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+496
 \end_layout
 
 \end_inset
@@ -3466,7 +2363,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-496
+467
 \end_layout
 
 \end_inset
@@ -3489,16 +2386,25 @@ Service Ceiling [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-13136
+
 \end_layout
 
 \end_inset
 </cell>
-<cell mroffset="0.2cm" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-13100
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13900
 \end_layout
 
 \end_inset
@@ -3507,7 +2413,7 @@ Service Ceiling [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-13900
+13100
 \end_layout
 
 \end_inset
@@ -3544,11 +2450,20 @@ Taper Ratio [no unit]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 0.275
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3571,7 +2486,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.22692
+
 \end_layout
 
 \end_inset
@@ -3580,7 +2495,16 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.1862727
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.3040942
 \end_layout
 
 \end_inset
@@ -3589,7 +2513,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.3040942
+0.1862727
 \end_layout
 
 \end_inset
@@ -3612,7 +2536,7 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-640000
+
 \end_layout
 
 \end_inset
@@ -3621,7 +2545,16 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-402000
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+592000
 \end_layout
 
 \end_inset
@@ -3630,7 +2563,7 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-592000
+402000
 \end_layout
 
 \end_inset
@@ -3653,11 +2586,11 @@ Wing Area [m
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-845
+
 \end_layout
 
 \end_inset
@@ -3666,7 +2599,16 @@ Wing Area [m
 \begin_inset Text
 
 \begin_layout Plain Layout
-554
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+525
 \end_layout
 
 \end_inset
@@ -3675,7 +2617,7 @@ Wing Area [m
 \begin_inset Text
 
 \begin_layout Plain Layout
-525
+554
 \end_layout
 
 \end_inset
@@ -3702,7 +2644,16 @@ Wing Loading [Nm
 \begin_inset Text
 
 \begin_layout Plain Layout
-6501.087
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -3739,11 +2690,11 @@ Wing Span [m]
 
 \end_inset
 </cell>
-<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-79.75
+
 \end_layout
 
 \end_inset
@@ -3752,7 +2703,16 @@ Wing Span [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-68.5
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+64.4
 \end_layout
 
 \end_inset
@@ -3761,7 +2721,7 @@ Wing Span [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-64.4
+68.5
 \end_layout
 
 \end_inset
@@ -3779,6 +2739,7 @@ Wing Span [m]
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing double
 
 \size large
 \begin_inset space \hspace{}
@@ -3797,7 +2758,7 @@ Values:
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
+\paragraph_spacing double
 
 \size large
 Net Weight, 
@@ -3808,7 +2769,7 @@ Net Weight,
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
+\paragraph_spacing double
 
 \size large
 Empty Weight, 
@@ -3819,28 +2780,29 @@ Empty Weight,
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
+\paragraph_spacing double
 
 \size large
 Crew Weight, 
-\begin_inset Formula $W_{C}=21974.4$
+\begin_inset Formula $W_{C}=16677$
 \end_inset
 
  N
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
+\paragraph_spacing double
 
 \size large
 Payload Weight, 
-\begin_inset Formula $W_{P}=507373.2$
+\begin_inset Formula $W_{P}=512670.6$
 \end_inset
 
  N
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing double
 
 \size large
 Thrust Loading, 
@@ -3851,7 +2813,7 @@ Thrust Loading,
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
+\paragraph_spacing double
 
 \size large
 Cruise Velocity, 
