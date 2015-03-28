@@ -227,12 +227,12 @@ Data #1
 
 \size large
 \begin_inset space \hspace{}
-\length -2.5cm
+\length -2cm
 \end_inset
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="24" columns="5">
+<lyxtabular version="3" rows="27" columns="5">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
@@ -256,33 +256,31 @@ Data #1
 
 \series bold
 \size large
-\noun on
-A350-800
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
-\noun on
-A330-200
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
 A340-600
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+A380-800
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+777-300
 \end_layout
 
 \end_inset
@@ -294,7 +292,7 @@ A340-600
 
 \series bold
 \size large
-A380-800
+777-300 ER
 \end_layout
 
 \end_inset
@@ -317,25 +315,25 @@ Aspect Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-9.25
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10.06
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 9.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.7
 \end_layout
 
 \end_inset
@@ -344,7 +342,7 @@ Aspect Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-7.5
+
 \end_layout
 
 \end_inset
@@ -367,25 +365,25 @@ Cruise Altitude [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-10800
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-10227
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 10200
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10700
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11000
 \end_layout
 
 \end_inset
@@ -394,7 +392,7 @@ Cruise Altitude [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-10700
+11000
 \end_layout
 
 \end_inset
@@ -417,6 +415,15 @@ Cruise Velocity [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
+0.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 0.85
 \end_layout
 
@@ -426,16 +433,7 @@ Cruise Velocity [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.82
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.83
+0.84
 \end_layout
 
 \end_inset
@@ -444,7 +442,7 @@ Cruise Velocity [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.85
+0.84
 \end_layout
 
 \end_inset
@@ -467,25 +465,25 @@ Empty Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1173276
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 1744218
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2715408
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1574505
 \end_layout
 
 \end_inset
@@ -494,7 +492,107 @@ Empty Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2715408
+1646118
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Engine Used
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RR Trent 500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RR Trent 972/B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GE 90-94B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GE 90-115B1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Fineness Ratio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.34
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -517,15 +615,6 @@ Fuselage Width [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.96
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 5.64
 \end_layout
 
@@ -535,7 +624,16 @@ Fuselage Width [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-5.64
+7.14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.2
 \end_layout
 
 \end_inset
@@ -544,7 +642,7 @@ Fuselage Width [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-7.14
+6.2
 \end_layout
 
 \end_inset
@@ -567,25 +665,25 @@ Height [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-17.05
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-17.39
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 17.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -594,7 +692,7 @@ Height [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-24.1
+18.5
 \end_layout
 
 \end_inset
@@ -617,25 +715,25 @@ Landing Speed [knots]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-135
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 153
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+138
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+149
 \end_layout
 
 \end_inset
@@ -644,7 +742,57 @@ Landing Speed [knots]
 \begin_inset Text
 
 \begin_layout Plain Layout
-138
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Length of Aircraft [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+75.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+72.73
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+73.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+73.9
 \end_layout
 
 \end_inset
@@ -658,7 +806,7 @@ Landing Speed [knots]
 
 \series bold
 \size large
-Length of Aircraft [m]
+Maximum Fuel Capacity [l]
 \end_layout
 
 \end_inset
@@ -667,7 +815,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-60.54
+195880
 \end_layout
 
 \end_inset
@@ -676,7 +824,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-58.82
+323546
 \end_layout
 
 \end_inset
@@ -685,7 +833,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-75.3
+171177
 \end_layout
 
 \end_inset
@@ -694,7 +842,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-72.73
+181283
 \end_layout
 
 \end_inset
@@ -717,30 +865,12 @@ Maximum Landing Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-1893330
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1785420
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 2540790
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -749,43 +879,11 @@ Maximum Landing Weight [N]
 
 \end_inset
 </cell>
-</row>
-<row topspace="0.1cm" bottomspace="0.1cm">
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-\size large
-Maximum Rate of Climb [ft/s]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-3000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-4000
+2331641
 \end_layout
 
 \end_inset
@@ -794,7 +892,7 @@ Maximum Rate of Climb [ft/s]
 \begin_inset Text
 
 \begin_layout Plain Layout
-4500
+2465155
 \end_layout
 
 \end_inset
@@ -817,6 +915,15 @@ Maximum Speed [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
+0.86
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 0.89
 \end_layout
 
@@ -826,16 +933,7 @@ Maximum Speed [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.86
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.86
+0.89
 \end_layout
 
 \end_inset
@@ -867,25 +965,25 @@ Maximum Takeoff Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2540790
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2374020
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 3610080
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5640750
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2936820
 \end_layout
 
 \end_inset
@@ -894,7 +992,7 @@ Maximum Takeoff Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-5640750
+3448215
 \end_layout
 
 \end_inset
@@ -917,7 +1015,7 @@ Payload [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-350217
+545534
 \end_layout
 
 \end_inset
@@ -926,7 +1024,7 @@ Payload [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-357084
+824040
 \end_layout
 
 \end_inset
@@ -944,7 +1042,7 @@ Payload [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+685258
 \end_layout
 
 \end_inset
@@ -967,25 +1065,25 @@ Range [km]
 \begin_inset Text
 
 \begin_layout Plain Layout
-15300
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-13400
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 14350
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15700
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11120
 \end_layout
 
 \end_inset
@@ -994,7 +1092,7 @@ Range [km]
 \begin_inset Text
 
 \begin_layout Plain Layout
-15700
+14690
 \end_layout
 
 \end_inset
@@ -1017,25 +1115,25 @@ Runway Length [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2440
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2770
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 3100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2950
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3230
 \end_layout
 
 \end_inset
@@ -1044,7 +1142,7 @@ Runway Length [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-2950
+3050
 \end_layout
 
 \end_inset
@@ -1067,7 +1165,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-440
+380
 \end_layout
 
 \end_inset
@@ -1076,7 +1174,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-406
+466
 \end_layout
 
 \end_inset
@@ -1085,7 +1183,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-440
+386
 \end_layout
 
 \end_inset
@@ -1094,7 +1192,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-440
+386
 \end_layout
 
 \end_inset
@@ -1117,25 +1215,25 @@ Service Ceiling [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-13100
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-12527
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 12500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13136
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13140
 \end_layout
 
 \end_inset
@@ -1144,7 +1242,7 @@ Service Ceiling [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-13136
+13140
 \end_layout
 
 \end_inset
@@ -1167,25 +1265,25 @@ Taper Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.251
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 0.22
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.26
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.16
 \end_layout
 
 \end_inset
@@ -1217,7 +1315,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.276292
+0.2783
 \end_layout
 
 \end_inset
@@ -1226,7 +1324,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.269585
+0.22692
 \end_layout
 
 \end_inset
@@ -1235,7 +1333,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.3047
+0.2881
 \end_layout
 
 \end_inset
@@ -1244,7 +1342,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.22692
+
 \end_layout
 
 \end_inset
@@ -1267,25 +1365,25 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-351000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-320000
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 550000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+640000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+418000
 \end_layout
 
 \end_inset
@@ -1294,7 +1392,7 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-640000
+512000
 \end_layout
 
 \end_inset
@@ -1321,16 +1419,7 @@ Wing Area [m
 \begin_inset Text
 
 \begin_layout Plain Layout
-443
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-361.6
+439.4
 \end_layout
 
 \end_inset
@@ -1339,7 +1428,16 @@ Wing Area [m
 \begin_inset Text
 
 \begin_layout Plain Layout
-439.4
+845
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+427.8
 \end_layout
 
 \end_inset
@@ -1348,7 +1446,7 @@ Wing Area [m
 \begin_inset Text
 
 \begin_layout Plain Layout
-845
+
 \end_layout
 
 \end_inset
@@ -1375,30 +1473,12 @@ Wing Loading [Nm
 \begin_inset Text
 
 \begin_layout Plain Layout
-5424.93
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-6213.9483
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
 8193.312
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1407,9 +1487,27 @@ Wing Loading [Nm
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6864.94
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
 </row>
 <row topspace="0.1cm" bottomspace="0.1cm">
-<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1417,24 +1515,6 @@ Wing Loading [Nm
 \series bold
 \size large
 Wing Span [m]
-\end_layout
-
-\end_inset
-</cell>
-<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-64.8
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-60.3
 \end_layout
 
 \end_inset
@@ -1448,11 +1528,79 @@ Wing Span [m]
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 79.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+64.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Wing Sweep [deg]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.64
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.64
 \end_layout
 
 \end_inset
@@ -1503,7 +1651,7 @@ Data #2
 
 
 \begin_inset Tabular
-<lyxtabular version="3" rows="24" columns="5">
+<lyxtabular version="3" rows="27" columns="5">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0pt">
 <column alignment="center" valignment="top" width="0pt">
@@ -1539,7 +1687,7 @@ Data #2
 
 \series bold
 \size large
-747-400 ER
+747-400
 \end_layout
 
 \end_inset
@@ -1551,7 +1699,7 @@ Data #2
 
 \series bold
 \size large
-747-400
+747-400 ER
 \end_layout
 
 \end_inset
@@ -1645,7 +1793,7 @@ Cruise Altitude [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+11000
 \end_layout
 
 \end_inset
@@ -1654,7 +1802,7 @@ Cruise Altitude [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-11000
+10668
 \end_layout
 
 \end_inset
@@ -1686,16 +1834,7 @@ Cruise Velocity [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+0.84
 \end_layout
 
 \end_inset
@@ -1705,6 +1844,15 @@ Cruise Velocity [no unit]
 
 \begin_layout Plain Layout
 0.85
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.855
 \end_layout
 
 \end_inset
@@ -1736,16 +1884,7 @@ Empty Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+1747161
 \end_layout
 
 \end_inset
@@ -1755,6 +1894,15 @@ Empty Weight [N]
 
 \begin_layout Plain Layout
 1753596.36
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1810926
 \end_layout
 
 \end_inset
@@ -1777,6 +1925,106 @@ Empty Weight [N]
 
 \series bold
 \size large
+Engine Used
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GE CF6-80C2B1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PW 4062
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GE CF6-80C2B5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GE NX-2B67
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Fineness Ratio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.56
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.56
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
 Fuselage Width [m]
 \end_layout
 
@@ -1786,7 +2034,7 @@ Fuselage Width [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+6.5
 \end_layout
 
 \end_inset
@@ -1795,7 +2043,7 @@ Fuselage Width [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+6.5
 \end_layout
 
 \end_inset
@@ -1836,7 +2084,7 @@ Height [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+19.3
 \end_layout
 
 \end_inset
@@ -1845,7 +2093,7 @@ Height [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+19.4
 \end_layout
 
 \end_inset
@@ -1886,16 +2134,7 @@ Landing Speed [knots]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+142
 \end_layout
 
 \end_inset
@@ -1905,6 +2144,15 @@ Landing Speed [knots]
 
 \begin_layout Plain Layout
 157
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1936,7 +2184,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+70.6
 \end_layout
 
 \end_inset
@@ -1945,7 +2193,7 @@ Length of Aircraft [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+70.6
 \end_layout
 
 \end_inset
@@ -1977,6 +2225,56 @@ Length of Aircraft [m]
 
 \series bold
 \size large
+Maximum Fuel Capacity [l]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+199158
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+216840
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+241140
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+238610
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
 Maximum Landing Weight [N]
 \end_layout
 
@@ -1986,7 +2284,7 @@ Maximum Landing Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2603103.12
 \end_layout
 
 \end_inset
@@ -1995,7 +2293,7 @@ Maximum Landing Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+2901238.83
 \end_layout
 
 \end_inset
@@ -2027,56 +2325,6 @@ Maximum Landing Weight [N]
 
 \series bold
 \size large
-Maximum Rate of Climb [ft/s]
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row topspace="0.05cm" bottomspace="0.05cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\size large
 Maximum Speed [no unit]
 \end_layout
 
@@ -2086,7 +2334,7 @@ Maximum Speed [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.89
 \end_layout
 
 \end_inset
@@ -2095,7 +2343,7 @@ Maximum Speed [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.92
 \end_layout
 
 \end_inset
@@ -2136,16 +2384,7 @@ Maximum Takeoff Weight [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+3706630
 \end_layout
 
 \end_inset
@@ -2155,6 +2394,15 @@ Maximum Takeoff Weight [N]
 
 \begin_layout Plain Layout
 3893530.14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4049322.75
 \end_layout
 
 \end_inset
@@ -2195,7 +2443,7 @@ Payload [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+600234.66
 \end_layout
 
 \end_inset
@@ -2213,7 +2461,7 @@ Payload [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+805401
 \end_layout
 
 \end_inset
@@ -2236,16 +2484,7 @@ Range [km]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+12400
 \end_layout
 
 \end_inset
@@ -2255,6 +2494,15 @@ Range [km]
 
 \begin_layout Plain Layout
 13450
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14200
 \end_layout
 
 \end_inset
@@ -2286,7 +2534,7 @@ Runway Length [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3320
 \end_layout
 
 \end_inset
@@ -2295,7 +2543,7 @@ Runway Length [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+3090
 \end_layout
 
 \end_inset
@@ -2336,7 +2584,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+412
 \end_layout
 
 \end_inset
@@ -2345,7 +2593,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+412
 \end_layout
 
 \end_inset
@@ -2354,7 +2602,7 @@ Seating Capacity [seats]
 \begin_inset Text
 
 \begin_layout Plain Layout
-496
+412
 \end_layout
 
 \end_inset
@@ -2386,7 +2634,7 @@ Service Ceiling [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+13900
 \end_layout
 
 \end_inset
@@ -2395,7 +2643,7 @@ Service Ceiling [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+13900
 \end_layout
 
 \end_inset
@@ -2436,16 +2684,7 @@ Taper Ratio [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+0.245
 \end_layout
 
 \end_inset
@@ -2455,6 +2694,15 @@ Taper Ratio [no unit]
 
 \begin_layout Plain Layout
 0.275
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.24
 \end_layout
 
 \end_inset
@@ -2486,7 +2734,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.2593
 \end_layout
 
 \end_inset
@@ -2495,7 +2743,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+0.2897
 \end_layout
 
 \end_inset
@@ -2504,7 +2752,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.3040942
+0.2726
 \end_layout
 
 \end_inset
@@ -2513,7 +2761,7 @@ Thrust Loading [no unit]
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.1862727
+0.2743
 \end_layout
 
 \end_inset
@@ -2536,7 +2784,7 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+247000
 \end_layout
 
 \end_inset
@@ -2545,7 +2793,7 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+282000
 \end_layout
 
 \end_inset
@@ -2554,7 +2802,7 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-592000
+276000
 \end_layout
 
 \end_inset
@@ -2563,7 +2811,7 @@ Thrust (per engine) [N]
 \begin_inset Text
 
 \begin_layout Plain Layout
-402000
+296000
 \end_layout
 
 \end_inset
@@ -2590,7 +2838,7 @@ Wing Area [m
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+510.95
 \end_layout
 
 \end_inset
@@ -2599,7 +2847,7 @@ Wing Area [m
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+525
 \end_layout
 
 \end_inset
@@ -2624,7 +2872,7 @@ Wing Area [m
 </cell>
 </row>
 <row topspace="0.1cm" bottomspace="0.1cm">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2640,34 +2888,34 @@ Wing Loading [Nm
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+755.87
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+733.4
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+733.4
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2678,7 +2926,7 @@ Wing Loading [Nm
 </cell>
 </row>
 <row topspace="0.1cm" bottomspace="0.1cm">
-<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -2694,7 +2942,7 @@ Wing Span [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+59.6
 \end_layout
 
 \end_inset
@@ -2703,7 +2951,7 @@ Wing Span [m]
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+64.4
 \end_layout
 
 \end_inset
@@ -2722,6 +2970,56 @@ Wing Span [m]
 
 \begin_layout Plain Layout
 68.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Wing Sweep [deg]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.5
 \end_layout
 
 \end_inset
@@ -2762,7 +3060,7 @@ Values:
 
 \size large
 Net Weight, 
-\begin_inset Formula $W_{0}=2700693$
+\begin_inset Formula $W_{0}=3856163.85$
 \end_inset
 
  N
@@ -2773,7 +3071,7 @@ Net Weight,
 
 \size large
 Empty Weight, 
-\begin_inset Formula $W_{E}=1277252.2$
+\begin_inset Formula $W_{E}=1745640.45$
 \end_inset
 
  N
@@ -2784,7 +3082,7 @@ Empty Weight,
 
 \size large
 Crew Weight, 
-\begin_inset Formula $W_{C}=16677$
+\begin_inset Formula $W_{C}=19620$
 \end_inset
 
  N
@@ -2795,7 +3093,7 @@ Crew Weight,
 
 \size large
 Payload Weight, 
-\begin_inset Formula $W_{P}=512670.6$
+\begin_inset Formula $W_{P}=519537.6$
 \end_inset
 
  N
@@ -2806,7 +3104,7 @@ Payload Weight,
 
 \size large
 Thrust Loading, 
-\begin_inset Formula $\frac{T}{W_{0}}=0.2659$
+\begin_inset Formula $\frac{T}{W_{0}}=0.27665$
 \end_inset
 
 
@@ -2817,7 +3115,7 @@ Thrust Loading,
 
 \size large
 Cruise Velocity, 
-\begin_inset Formula $v_{cr}=894.268733$
+\begin_inset Formula $v_{cr}=910.2748$
 \end_inset
 
  km/hr
@@ -2828,7 +3126,7 @@ Cruise Velocity,
 
 \size large
 Cruise Altitude, 
-\begin_inset Formula $h_{cr}=10448$
+\begin_inset Formula $h_{cr}=10752$
 \end_inset
 
  m
@@ -2849,13 +3147,28 @@ Weight Estimation:
 
 \begin_layout Standard
 
+\series bold
 \size large
 Formulas used:
+\series default
 \size larger
 
 \begin_inset Formula 
 \[
-W_{0}=\frac{W_{C}+W_{P}}{1-\frac{W_{F}}{W_{0}}-\frac{W_{E}}{W_{0}}}\ \ \ \ \ T=W_{0}\times\bigg(\frac{T}{W_{0}}\bigg)\times1.2
+\mathrm{{Net\ Weight,}}\ W_{0}=\frac{W_{C}+W_{P}}{1-\frac{W_{F}}{W_{0}}-\frac{W_{E}}{W_{0}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Thrust,}}\ T=W_{0}\times\bigg(\frac{T}{W_{0}}\bigg)\times1.2
 \]
 
 \end_inset
@@ -2863,7 +3176,21 @@ W_{0}=\frac{W_{C}+W_{P}}{1-\frac{W_{F}}{W_{0}}-\frac{W_{E}}{W_{0}}}\ \ \ \ \ T=W
 
 \begin_inset Formula 
 \[
-T_{cr}=T_{E}\times\sigma^{1.2}\ \ \ \ \ W_{F}=\frac{SFC\times T_{cr}\times R\times1.2}{v_{cr}}
+\mathrm{{Cruise\ Thrust,}\ }T_{cr}=T_{E}\times\sigma^{1.2}
+\]
+
+\end_inset
+
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Fuel\ Weight,}\ }W_{F}=\frac{SFC\times T_{cr}\times R\times1.2}{v_{cr}}
 \]
 
 \end_inset
@@ -2879,7 +3206,7 @@ For later iterations,
 
 \begin_inset Formula 
 \[
-W_{0}=\frac{W_{C}+W_{P}+W_{PP}+W_{F}}{1-\frac{W_{E}-W_{PP}}{W_{0}}}
+\mathrm{{Net\ Weight,}}\ W_{0}=\frac{W_{C}+W_{P}+W_{PP}+W_{F}}{1-\frac{W_{E}-W_{PP}}{W_{0}}}
 \]
 
 \end_inset
@@ -2898,6 +3225,7 @@ W_{0}=\frac{W_{C}+W_{P}+W_{PP}+W_{F}}{1-\frac{W_{E}-W_{PP}}{W_{0}}}
 
 
 \family default
+\series bold
 \noun default
 Assumptions made:
 \end_layout
@@ -2907,7 +3235,7 @@ Assumptions made:
 \size large
 \begin_inset Formula 
 \[
-\frac{W_{F}}{W_{0}}=0.3,\ \ R=7000\ \mathrm{km\ (refueling)},\ \ T_{E}\approx T
+\frac{W_{F}}{W_{0}}=0.4,\ \ R=14000\ \mathrm{km\ (straight)},\ \ T_{E}\approx T
 \]
 
 \end_inset
@@ -2923,16 +3251,9 @@ Assumptions made:
 \end_inset
 
 
-\begin_inset CommandInset line
-LatexCommand rule
-offset "0.5ex"
-width "100col%"
-height "1pt"
+\size large
 
-\end_inset
-
-
-\begin_inset Newline newline
+\begin_inset Newpage newpage
 \end_inset
 
 
@@ -2957,7 +3278,7 @@ Iteration 0
 \family typewriter
 \size large
 \noun on
-Net weight: 237641.183152 
+Net weight: 373086.581701 
 \noun default
 kg
 \end_layout
@@ -2967,7 +3288,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 41808.5905432 
+Thrust (per engine): 65445.8905969 
 \noun default
 lbf
 \end_layout
@@ -2981,7 +3302,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 9195
+): 11162
 \end_layout
 
 \begin_layout Standard
@@ -2993,7 +3314,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 42000
+): 65500
 \end_layout
 
 \begin_layout Standard
@@ -3001,9 +3322,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 47336.4277352 
-\noun default
-N
+Thrust at Cruise (per engine): 70520.1897898 N
 \end_layout
 
 \begin_layout Standard
@@ -3013,9 +3332,13 @@ N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.373
+/
+\noun default
+lbf-hr
+\noun on
+): 0.329
 \end_layout
 
 \begin_layout Standard
@@ -3023,7 +3346,9 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.284567192984
+Fuel Weight: 153003.844199 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
@@ -3031,7 +3356,27 @@ Fuel Weight ratio: 0.284567192984
 \family typewriter
 \size large
 \noun on
-Empty Weight ratio: 0.402731961123
+Fuel Weight ratio: 0.410102779631
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.398406061316
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 148639.955546 
+\noun default
+kg
+\noun on
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3057,7 +3402,7 @@ Iteration 1
 \family typewriter
 \size large
 \noun on
-Net weight: 231500.773352 
+Net weight: 379351.956526 
 \noun default
 kg
 \end_layout
@@ -3067,7 +3412,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 40728.2985009 
+Thrust (per engine): 66544.946568 
 \noun default
 lbf
 \end_layout
@@ -3081,7 +3426,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 7896
+): 10726
 \end_layout
 
 \begin_layout Standard
@@ -3093,7 +3438,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 41500
+): 66870
 \end_layout
 
 \begin_layout Standard
@@ -3101,7 +3446,9 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 46772.8988336 N
+Thrust at Cruise (per engine): 71995.1922327 
+\noun default
+N
 \end_layout
 
 \begin_layout Standard
@@ -3111,9 +3458,13 @@ Thrust at Cruise (per engine): 46772.8988336 N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.35
+/
+\noun default
+lbf-hr
+\noun on
+): 0.338
 \end_layout
 
 \begin_layout Standard
@@ -3121,7 +3472,9 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.270839565615
+Fuel Weight: 160477.137141 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
@@ -3129,7 +3482,27 @@ Fuel Weight ratio: 0.270839565615
 \family typewriter
 \size large
 \noun on
-Empty Weight ratio: 0.411050684112
+Fuel Weight ratio: 0.423029680959
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.401387893913
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 152267.282882 
+\noun default
+kg
+\noun on
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3155,7 +3528,7 @@ Iteration 2
 \family typewriter
 \size large
 \noun on
-Net weight: 222405.948563 
+Net weight: 392404.46874 
 \noun default
 kg
 \end_layout
@@ -3165,7 +3538,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 39128.2315402 
+Thrust (per engine): 68834.5847598 
 \noun default
 lbf
 \end_layout
@@ -3179,7 +3552,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 8047
+): 10550
 \end_layout
 
 \begin_layout Standard
@@ -3191,7 +3564,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 39683
+): 71100
 \end_layout
 
 \begin_layout Standard
@@ -3199,9 +3572,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 44725.0348052 
-\noun default
-N
+Thrust at Cruise (per engine): 76549.3968557 N
 \end_layout
 
 \begin_layout Standard
@@ -3211,9 +3582,13 @@ N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.235
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
 \end_layout
 
 \begin_layout Standard
@@ -3221,7 +3596,9 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.180998249251
+Fuel Weight: 166589.906793
+\noun default
+ kg
 \end_layout
 
 \begin_layout Standard
@@ -3229,7 +3606,27 @@ Fuel Weight ratio: 0.180998249251
 \family typewriter
 \size large
 \noun on
-Empty Weight ratio: 0.407288209935
+Fuel Weight ratio: 0.424536212159
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.403908071322
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 158495.332147
+\noun default
+ kg
+\noun on
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3255,7 +3652,7 @@ Iteration 3
 \family typewriter
 \size large
 \noun on
-Net weight: 183588.923501 
+Net weight: 403782.52832 
 \noun default
 kg
 \end_layout
@@ -3265,7 +3662,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 32299.0907094 
+Thrust (per engine): 70830.4947685 
 \noun default
 lbf
 \end_layout
@@ -3279,7 +3676,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 5700
+): 10550
 \end_layout
 
 \begin_layout Standard
@@ -3291,7 +3688,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 32500
+): 71100
 \end_layout
 
 \begin_layout Standard
@@ -3299,7 +3696,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 36629.3786046 N
+Thrust at Cruise (per engine): 76549.3968557 N
 \end_layout
 
 \begin_layout Standard
@@ -3309,9 +3706,13 @@ Thrust at Cruise (per engine): 36629.3786046 N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.32
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
 \end_layout
 
 \begin_layout Standard
@@ -3319,7 +3720,9 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.244531762259
+Fuel Weight: 166589.906793
+\noun default
+ kg
 \end_layout
 
 \begin_layout Standard
@@ -3327,7 +3730,27 @@ Fuel Weight ratio: 0.244531762259
 \family typewriter
 \size large
 \noun on
-Empty Weight ratio: 0.416603113574
+Fuel Weight ratio: 0.412573341115
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405282635293
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 163646.047163
+\noun default
+ kg
+\noun on
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3353,7 +3776,7 @@ Iteration 4
 \family typewriter
 \size large
 \noun on
-Net weight: 187171.430386 
+Net weight: 404715.786618 
 \noun default
 kg
 \end_layout
@@ -3363,7 +3786,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 32929.3668319 
+Thrust (per engine): 70994.2045438 
 \noun default
 lbf
 \end_layout
@@ -3377,7 +3800,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 5139
+): 10550
 \end_layout
 
 \begin_layout Standard
@@ -3389,7 +3812,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 33000
+): 71100
 \end_layout
 
 \begin_layout Standard
@@ -3397,7 +3820,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 37192.9075062 N
+Thrust at Cruise (per engine): 76549.3968557 N
 \end_layout
 
 \begin_layout Standard
@@ -3407,9 +3830,13 @@ Thrust at Cruise (per engine): 37192.9075062 N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.37
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
 \end_layout
 
 \begin_layout Standard
@@ -3417,7 +3844,9 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.28159472711
+Fuel Weight: 166589.906793 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
@@ -3425,10 +3854,26 @@ Fuel Weight ratio: 0.28159472711
 \family typewriter
 \size large
 \noun on
-Empty Weight ratio: 0.423119442708
-\begin_inset Newline newline
-\end_inset
+Fuel Weight ratio: 0.411621963613
+\end_layout
 
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.40539195096
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164068.522322 
+\noun default
+kg
+\noun on
 
 \begin_inset Newline newline
 \end_inset
@@ -3455,7 +3900,7 @@ Iteration 5
 \family typewriter
 \size large
 \noun on
-Net weight: 201065.076246 
+Net weight: 404790.191558 
 \noun default
 kg
 \end_layout
@@ -3465,7 +3910,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 35373.6980005 
+Thrust (per engine): 71007.2564675 
 \noun default
 lbf
 \end_layout
@@ -3479,7 +3924,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 7185
+): 10550
 \end_layout
 
 \begin_layout Standard
@@ -3491,7 +3936,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 36600
+): 71100
 \end_layout
 
 \begin_layout Standard
@@ -3499,9 +3944,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 
-\noun default
-N
+Thrust at Cruise (per engine): 76549.3968557 N
 \end_layout
 
 \begin_layout Standard
@@ -3511,9 +3954,13 @@ N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.335
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
 \end_layout
 
 \begin_layout Standard
@@ -3521,7 +3968,9 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.263231381599
+Fuel Weight: 166589.906793 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
@@ -3529,7 +3978,27 @@ Fuel Weight ratio: 0.263231381599
 \family typewriter
 \size large
 \noun on
-Empty Weight ratio: 0.408099028302
+Fuel Weight ratio: 0.411546302917
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405400644565
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164102.204571 
+\noun default
+kg
+\noun on
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3555,7 +4024,7 @@ Iteration 6
 \family typewriter
 \size large
 \noun on
-Net weight: 202606.329643 
+Net weight: 404796.109973 
 \noun default
 kg
 \end_layout
@@ -3565,7 +4034,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 35644.8531569 
+Thrust (per engine): 71008.2946606 
 \noun default
 lbf
 \end_layout
@@ -3579,7 +4048,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 7185
+): 10550
 \end_layout
 
 \begin_layout Standard
@@ -3591,7 +4060,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 36600
+): 71100
 \end_layout
 
 \begin_layout Standard
@@ -3599,9 +4068,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 
-\noun default
-N
+Thrust at Cruise (per engine): 76549.3968557 N
 \end_layout
 
 \begin_layout Standard
@@ -3611,9 +4078,13 @@ N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.335
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
 \end_layout
 
 \begin_layout Standard
@@ -3621,7 +4092,9 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.261228945339
+Fuel Weight: 166589.906793 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
@@ -3629,7 +4102,33 @@ Fuel Weight ratio: 0.261228945339
 \family typewriter
 \size large
 \noun on
-Empty Weight ratio: 0.408592244042
+Fuel Weight ratio: 0.411540285809
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405401335945
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164104.883769 
+\noun default
+kg
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3655,7 +4154,7 @@ Iteration 7
 \family typewriter
 \size large
 \noun on
-Net weight: 202775.297043 
+Net weight: 404796.580658 
 \noun default
 kg
 \end_layout
@@ -3665,7 +4164,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 35674.5798598 
+Thrust (per engine): 71008.3772269 
 \noun default
 lbf
 \end_layout
@@ -3679,7 +4178,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 7185
+): 10550
 \end_layout
 
 \begin_layout Standard
@@ -3691,7 +4190,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 36600
+): 71100
 \end_layout
 
 \begin_layout Standard
@@ -3699,9 +4198,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 
-\noun default
-N
+Thrust at Cruise (per engine): 76549.3968557 N
 \end_layout
 
 \begin_layout Standard
@@ -3711,9 +4208,13 @@ N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.335
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
 \end_layout
 
 \begin_layout Standard
@@ -3721,7 +4222,9 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.261011270029
+Fuel Weight: 166589.906793 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
@@ -3729,7 +4232,27 @@ Fuel Weight ratio: 0.261011270029
 \family typewriter
 \size large
 \noun on
-Empty Weight ratio: 0.408645859177
+Fuel Weight ratio: 0.411539807284
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405401390929
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164105.096842 
+\noun default
+kg
+\noun on
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3755,7 +4278,7 @@ Iteration 8
 \family typewriter
 \size large
 \noun on
-Net weight: 202793.681669 
+Net weight: 404796.61809 
 \noun default
 kg
 \end_layout
@@ -3765,7 +4288,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 35677.8142962 
+Thrust (per engine): 71008.3837932 
 \noun default
 lbf
 \end_layout
@@ -3779,7 +4302,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 7185
+): 10550
 \end_layout
 
 \begin_layout Standard
@@ -3791,7 +4314,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 36600
+): 71100
 \end_layout
 
 \begin_layout Standard
@@ -3799,9 +4322,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 
-\noun default
-N
+Thrust at Cruise (per engine): 76549.3968557 N
 \end_layout
 
 \begin_layout Standard
@@ -3811,9 +4332,13 @@ N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.335
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
 \end_layout
 
 \begin_layout Standard
@@ -3821,7 +4346,9 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.260987607583
+Fuel Weight: 166589.906793 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
@@ -3829,7 +4356,27 @@ Fuel Weight ratio: 0.260987607583
 \family typewriter
 \size large
 \noun on
-Empty Weight ratio: 0.408651687422
+Fuel Weight ratio: 0.411539769228
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405401395302
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164105.113787 
+\noun default
+kg
+\noun on
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3855,7 +4402,7 @@ Iteration 9
 \family typewriter
 \size large
 \noun on
-Net weight: 202795.680375 
+Net weight: 404796.621067 
 \noun default
 kg
 \end_layout
@@ -3865,7 +4412,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 35678.1659318 
+Thrust (per engine): 71008.3843154 
 \noun default
 lbf
 \end_layout
@@ -3879,7 +4426,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 7185
+): 10550
 \end_layout
 
 \begin_layout Standard
@@ -3891,7 +4438,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 36600
+): 71100
 \end_layout
 
 \begin_layout Standard
@@ -3899,9 +4446,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 
-\noun default
-N
+Thrust at Cruise (per engine): 76549.3968557 N
 \end_layout
 
 \begin_layout Standard
@@ -3911,9 +4456,13 @@ N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.335
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
 \end_layout
 
 \begin_layout Standard
@@ -3921,7 +4470,9 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.260985035351
+Fuel Weight: 166589.906793 
+\noun default
+kg
 \end_layout
 
 \begin_layout Standard
@@ -3929,7 +4480,27 @@ Fuel Weight ratio: 0.260985035351
 \family typewriter
 \size large
 \noun on
-Empty Weight ratio: 0.408652320983
+Fuel Weight ratio: 0.411539766201
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.40540139565
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164105.115135
+\noun default
+ kg
+\noun on
+
 \begin_inset Newline newline
 \end_inset
 
@@ -3955,7 +4526,7 @@ Iteration 10
 \family typewriter
 \size large
 \noun on
-Net weight: 202795.897647 
+Net weight: 404796.621304 
 \noun default
 kg
 \end_layout
@@ -3965,7 +4536,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 35678.2041568 
+Thrust (per engine): 71008.3843569 
 \noun default
 lbf
 \end_layout
@@ -3979,7 +4550,7 @@ Engine Weight (
 \noun default
 lb
 \noun on
-): 7185
+): 10550
 \end_layout
 
 \begin_layout Standard
@@ -3991,7 +4562,7 @@ Engine Thrust (
 \noun default
 lbf
 \noun on
-): 36600
+): 71100
 \end_layout
 
 \begin_layout Standard
@@ -3999,7 +4570,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Thrust at Cruise (per engine): 41250.3155978 N
+Thrust at Cruise (per engine): 76549.3968557 N
 \end_layout
 
 \begin_layout Standard
@@ -4009,9 +4580,13 @@ Thrust at Cruise (per engine): 41250.3155978 N
 \noun on
 SFC (
 \noun default
-lb/lbf-hr
+lb
 \noun on
-): 0.335
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
 \end_layout
 
 \begin_layout Standard
@@ -4019,41 +4594,7 @@ lb/lbf-hr
 \family typewriter
 \size large
 \noun on
-Fuel Weight ratio: 0.260984755736
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Empty Weight ratio: 0.408652389855
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size larger
-\noun on
-\begin_inset space \hspace{}
-\length -0.5cm
-\end_inset
-
-
-\size large
-Iteration 11
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Net weight: 202795.921266 
+Fuel Weight: 166589.906793 
 \noun default
 kg
 \end_layout
@@ -4063,9 +4604,7 @@ kg
 \family typewriter
 \size large
 \noun on
-Thrust (per engine): 35678.2083121 
-\noun default
-lbf
+Fuel Weight ratio: 0.41153976596
 \end_layout
 
 \begin_layout Standard
@@ -4073,11 +4612,7 @@ lbf
 \family typewriter
 \size large
 \noun on
-Engine Weight (
-\noun default
-lb
-\noun on
-): 7185
+Empty Weight ratio: 0.405401395677
 \end_layout
 
 \begin_layout Standard
@@ -4085,244 +4620,11 @@ lb
 \family typewriter
 \size large
 \noun on
-Engine Thrust (
-\noun default
-lbf
-\noun on
-): 36600
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Thrust at Cruise (per engine): 41250.3155978 N
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-SFC (
-\noun default
-lb/lbf-hr
-\noun on
-): 0.335
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Fuel Weight ratio: 0.26098472534
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Empty Weight ratio: 0.408652397341
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size larger
-\noun on
-\begin_inset space \hspace{}
-\length -0.5cm
-\end_inset
-
-
-\size large
-Iteration 12
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Net weight: 202795.923833 
+Empty Weight: 164105.115242 
 \noun default
 kg
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Thrust (per engine): 35678.2087638 
-\noun default
-lbf
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Engine Weight (
-\noun default
-lb
-\noun on
-): 7185
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Engine Thrust (
-\noun default
-lbf
-\noun on
-): 36600
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Thrust at Cruise (per engine): 41250.3155978 N
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-SFC (
-\noun default
-lb/lbf-hr
-\noun on
-): 0.335
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Fuel Weight ratio: 0.260984722036
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Empty Weight ratio: 0.408652398155
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size larger
-\noun on
-\begin_inset space \hspace{}
-\length -0.5cm
-\end_inset
-
-
-\size large
-Iteration 13
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Net weight: 202795.924112 
-\noun default
-kg
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Thrust (per engine): 35678.2088129 
-\noun default
-lbf
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Engine Weight (
-\noun default
-lb
-\noun on
-): 7185
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Engine Thrust (
-\noun default
-lbf
-\noun on
-): 36600
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Thrust at Cruise (per engine): 41250.3155978 N
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-SFC (
-\noun default
-lb/lbf-hr
-\noun on
-): 0.335
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Fuel Weight ratio: 0.260984721677
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\size large
-\noun on
-Empty Weight ratio: 0.408652398244
 \size default
+\noun on
 
 \begin_inset Newline newline
 \end_inset
@@ -4372,7 +4674,7 @@ Iteration Results:
 
 \size large
 Net Weight 
-\begin_inset Formula $W_{0}=1989428.01554$
+\begin_inset Formula $W_{0}=3971054.85499$
 \end_inset
 
  
@@ -4394,7 +4696,7 @@ N
 Chosen Engine: 
 \family default
 \noun default
-Pratt Whitney
+Rolls Royce Trent 772-60
 \end_layout
 
 \begin_layout Standard
@@ -4411,7 +4713,7 @@ Engine Thrust
 \family default
 \noun default
 
-\begin_inset Formula $T_{E}=36600$
+\begin_inset Formula $T_{E}=71100$
 \end_inset
 
 
@@ -4436,7 +4738,7 @@ lbf
 \end_inset
 
 Engine Weight 
-\begin_inset Formula $W_{PP}=7185$
+\begin_inset Formula $W_{PP}=10550$
 \end_inset
 
  
@@ -4459,7 +4761,7 @@ lb
 Engine SFC
 \family default
 
-\begin_inset Formula $=0.335$
+\begin_inset Formula $=0.33$
 \end_inset
 
 
@@ -4488,7 +4790,7 @@ Empty Weight
  
 \family typewriter
 
-\begin_inset Formula $W_{E}=812984.5297$
+\begin_inset Formula $W_{E}=1609871.18052$
 \end_inset
 
  
@@ -4513,13 +4815,17 @@ Fuel Weight
  
 \family typewriter
 
-\begin_inset Formula $W_{F}=519210.3169$
+\begin_inset Formula $W_{F}=1634246.98564$
 \end_inset
 
  
 \family default
 \noun default
 N
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Newline newline
 \end_inset
 
@@ -4553,7 +4859,7 @@ Values:
 
 \size large
 Aspect Ratio, 
-\begin_inset Formula $AR=9.372$
+\begin_inset Formula $AR=8.22$
 \end_inset
 
 
@@ -4564,7 +4870,7 @@ Aspect Ratio,
 
 \size large
 Taper Ratio, 
-\begin_inset Formula $\lambda=0.24805$
+\begin_inset Formula $\lambda=0.2083$
 \end_inset
 
 
@@ -4575,7 +4881,7 @@ Taper Ratio,
 
 \size large
 Wing Loading 
-\begin_inset Formula $\frac{W_{0}}{S}=6615.33426$
+\begin_inset Formula $\frac{W_{0}}{S}=7177.977$
 \end_inset
 
  Nm
@@ -4590,7 +4896,7 @@ Wing Loading
 
 \size large
 Runway Length, 
-\begin_inset Formula $s=2888.8$
+\begin_inset Formula $s=3086.9$
 \end_inset
 
  m
@@ -4612,12 +4918,36 @@ Airfoil Selection:
 \begin_layout Standard
 
 \size large
+\begin_inset space \hspace{}
+\length -0.6cm
+\end_inset
+
+
+\series bold
 Formulas used:
+\series default
 \size larger
 
 \begin_inset Formula 
 \[
-b=\sqrt{AR\times S}\ \ \ \ \ c_{m}=\frac{S}{b}\ \ \ \ \ c_{r}=\frac{2\, c_{m}}{\lambda+1}
+\mathrm{{Wing\ span,}\ }b=\sqrt{AR\times S}\ \ \ \ \ \ \ \mathrm{{Average\ chord,}\ }c_{avg}=\frac{S}{b}
+\]
+
+\end_inset
+
+
+\begin_inset VSpace -0.5in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Root\ chord,}\ }c_{r}=\frac{2\, c_{avg}}{\lambda+1}\ \ \ \ \ \ \ \mathrm{{Volume\ of\ fuel,}}\ V_{F}=\frac{W_{F}/g}{\rho_{F}}
 \]
 
 \end_inset
@@ -4625,7 +4955,7 @@ b=\sqrt{AR\times S}\ \ \ \ \ c_{m}=\frac{S}{b}\ \ \ \ \ c_{r}=\frac{2\, c_{m}}{\
 
 \begin_inset Formula 
 \[
-V_{F}=\frac{W_{F}/g}{\rho_{F}}\ \ \ \ \ V_{F}=0.75\times\frac{t}{c}\times\frac{b}{2}\times\bigg(\frac{c_{m}}{2}\bigg)^{2}\times2
+V_{F}=0.75\times(0.5+\epsilon)\ c_{avg}\times\frac{t}{c}\times\frac{b}{2}\times(0.5+\delta)\ c_{avg}\times2
 \]
 
 \end_inset
@@ -4638,7 +4968,36 @@ V_{F}=\frac{W_{F}/g}{\rho_{F}}\ \ \ \ \ V_{F}=0.75\times\frac{t}{c}\times\frac{b
 \size larger
 \begin_inset Formula 
 \[
-W_{L}=W_{0}-0.8\times W_{F}\ \ \ \ \ W_{cr}=\frac{W_{L}+W_{0}}{2}\ \implies\ C_{L(cr)}=\frac{2\, W_{cr}}{S\rho_{cr}v_{cr}^{2}}
+\mathrm{{Landing\ Weight,}\ }W_{L}=W_{0}\ -\ 0.95\times W_{F}
+\]
+
+\end_inset
+
+
+\begin_inset VSpace 0.05in
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Cruise\ Weight,}\ }W_{cr}=\frac{W_{L}+W_{0}}{2}
+\]
+
+\end_inset
+
+
+\begin_inset VSpace -0.5in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\implies\mathrm{{Lift\ coefficient\ (at\ cruise),}}\ \ \ C_{L(cr)}=\frac{2\, W_{cr}}{S\rho_{cr}v_{cr}^{2}}
 \]
 
 \end_inset
@@ -4646,12 +5005,74 @@ W_{L}=W_{0}-0.8\times W_{F}\ \ \ \ \ W_{cr}=\frac{W_{L}+W_{0}}{2}\ \implies\ C_{
 
 \begin_inset Formula 
 \[
-v_{L}=\sqrt{2\times0.2g\times s}\ \ \ \ \ v_{L}=v_{S}\times1.2\ \implies\ C_{L(max)}=\frac{2\, W_{L}}{S\rho_{0}v_{L}^{2}}
+\mathrm{{Stalling\ speed,}\ }v_{S}=\sqrt{2\ a_{b}\ s}\ \ \ \ \ \mathrm{{Landing\ speed,}}\ v_{L}=v_{S}\times1.2
 \]
 
 \end_inset
 
 
+\begin_inset Formula 
+\[
+\implies\mathrm{{Maximum\ lift\ coefficient,}}\ C_{L(max)}=\frac{2\, W_{L}}{S\rho_{0}v_{L}^{2}}
+\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size large
+
+\begin_inset space \hspace{}
+\length -0.6cm
+\end_inset
+
+
+\series bold
+Assumptions made:
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset Formula 
+\[
+\mathrm{{Spar\ correction,}\ }\epsilon=0.05\ \ \ \mathrm{{Spanwise\ allowance}\ }\delta=0.07
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\mathrm{{Deceleration\ by\ brakes,}\ }a_{b}=0.2\times g
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+\begin_inset space \hspace{}
+\length -0.6cm
+\end_inset
+
+
+\shape italic
+5% of the fuel was chosen for reserve on the basis that the airplane should
+ cover at least 200 km and travel for at least half an hour.
 \end_layout
 
 \end_body
