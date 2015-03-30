@@ -3182,7 +3182,6 @@ Formulas used:
 \end_inset
 
 
-
 \end_layout
 
 \begin_layout Standard
@@ -5073,6 +5072,293 @@ Assumptions made:
 \shape italic
 5% of the fuel was chosen for reserve on the basis that the airplane should
  cover at least 200 km and travel for at least half an hour.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\family typewriter
+\size larger
+\noun on
+Results:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Cruise velocity: 251.716084369 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Wing Loading: 7177.977 
+\begin_inset Formula $\mathrm{{Nm^{-2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Wing Area: 553.227581391 
+\begin_inset Formula $\mathrm{{m^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Aspect Ratio: 8.22 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Wing span: 67.4353818039 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Average chord: 8.2038177377 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Taper Ratio: 0.2083 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Root chord: 13.5791074033 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Tip chord: 2.82852807211 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Volume of fuel: 207.201376608 
+\begin_inset Formula $\mathrm{m^{3}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Fuel to be stored in fuselage (%): 20
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Allowance given to spars (%): 5
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Allowance given to ribs (%): 6
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Mean aerodynamic chord 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+: 9.6905
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $t/c$
+\end_inset
+
+ ratio: 0.113315795262 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $C_{L}$
+\end_inset
+
+(cruise): 0.503930612532 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Landing speed: 85.2513774669 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Stalling speed: 71.0428145557 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $C_{L(max)}$
+\end_inset
+
+ obtained: 1.55750019104 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $C_{L(max)}$
+\end_inset
+
+ of airfoil: 1.22 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\family typewriter
+\size larger
+\begin_inset Formula $\Delta C_{L(max)}$
+\end_inset
+
+ required: 1.05356957851 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
