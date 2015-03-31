@@ -4836,6 +4836,7 @@ N
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing double
 
 \size large
 \begin_inset space \hspace{}
@@ -4854,7 +4855,7 @@ Values:
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
+\paragraph_spacing double
 
 \size large
 Aspect Ratio, 
@@ -4865,7 +4866,7 @@ Aspect Ratio,
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
+\paragraph_spacing double
 
 \size large
 Taper Ratio, 
@@ -4876,7 +4877,7 @@ Taper Ratio,
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
+\paragraph_spacing double
 
 \size large
 Wing Loading 
@@ -4891,7 +4892,7 @@ Wing Loading
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing onehalf
+\paragraph_spacing double
 
 \size large
 Runway Length, 
@@ -4985,7 +4986,16 @@ V_{F}=0.75\times(0.5+\epsilon)\ c_{avg}\times\frac{t}{c}\times\frac{b}{2}\times(
 \end_inset
 
 
-\begin_inset VSpace -0.5in
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Cruise\ speed,}\ }v_{cr}=\frac{{M_{cr}}}{v_{sound}}
+\]
+
 \end_inset
 
 
@@ -4996,7 +5006,20 @@ V_{F}=0.75\times(0.5+\epsilon)\ c_{avg}\times\frac{t}{c}\times\frac{b}{2}\times(
 \size larger
 \begin_inset Formula 
 \[
-\implies\mathrm{{Lift\ coefficient\ (at\ cruise),}}\ \ \ C_{L(cr)}=\frac{2\, W_{cr}}{S\rho_{cr}v_{cr}^{2}}
+\implies\mathrm{{Lift\ coefficient\ (at\ cruise),}}\ \ \ C_{L\,(cruise)}=\frac{2\, W_{cr}}{S\rho_{cr}v_{cr}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Stalling\ speed\ (take\, off),}\ }v_{S_{t}}=\sqrt{2\ a_{b}\ s_{t}}\ \ \ \ \ \mathrm{{Take\, off\ speed,}}\ v_{T}=v_{S_{t}}\times1.2
 \]
 
 \end_inset
@@ -5004,26 +5027,30 @@ V_{F}=0.75\times(0.5+\epsilon)\ c_{avg}\times\frac{t}{c}\times\frac{b}{2}\times(
 
 \begin_inset Formula 
 \[
-\mathrm{{Stalling\ speed,}\ }v_{S}=\sqrt{2\ a_{b}\ s}\ \ \ \ \ \mathrm{{Landing\ speed,}}\ v_{L}=v_{S}\times1.2
+\mathrm{{Stalling\ speed\ (landing),}\ }v_{S_{l}}=\sqrt{2\ a_{b}\ s_{l}}\ \ \ \ \ \mathrm{{Landing\ speed,}}\ v_{L}=v_{S_{l}}\times1.2
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+
+\size larger
 \begin_inset Formula 
 \[
-\implies\mathrm{{Maximum\ lift\ coefficient,}}\ C_{L(max)}=\frac{2\, W_{L}}{S\rho_{0}v_{L}^{2}}
+C_{L\,(max)}\ \mathrm{{take\, off}},=\frac{2\, W_{0}}{S\rho_{0}v_{T}^{2}}\ \ \ \ \ C_{L\,(max)}\ \mathrm{{landing}}=\frac{2\, W_{L}}{S\rho_{0}v_{L}^{2}}
 \]
 
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
 
 \size large
-
 \begin_inset space \hspace{}
 \length -0.6cm
 \end_inset
@@ -5045,14 +5072,25 @@ Assumptions made:
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-
-\size large
 \begin_inset Formula 
 \[
-\mathrm{{Deceleration\ by\ brakes,}\ }a_{b}=0.2\times g
+\mathrm{{Deceleration\ by\ brakes,}\ }a_{b}=0.26\times g
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Take\, off\ distance}\ }s_{t}=0.8\times\mathrm{{Runway\ length}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Landing\ distance}\ }s_{l}=0.6\times\mathrm{{Runway\ length}}
 \]
 
 \end_inset
@@ -5072,10 +5110,7 @@ Assumptions made:
 \shape italic
 5% of the fuel was chosen for reserve on the basis that the airplane should
  cover at least 200 km and travel for at least half an hour.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
+\begin_inset Newline newline
 \end_inset
 
 
@@ -5090,7 +5125,7 @@ Assumptions made:
 
 
 \family typewriter
-\size larger
+\size largest
 \noun on
 Results:
 \end_layout
@@ -5112,7 +5147,7 @@ Cruise velocity: 251.716084369
 
 \family typewriter
 \size larger
-Wing Loading: 7177.977 
+Wing Loading: 6916.05 
 \begin_inset Formula $\mathrm{{Nm^{-2}}}$
 \end_inset
 
@@ -5124,7 +5159,7 @@ Wing Loading: 7177.977
 
 \family typewriter
 \size larger
-Wing Area: 553.227581391 
+Wing Area: 574.179604687 
 \begin_inset Formula $\mathrm{{m^{2}}}$
 \end_inset
 
@@ -5136,7 +5171,7 @@ Wing Area: 553.227581391
 
 \family typewriter
 \size larger
-Aspect Ratio: 8.22 
+Aspect Ratio: 8.25 
 \begin_inset Formula $\mathrm{[no\ unit]}$
 \end_inset
 
@@ -5148,7 +5183,7 @@ Aspect Ratio: 8.22
 
 \family typewriter
 \size larger
-Wing span: 67.4353818039 
+Wing span: 68.8257345668 
 \begin_inset Formula $\mathrm{m}$
 \end_inset
 
@@ -5160,7 +5195,7 @@ Wing span: 67.4353818039
 
 \family typewriter
 \size larger
-Average chord: 8.2038177377 
+Average chord: 8.34251328083 
 \begin_inset Formula $\mathrm{[no\ unit]}$
 \end_inset
 
@@ -5184,7 +5219,7 @@ Taper Ratio: 0.2083
 
 \family typewriter
 \size larger
-Root chord: 13.5791074033 
+Root chord: 13.8086787732 
 \begin_inset Formula $\mathrm{m}$
 \end_inset
 
@@ -5196,7 +5231,7 @@ Root chord: 13.5791074033
 
 \family typewriter
 \size larger
-Tip chord: 2.82852807211 
+Tip chord: 2.87634778846 
 \begin_inset Formula $\mathrm{[no\ unit]}$
 \end_inset
 
@@ -5236,7 +5271,7 @@ Allowance given to spars (%): 5
 
 \family typewriter
 \size larger
-Allowance given to ribs (%): 6
+Allowance given to ribs (%): 7
 \end_layout
 
 \begin_layout Standard
@@ -5248,7 +5283,7 @@ Mean aerodynamic chord
 \begin_inset Formula $\mathrm{[no\ unit]}$
 \end_inset
 
-: 9.6905
+: 9.54
 \end_layout
 
 \begin_layout Standard
@@ -5259,7 +5294,72 @@ Mean aerodynamic chord
 \begin_inset Formula $t/c$
 \end_inset
 
- ratio: 0.113315795262 
+ ratio: 0.112547592699 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Take-off:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Take-off speed: 112.6140628 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Stalling speed: 93.50277692 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $C_{L\,(max)}$
+\end_inset
+
+ obtained: 1.2915269387 
 \begin_inset Formula $\mathrm{[no\ unit]}$
 \end_inset
 
@@ -5271,14 +5371,172 @@ Mean aerodynamic chord
 
 \family typewriter
 \size larger
-\begin_inset Formula $C_{L}$
+\begin_inset Formula $C_{L\,(max)}$
 \end_inset
 
-(cruise): 0.503930612532 
+ of airfoil: 1.231 
 \begin_inset Formula $\mathrm{[no\ unit]}$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\family typewriter
+\size larger
+\begin_inset Formula $\Delta C_{L\,(max)}$
+\end_inset
+
+ required: 0.0605269387 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -0.75cm
+\end_inset
+
+
+\family sans
+\size larger
+Flap selection:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Spanwise coverage of flap: 60%
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Chordwise coverage of flap: 15%
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Take-off deflection: 
+\begin_inset Formula $5\textdegree$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Landing deflection: 
+\begin_inset Formula $11\textdegree$
+\end_inset
+
+
+\family default
+\shape italic
+\size large
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Flap along with its deflection is chosen based on the values of 
+\begin_inset Formula $\Delta C_{L\,(max)}$
+\end_inset
+
+ and the airfoil's 
+\family typewriter
+\shape default
+\size larger
+
+\begin_inset Formula $t/c$
+\end_inset
+
+
+\family default
+\shape italic
+\size large
+ ratio.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Cruise:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Cruise speed: 251.716084369 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $C_{L\,(cruise)}$
+\end_inset
+
+: 0.467603166 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Landing:
 \end_layout
 
 \begin_layout Standard
@@ -5310,10 +5568,10 @@ Stalling speed: 71.0428145557
 
 \family typewriter
 \size larger
-\begin_inset Formula $C_{L(max)}$
+\begin_inset Formula $C_{L\,(max)}$
 \end_inset
 
- obtained: 1.55750019104 
+ obtained: 1.50066644073 
 \begin_inset Formula $\mathrm{[no\ unit]}$
 \end_inset
 
@@ -5325,10 +5583,10 @@ Stalling speed: 71.0428145557
 
 \family typewriter
 \size larger
-\begin_inset Formula $C_{L(max)}$
+\begin_inset Formula $C_{L\,(max)}$
 \end_inset
 
- of airfoil: 1.22 
+ of airfoil: 1.231 
 \begin_inset Formula $\mathrm{[no\ unit]}$
 \end_inset
 
@@ -5340,10 +5598,10 @@ Stalling speed: 71.0428145557
 
 \family typewriter
 \size larger
-\begin_inset Formula $\Delta C_{L(max)}$
+\begin_inset Formula $\Delta C_{L\,(max)}$
 \end_inset
 
- required: 1.05356957851 
+ required: 0.44709686222 
 \begin_inset Formula $\mathrm{[no\ unit]}$
 \end_inset
 
@@ -5354,10 +5612,6 @@ Stalling speed: 71.0428145557
 \begin_inset Newpage newpage
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
