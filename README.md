@@ -8,4 +8,4 @@ Being a terrible undergrad student, I'm not very good with numbers and formulas.
 
 #### I don't write notes these days!
 
-But, I do need LaTeX for submitting reports (say, for our Aircraft Design Project) - LyX makes it easy...
+But, I do need LyX (my favorite LaTeX processor) and Geogebra (my favorite SVG generator) for submitting our Aircraft Design Project report.
