@@ -1,0 +1,9820 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\size huge
+Aircraft Design Project - I
+\end_layout
+
+\begin_layout Date
+08/04/2015
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Aircraft Specifications
+\noun default
+:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \qquad{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\series bold
+\size larger
+Name of aircraft:
+\series default
+ Sagittarius
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\series bold
+\size large
+Type:
+\series default
+ Passenger
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\series bold
+Seats:
+\series default
+ 420
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+I-class: 24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+II-class: 80
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+III-class: 316
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\series bold
+\size large
+Range:
+\series default
+ 14,000 km
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\align center
+
+\size large
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="0.08cm" bottomspace="0.08cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Reg.
+ No.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Name
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+2012501007
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Boomadevi
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+2012501030
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Ravi Shankar
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+2012501035
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Sooriyan
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+2012501040
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Vaishnavi
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+2012501047
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size large
+Surendar
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+\noindent
+
+\size larger
+\begin_inset Newpage newpage
+\end_inset
+
+
+\size large
+
+\begin_inset space \hspace{}
+\length -2cm
+\end_inset
+
+
+\size larger
+\noun on
+Data #1
+\noun default
+:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -2cm
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="27" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+A340-600
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+A380-800
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+777-300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+777-300 ER
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Aspect Ratio [no unit]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Cruise Altitude [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10200
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10700
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Cruise Velocity [no unit]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.85
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.84
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.84
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Empty Weight [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1744218
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2715408
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1574505
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1646118
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Engine Used
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RR Trent 500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RR Trent 972/B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GE 90-94B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GE 90-115B1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Fineness Ratio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12.34
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Fuselage Width [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.64
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Height [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Landing Speed [knots]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+153
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+138
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+149
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Length of Aircraft [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+75.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+72.73
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+73.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+73.9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Maximum Fuel Capacity [l]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+195880
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+323546
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+171177
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+181283
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Maximum Landing Weight [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2540790
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3865140
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2331641
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2465155
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Maximum Speed [no unit]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.86
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.89
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.89
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.89
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Maximum Takeoff Weight [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3610080
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5640750
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2936820
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3448215
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Payload [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+545534
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+824040
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+685258
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Range [km]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14350
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15700
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11120
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14690
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Runway Length [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3100
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2950
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3230
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3050
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Seating Capacity [seats]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+380
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+466
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+386
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+386
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Service Ceiling [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13136
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13140
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13140
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Taper Ratio [no unit]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.22
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.26
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Thrust Loading [no unit]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2783
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.22692
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2881
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Thrust (per engine) [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+550000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+640000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+418000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+512000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Wing Area [m
+\begin_inset Formula $^{2}$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+439.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+845
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+427.8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Wing Loading [Nm
+\begin_inset Formula $^{-2}$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8193.312
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6501.087
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6864.94
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Wing Span [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+63.45
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+79.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+64.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Wing Sweep [deg]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.64
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.64
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\size large
+
+\begin_inset space \hspace{}
+\length -2cm
+\end_inset
+
+
+\series bold
+\size larger
+\noun on
+Data #2
+\noun default
+:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -2.5cm
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="27" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+747-300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+747-400
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+747-400 ER
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+747-8I
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Aspect Ratio [no unit]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Cruise Altitude [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10668
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10363.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Cruise Velocity [no unit]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.84
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.85
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.855
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.855
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Empty Weight [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1747161
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1753596.36
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1810926
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2104274.43
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Engine Used
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GE CF6-80C2B1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PW 4062
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GE CF6-80C2B5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GE NX-2B67
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Fineness Ratio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.56
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.56
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Fuselage Width [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Height [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Landing Speed [knots]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+142
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+157
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+150
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Length of Aircraft [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+70.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+76.25
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Maximum Fuel Capacity [l]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+199158
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+216840
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+241140
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+238610
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Maximum Landing Weight [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2603103.12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2901238.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2901238.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3003576.75
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.05cm" bottomspace="0.05cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Maximum Speed [no unit]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.89
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.92
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.92
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.92
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Maximum Takeoff Weight [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3706630
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3893530.14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4049322.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4316252.85
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Payload [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+600234.66
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+805401
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Range [km]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12400
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13450
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14200
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Runway Length [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3320
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3090
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3090
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3090
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Seating Capacity [seats]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+412
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+412
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+412
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+467
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Service Ceiling [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13900
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13900
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13900
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Taper Ratio [no unit]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.245
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.275
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Thrust Loading [no unit]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2593
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2897
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2726
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2743
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Thrust (per engine) [N]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+247000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+282000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+276000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+296000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Wing Area [m
+\begin_inset Formula $^{2}$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+510.95
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+525
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+525
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+554
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Wing Loading [Nm
+\begin_inset Formula $^{-2}$
+\end_inset
+
+]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+755.87
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+733.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+733.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Wing Span [m]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+59.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+64.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+64.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+68.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.1cm" bottomspace="0.1cm">
+<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Wing Sweep [deg]
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+\begin_inset space \hspace{}
+\length -1.5cm
+\end_inset
+
+
+\family typewriter
+\size larger
+\noun on
+Weighted Average
+\family default
+ 
+\family typewriter
+Values:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Net Weight, 
+\begin_inset Formula $W_{0}=3856163.85$
+\end_inset
+
+ N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Empty Weight, 
+\begin_inset Formula $W_{E}=1745640.45$
+\end_inset
+
+ N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Crew Weight, 
+\begin_inset Formula $W_{C}=19620$
+\end_inset
+
+ N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Payload Weight, 
+\begin_inset Formula $W_{P}=519537.6$
+\end_inset
+
+ N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Thrust Loading, 
+\begin_inset Formula $\frac{T}{W_{0}}=0.27665$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Cruise Velocity, 
+\begin_inset Formula $v_{cr}=910.2748$
+\end_inset
+
+ km/hr
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+Cruise Altitude, 
+\begin_inset Formula $h_{cr}=10752$
+\end_inset
+
+ m
+\end_layout
+
+\begin_layout Subsection*
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Weight Estimation:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Formulas used:
+\series default
+\size larger
+
+\begin_inset Formula 
+\[
+\mathrm{{Net\ Weight,}}\ W_{0}=\frac{W_{C}+W_{P}}{1-\frac{W_{F}}{W_{0}}-\frac{W_{E}}{W_{0}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Thrust,}}\ T=W_{0}\times\bigg(\frac{T}{W_{0}}\bigg)\times1.2
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Cruise\ Thrust,}\ }T_{cr}=T_{E}\times\sigma^{1.2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Fuel\ Weight,}\ }W_{F}=\frac{SFC\times T_{cr}\times R\times1.2}{v_{cr}}
+\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size large
+For later iterations, 
+\size larger
+
+\begin_inset Formula 
+\[
+\mathrm{{Net\ Weight,}}\ W_{0}=\frac{W_{C}+W_{P}+W_{PP}+W_{F}}{1-\frac{W_{E}-W_{PP}}{W_{0}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\family default
+\series bold
+\noun default
+Assumptions made:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\frac{W_{F}}{W_{0}}=0.4,\ \ R=14000\ \mathrm{km\ (straight)},\ \ T_{E}\approx T
+\]
+
+\end_inset
+
+
+\size default
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size large
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 0
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 373086.581701 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 65445.8905969 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 11162
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 65500
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 70520.1897898 N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.329
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 153003.844199 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.410102779631
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.398406061316
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 148639.955546 
+\noun default
+kg
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 1
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 379351.956526 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 66544.946568 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 10726
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 66870
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 71995.1922327 
+\noun default
+N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.338
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 160477.137141 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.423029680959
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.401387893913
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 152267.282882 
+\noun default
+kg
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 2
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 392404.46874 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 68834.5847598 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 10550
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 71100
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 76549.3968557 N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 166589.906793
+\noun default
+ kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.424536212159
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.403908071322
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 158495.332147
+\noun default
+ kg
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 3
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 403782.52832 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 70830.4947685 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 10550
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 71100
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 76549.3968557 N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 166589.906793
+\noun default
+ kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.412573341115
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405282635293
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 163646.047163
+\noun default
+ kg
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 4
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 404715.786618 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 70994.2045438 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 10550
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 71100
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 76549.3968557 N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 166589.906793 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.411621963613
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.40539195096
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164068.522322 
+\noun default
+kg
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 5
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 404790.191558 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 71007.2564675 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 10550
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 71100
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 76549.3968557 N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 166589.906793 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.411546302917
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405400644565
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164102.204571 
+\noun default
+kg
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 6
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 404796.109973 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 71008.2946606 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 10550
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 71100
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 76549.3968557 N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 166589.906793 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.411540285809
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405401335945
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164104.883769 
+\noun default
+kg
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 7
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 404796.580658 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 71008.3772269 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 10550
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 71100
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 76549.3968557 N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 166589.906793 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.411539807284
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405401390929
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164105.096842 
+\noun default
+kg
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 8
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 404796.61809 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 71008.3837932 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 10550
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 71100
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 76549.3968557 N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 166589.906793 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.411539769228
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405401395302
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164105.113787 
+\noun default
+kg
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 9
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 404796.621067 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 71008.3843154 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 10550
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 71100
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 76549.3968557 N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 166589.906793 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.411539766201
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.40540139565
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164105.115135
+\noun default
+ kg
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Iteration 10
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Net weight: 404796.621304 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust (per engine): 71008.3843569 
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Weight (
+\noun default
+lb
+\noun on
+): 10550
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Engine Thrust (
+\noun default
+lbf
+\noun on
+): 71100
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Thrust at Cruise (per engine): 76549.3968557 N
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+SFC (
+\noun default
+lb
+\noun on
+/
+\noun default
+lbf-hr
+\noun on
+): 0.33
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight: 166589.906793 
+\noun default
+kg
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Fuel Weight ratio: 0.41153976596
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight ratio: 0.405401395677
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+Empty Weight: 164105.115242 
+\noun default
+kg
+\size default
+\noun on
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size large
+
+\begin_inset space \hspace{}
+\length -1.5cm
+\end_inset
+
+
+\size larger
+Iteration Results:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Net Weight 
+\begin_inset Formula $W_{0}=3971054.85499$
+\end_inset
+
+ 
+\family default
+\noun default
+N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size large
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+Chosen Engine: 
+\family default
+\noun default
+Rolls Royce Trent 772-60
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size large
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+Engine Thrust 
+\family default
+\noun default
+
+\begin_inset Formula $T_{E}=71100$
+\end_inset
+
+
+\family typewriter
+\size default
+\noun on
+ 
+\family default
+\size large
+\noun default
+lbf
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size large
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+Engine Weight 
+\begin_inset Formula $W_{PP}=10550$
+\end_inset
+
+ 
+\family default
+\noun default
+lb
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Engine SFC
+\family default
+
+\begin_inset Formula $=0.33$
+\end_inset
+
+
+\family typewriter
+\size default
+ 
+\family default
+\size large
+\noun default
+lb/lbf-hr
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Empty Weight
+\family default
+ 
+\family typewriter
+
+\begin_inset Formula $W_{E}=1609871.18052$
+\end_inset
+
+ 
+\family default
+\noun default
+N
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\size large
+Fuel Weight
+\family default
+ 
+\family typewriter
+
+\begin_inset Formula $W_{F}=1634246.98564$
+\end_inset
+
+ 
+\family default
+\noun default
+N
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+\begin_inset space \hspace{}
+\length -1.5cm
+\end_inset
+
+
+\family typewriter
+\size larger
+\noun on
+Weighted Average
+\family default
+ 
+\family typewriter
+Values:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Aspect Ratio, 
+\begin_inset Formula $AR=8.22$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Taper Ratio, 
+\begin_inset Formula $\lambda=0.2083$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Wing Loading 
+\begin_inset Formula $\frac{W_{0}}{S}=7177.977$
+\end_inset
+
+ Nm
+\begin_inset Formula $^{-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Runway Length, 
+\begin_inset Formula $s=3086.9$
+\end_inset
+
+ m
+\end_layout
+
+\begin_layout Subsection*
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Airfoil Selection:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -0.6cm
+\end_inset
+
+
+\series bold
+Formulas used:
+\series default
+\size larger
+
+\begin_inset Formula 
+\[
+\mathrm{{Wing\ span,}\ }b=\sqrt{AR\times S}\ \ \ \ \ \ \ \mathrm{{Average\ chord,}\ }c_{avg}=\frac{S}{b}
+\]
+
+\end_inset
+
+
+\begin_inset VSpace -0.5in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Root\ chord,}\ }c_{r}=\frac{2\, c_{avg}}{\lambda+1}\ \ \ \ \ \ \ \mathrm{{Volume\ of\ fuel,}}\ V_{F}=\frac{W_{F}/g}{\rho_{F}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+V_{F}=0.75\times(0.5+\epsilon)\ c_{avg}\times\frac{t}{c}\times\frac{b}{2}\times(0.5+\delta)\ c_{avg}\times2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Landing\ Weight,}\ }W_{L}=W_{0}\ -\ 0.95\times W_{F}
+\]
+
+\end_inset
+
+
+\begin_inset VSpace 0.05in
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Cruise\ Weight,}\ }W_{cr}=\frac{W_{L}+W_{0}}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Cruise\ speed,}\ }v_{cr}=\frac{{M_{cr}}}{v_{sound}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\implies\mathrm{{Lift\ coefficient\ (at\ cruise),}}\ \ \ C_{L\,(cruise)}=\frac{2\, W_{cr}}{S\rho_{cr}v_{cr}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+\mathrm{{Stalling\ speed\ (take\, off),}\ }v_{S_{t}}=\sqrt{2\ a_{b}\ s_{t}}\ \ \ \ \ \mathrm{{Take\, off\ speed,}}\ v_{T}=v_{S_{t}}\times1.2
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Stalling\ speed\ (landing),}\ }v_{S_{l}}=\sqrt{2\ a_{b}\ s_{l}}\ \ \ \ \ \mathrm{{Landing\ speed,}}\ v_{L}=v_{S_{l}}\times1.2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size larger
+\begin_inset Formula 
+\[
+C_{L\,(max)}\ \mathrm{{take\, off}},=\frac{2\, W_{0}}{S\rho_{0}v_{T}^{2}}\ \ \ \ \ C_{L\,(max)}\ \mathrm{{landing}}=\frac{2\, W_{L}}{S\rho_{0}v_{L}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -0.6cm
+\end_inset
+
+
+\series bold
+Assumptions made:
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+
+\begin_inset Formula 
+\[
+\mathrm{{Spar\ correction,}\ }\epsilon=0.05\ \ \ \mathrm{{Spanwise\ allowance}\ }\delta=0.07
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Deceleration\ by\ brakes,}\ }a_{b}=0.26\times g
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Take\, off\ distance}\ }s_{t}=0.8\times\mathrm{{Runway\ length}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Landing\ distance}\ }s_{l}=0.6\times\mathrm{{Runway\ length}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+\begin_inset space \hspace{}
+\length -0.6cm
+\end_inset
+
+
+\shape italic
+5% of the fuel was chosen for reserve on the basis that the airplane should
+ cover at least 200 km and travel for at least half an hour.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\family typewriter
+\size largest
+\noun on
+Results:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Cruise velocity: 251.716084369 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Wing Loading: 6916.05 
+\begin_inset Formula $\mathrm{{Nm^{-2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Wing Area: 574.179604687 
+\begin_inset Formula $\mathrm{{m^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Aspect Ratio: 8.25 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Wing span: 68.8257345668 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Average chord: 8.34251328083 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Taper Ratio: 0.2083 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Root chord: 13.8086787732 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Tip chord: 2.87634778846 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Volume of fuel: 207.201376608 
+\begin_inset Formula $\mathrm{m^{3}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Fuel to be stored in fuselage (%): 20
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Allowance given to spars (%): 5
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Allowance given to ribs (%): 7
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Mean aerodynamic chord 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+: 9.54
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $t/c$
+\end_inset
+
+ ratio: 0.112547592699 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Take-off:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Take-off speed: 112.6140628 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Stalling speed: 93.50277692 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $C_{L\,(max)}$
+\end_inset
+
+ obtained: 1.2915269387 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $C_{L\,(max)}$
+\end_inset
+
+ of airfoil: 1.231 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\family typewriter
+\size larger
+\begin_inset Formula $\Delta C_{L\,(max)}$
+\end_inset
+
+ required: 0.0605269387 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -0.75cm
+\end_inset
+
+
+\family sans
+\size larger
+Flap selection:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Spanwise coverage of flap: 60%
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Chordwise coverage of flap: 15%
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Take-off deflection: 
+\begin_inset Formula $5\textdegree$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Landing deflection: 
+\begin_inset Formula $11\textdegree$
+\end_inset
+
+
+\family default
+\shape italic
+\size large
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Flap along with its deflection is chosen based on the values of 
+\begin_inset Formula $\Delta C_{L\,(max)}$
+\end_inset
+
+ and the airfoil's 
+\family typewriter
+\shape default
+\size larger
+
+\begin_inset Formula $t/c$
+\end_inset
+
+
+\family default
+\shape italic
+\size large
+ ratio.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Cruise:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Cruise speed: 251.716084369 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $C_{L\,(cruise)}$
+\end_inset
+
+: 0.467603166 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Landing:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Landing speed: 85.2513774669 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Stalling speed: 71.0428145557 
+\begin_inset Formula $\mathrm{{ms^{-1}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $C_{L\,(max)}$
+\end_inset
+
+ obtained: 1.50066644073 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+\begin_inset Formula $C_{L\,(max)}$
+\end_inset
+
+ of airfoil: 1.231 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\family typewriter
+\size larger
+\begin_inset Formula $\Delta C_{L\,(max)}$
+\end_inset
+
+ required: 0.44709686222 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+\begin_inset space \hspace{}
+\length -1.5cm
+\end_inset
+
+
+\family typewriter
+\size larger
+\noun on
+Weighted Average
+\family default
+ 
+\family typewriter
+Values:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Length of aircraft: 72.521 m
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Aspect Ratio, 
+\begin_inset Formula $AR=8.22$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+
+\size large
+Wing Loading 
+\begin_inset Formula $\frac{W_{0}}{S}=7177.977$
+\end_inset
+
+ Nm
+\begin_inset Formula $^{-2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\size larger
+\noun on
+Tail Calculation:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -0.6cm
+\end_inset
+
+
+\series bold
+Formulas used:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\mathrm{{Horizontal\ tail\ volume\ coefficient,}}\ v_{h}=\frac{{l_{ht}\, S_{ht}}}{c\, S_{w}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\mathrm{{Vertical\ tail\ volume\ coefficient,}}\ v_{t}=\frac{{l_{vt}\, S_{vt}}}{c\, S_{w}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\mathrm{{Span\ of\ horizontal\ tail,}}\ b_{t}=\sqrt{{S_{ht}\times AR_{t}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\mathrm{{Root\ chord\ of\ horizontal\ tail,}\ }c_{r\,(ht)}=\frac{2\, S_{ht}}{(\lambda+1)\, b_{t}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\mathrm{{Tip\ chord\ of\ horizontal\ tail,}}\ c_{t\,(ht)}=\lambda\times c_{rt}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Spanwise\ location\ of\ mean\ aerodynamic\ chord,}\ }y_{ht}=\frac{b_{t}}{6}\ \frac{(1+2\lambda)}{(1+\lambda)}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Mean\ aerodynamic\ chord\ of\ horizontal\ tail,}\ }c_{m\,(ht)}=\frac{2}{3}\ \frac{(1+\lambda+\lambda^{2})}{(1+\lambda)}\ c_{rt}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Aspect\ Ratio\ of\ vertical\ tail,}\ }AR_{(vt)}=\frac{h_{vt}^{2}}{S_{vt}}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Root\ chord\ of\ vertical\ tail,}\ }c_{r\,(vt)}=\frac{2\, S_{vt}}{(\lambda+1)\, h_{vt}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\mathrm{{Tip\ chord\ of\ vertical\ tail,}}\ c_{t\,(vt)}=\lambda\times c_{rt}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Spanwise\ location\ of\ mean\ aerodynamic\ chord,}\ }y_{vt}=\frac{h_{vt}}{3}\ \frac{(1+2\lambda)}{(1+\lambda)}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Mean\ aerodynamic\ chord\ of\ vertical\ tail,}\ }c_{m\,(vt)}=\frac{2}{3}\ \frac{(1+\lambda+\lambda^{2})}{(1+\lambda)}\ c_{vt}
+\]
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\family default
+\series bold
+\noun default
+Assumptions made:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+l_{ht}=0.45\times l\ \ \ \ \ \ l_{vt}=0.95\times l_{ht}\ \ \ \ \ \ AR_{ht}=0.6\times AR
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\lambda_{ht}=0.55\ \ \ \ \ AR_{vt}=2\ \ \ \ \ \ \lambda_{vt}=0.55\ \ \ \ \ \ v_{ht}=0.855
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+W_{ht}=0.03\times W_{0}\ \ \ \ \ \ W_{vt}=0.02\times W_{0}
+\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\family typewriter
+\size largest
+\noun on
+Results:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Horizontal tail volume coefficient 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+: 0.855
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Mean aerodynamic chord (
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+): 9.54
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Tail arm ratio 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+: 0.45
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Horizontal tail area: 131.944778162 
+\begin_inset Formula $\mathrm{m}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Vertical tail volume coefficient 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+: 0.07
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Vertical tail area: 80.3785140748 
+\begin_inset Formula $\mathrm{m}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Horizontal tail aspect ratio: 4.932 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Horizontal tail taper ratio 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+: 0.55
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Horizontal tail span: 25.5098342977 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Horizontal tail root chord: 6.67394874752 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Horizontal tail tip chord: 3.67067181114 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Weight of horizontal tail: 119131.64565 
+\begin_inset Formula $\mathrm{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Spanwise location of MAC of HT: 5.76028516399 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+MAC of horizontal tail: 5.31763013109 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Vertical tail aspect ratio 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+: 2
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Vertical tail height: 12.6789994932 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Vertical tail taper ratio 
+\begin_inset Formula $\mathrm{[no\ unit]}$
+\end_inset
+
+: 0.5
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Vertical tail root chord: 8.45266632883 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Vertical tail tip chord: 4.22633316441 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Spanwise location of MAC of VT: 5.63511088588 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+MAC of vertical tail: 6.57429603353 
+\begin_inset Formula $\mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\family typewriter
+\size larger
+Weight of vertical tail: 79421.0970998 
+\begin_inset Formula $\mathrm{N}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\family default
+\size large
+
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\series bold
+\size larger
+\noun on
+Tyre Selection:
+\series default
+\size large
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length -0.6cm
+\end_inset
+
+
+\series bold
+Formulas used:
+\series default
+\size larger
+
+\begin_inset Formula 
+\[
+\mathrm{{Projected\ area\ of\ tyre,}\ }A_{p}=2.3\:\sqrt{w\times d}\ \bigg(\frac{d}{2}-R_{f}\bigg)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Bearable\ weight,}\ }W=P\times A_{p}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Area\ of\ contact,}\ }A=\pi ab
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{{Runway\ loading,}\ }\sigma_{r}=\frac{W_{0}}{n\times A_{p}}
+\]
+
+\end_inset
+
+
+\size default
+
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\size large
+
+\begin_inset Formula $w=$
+\end_inset
+
+width of wheel; 
+\begin_inset Formula $d=$
+\end_inset
+
+outer diameter of wheel
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $(a,b)=$
+\end_inset
+
+semi-major axis and semi-minor of elliptical projected area
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size large
+\noun on
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\family default
+\series bold
+\noun default
+Assumptions made:
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\shape italic
+Bearable weight of nose-wheel is 10% of total weight, while the bearable
+ weight of main wheel is 90% of total weight.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\family typewriter
+\size largest
+\noun on
+Results:
+\family default
+\size default
+\noun default
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\series bold
+Main wheel:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Outer diameter (
+\begin_inset Formula $\mathrm{{in}}$
+\end_inset
+
+): 43
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Width (
+\begin_inset Formula $\mathrm{{in}}$
+\end_inset
+
+): 13.5
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Inner diameter (
+\begin_inset Formula $\mathrm{{in}}$
+\end_inset
+
+): 19
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Rolling radius (
+\begin_inset Formula $\mathrm{{in}}$
+\end_inset
+
+): 12.8
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Projected area: 482.112287802 
+\begin_inset Formula $\mathrm{{in^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Tyre pressure (
+\begin_inset Formula $\mathrm{{psi}}$
+\end_inset
+
+): 90
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Tyre supporting weight: 43390.1059022 lb
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Least number of tyres required: 19
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Number of tyres: 20
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Maximum width: 13.75
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Semi-major axis of projected area: 17.27455 
+\begin_inset Formula $\mathrm{{in}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Area of contact: 373.103447121 
+\begin_inset Formula $\mathrm{{in^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Total contact area: 7462.06894242 
+\begin_inset Formula $\mathrm{{in^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -0.5cm
+\end_inset
+
+
+\series bold
+Nose wheel:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\family typewriter
+\size larger
+Outer diameter (
+\begin_inset Formula $\mathrm{{in}}$
+\end_inset
+
+): 37
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Width (
+\begin_inset Formula $\mathrm{{in}}$
+\end_inset
+
+): 12
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Inner diameter (
+\begin_inset Formula $\mathrm{{in}}$
+\end_inset
+
+): 16
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Rolling radius (
+\begin_inset Formula $\mathrm{{in}}$
+\end_inset
+
+): 10.7
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Projected area: 378.019256652 
+\begin_inset Formula $\mathrm{{in^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Tyre pressure (
+\begin_inset Formula $\mathrm{{psi}}$
+\end_inset
+
+): 70
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Tyre supporting weight: 26461.3479657 lb
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Least number of tyres required: 4
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Number of tyres: 4
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Maximum width: 12.6
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Semi-major axis of projected area: 15.09172 
+\begin_inset Formula $\mathrm{{in}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Area of contact: 298.695822862 
+\begin_inset Formula $\mathrm{{in^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Total contact area: 1194.78329145 
+\begin_inset Formula $\mathrm{{in^{2}}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\size larger
+Runway loading: 71.0771481723 
+\begin_inset Formula $\mathrm{{Ncm^{-2}}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\family default
+\shape italic
+\size large
+Since asphalt runways can bear up to 73.9 
+\begin_inset Formula $Ncm^{-2}$
+\end_inset
+
+, our aircraft can be landed upon 
+\begin_inset Quotes eld
+\end_inset
+
+Asphalt
+\begin_inset Quotes erd
+\end_inset
+
+ runways.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\shape default
+
+\begin_inset space \hspace{}
+\length -2.3cm
+\end_inset
+
+
+\series bold
+\size larger
+\noun on
+Balance Diagram:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -2.2cm
+\end_inset
+
+
+\series bold
+Fuselage:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align block
+
+\size large
+\begin_inset space \hspace{}
+\length -2.5cm
+\end_inset
+
+
+\size default
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="43" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Components
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Weight 
+\begin_inset Formula $[\mathrm{kg\, f}]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Position 
+\begin_inset Formula $[\mathrm{m}]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Moment 
+\begin_inset Formula $[\mathrm{kgf\: m}]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Instruments
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18215.84796
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+81971.31581
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pilot
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nose wheel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4047.966213
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32383.7297
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Crew Members
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Business Class (Upper)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9900
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Business Class (Lower)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+200
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+29.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5966
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+First Class
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5820
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Economic Class (1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+41.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12330
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Economic Class (2)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+300
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+52.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15870
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Economic Class (3)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+400
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+66.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+26760
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Passengers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Business Class (Upper)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4800
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+98400
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Business Class (Lower)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3200
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24.65
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+78880
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+First Class
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2640
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23760
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Economic Class (1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+362000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Economic Class (2)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+48
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+480000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Economic Class (3)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11600
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+60.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+706440
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Cargo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Before Wing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7504
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.68
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+162686.72
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+After Wing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3216
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+53.52
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+172120.32
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Structural Weight of Fuselage
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40479.66213
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1372260.546
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Wash Rooms
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Upper Deck (Front)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+622.7640328
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5293.494279
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Upper Deck (Back)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1245.528066
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40479.66213
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lower Deck (F-Class)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1245.528066
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21173.97711
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lower Deck (B-Class)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1245.528066
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+31.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+38985.02845
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lower Deck (E-Class) - I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1245.528066
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+43.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+53682.25963
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lower Deck (E-Class) - II
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1245.528066
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+54.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+68379.4908
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Lower Deck (E-Class) - III
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1245.528066
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+67.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+84571.35565
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Horizontal Stabilizer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12143.89864
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+72.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+880432.6513
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vertical Stabilizer
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8095.932426
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+71.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+578859.1685
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Main Wheel (Fuselage)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9715.118911
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+39.4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+382775.6851
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Fuselage Fuel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Top Box
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12210.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+445692.375
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Middle Box
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4070.25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.49
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+152593.6725
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Front Box
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17054.3475
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+33.6025
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+573068.7119
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Total Weight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+189089.7062
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Net Moment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6974536.164
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+CG of Fuselage 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+36.88480089
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 1.1000000000000001
+
+\size large
+\begin_inset space \hspace{}
+\length -0.6cm
+\end_inset
+
+
+\series bold
+Values used:
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{Mean\ Aerodyamic\ chord,\ }c_{m}=9.54\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{Distance\ between\ leading\ edges\ of\ root\ chord}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length 3.5cm
+\end_inset
+
+
+\begin_inset Formula $\mathrm{and\ mean\ aerodynamic\ chord,\ }x^{\prime}=10.32015\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{Length\ of\ power\ plant,\ }l_{pp}=3.9116\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{Powerplant\ weight,\ }W_{PP}=4785.399504\ \mathrm{kg\, f}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{CG\ of\ power\ plant\ 1,\ }x_{pp1}=11.119153\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{CG\ of\ power\ plant\ 2,\ }x_{pp2}=18.45714144\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{Fuel\ weight,\ }W_{F}=83294.9534\ \mathrm{kg\, f}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{CG\ of\ fuel,\ }x_{fuel}=18.45714144\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{Structural\ weight,\ }W_{S}=18.45714144\ \mathrm{kg\, f}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{CG\ of\ structural\ weight,\ }x_{W_{s}}=14.13615\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\size large
+\begin_inset Formula $\mathrm{Assumed\ CG\ of\ aircraft,\ }x_{CG}=x^{\prime}+0.3\ c_{m}=13.18215\ \mathrm{m}\ \ \ \ (\mathrm{from\ leading\ edge)}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Wing:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="4">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Components
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Weight 
+\begin_inset Formula $[\mathrm{kg\, f}]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Position 
+\begin_inset Formula $[\mathrm{m}]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size large
+Moment 
+\begin_inset Formula $[\mathrm{kgf\: m}]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wing Structure
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+28335.76349
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14.13615
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+400558.6031
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fuel Tank (1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44646.09502
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.946718936
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+444082.1587
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fuel Tank (2)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16658.99068
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17.53645906
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+292139.708
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fuel Tank (3)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5324.213421
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+22.87722053
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+121803.2046
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Main Wheel (Wing)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6476.745941
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15.98
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+103498.4001
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Powerplant
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4785.399504
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11.1191531
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+53209.58972
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4785.399504
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18.45714144
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+88324.79551
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Total Weight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+111012.6076
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Total Moment
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1503616.46
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+CG of Wing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13.54455582
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset space \hspace{}
+\length -0.8cm
+\end_inset
+
+
+\series bold
+Determining the wing attachment point:
+\series default
+
+\begin_inset Formula 
+\[
+W_{0}\times\big(x_{wa}+x_{cg}\big)=W_{fuse}\times x_{fuse}+2W_{wing}\times\big(x_{wing}+x_{wa}\big)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+\begin_inset space \hspace{}
+\length -0.8cm
+\end_inset
+
+
+\shape italic
+Substituting the values in the above expression and solving for 
+\begin_inset Formula $x_{wa}$
+\end_inset
+
+, we get 
+\begin_inset Formula $x_{wa}=24.11343221\ \mathrm{m}$
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\shape default
+
+\begin_inset space \hspace{}
+\length -1cm
+\end_inset
+
+
+\series bold
+\size larger
+\noun on
+CG Calculation for Aircraft:
+\end_layout
+
+\begin_layout Standard
+
+\size large
+\begin_inset Formula 
+\[
+\mathrm{Weight\ of\ fuselage,\ }W_{fuse}=195878.5046\ \mathrm{kg\, f}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{Net\ Weight,\ }W_{0}=417903.7198\ \mathrm{kg\, f}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{CG\ of\ fuselage},\ x_{fuse}=36.88480089\ \mathrm{m}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathrm{\mathbf{CG\ of\ aircraft}},\ x_{CG}=37.29558221\ \mathrm{m}
+\]
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\shape italic
+This is the case for full fuel and full payload.
+ The other cases are calculated in a similar fashion (as follows).
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+(i) 
+\begin_inset space \hspace{}
+\length 0.3cm
+\end_inset
+
+Full fuel, half payload - 
+\begin_inset Formula $x_{CG}=37.29558221\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+(ii) 
+\begin_inset space \hspace{}
+\length 0.2cm
+\end_inset
+
+Full fuel, no payload - 
+\begin_inset Formula $x_{CG}=37.29558221\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+(iii) 
+\begin_inset space \hspace{}
+\length 0.1cm
+\end_inset
+
+Half fuel, full payload - 
+\begin_inset Formula $x_{CG}=37.29558221\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+(iv) 
+\begin_inset space \hspace{}
+\length 0.05cm
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 0.1cm
+\end_inset
+
+Half fuel, half payload - 
+\begin_inset Formula $x_{CG}=37.29558221\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+(v) 
+\begin_inset space \hspace{}
+\length 0.15cm
+\end_inset
+
+
+\begin_inset space \hspace{}
+\length 0.1cm
+\end_inset
+
+Half fuel, no payload - 
+\begin_inset Formula $x_{CG}=37.29558221\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+(vi) 
+\begin_inset space \hspace{}
+\length 0.1cm
+\end_inset
+
+Reserve fuel, full payload - 
+\begin_inset Formula $x_{CG}=37.29558221\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+
+\size large
+(vii) Reserve fuel, half payload - 
+\begin_inset Formula $x_{CG}=37.29558221\ \mathrm{m}$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
