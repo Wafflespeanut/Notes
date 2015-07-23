@@ -1,0 +1,11 @@
+## Notes
+
+Being a terrible undergrad student, I'm not very good with numbers and formulas. So, I *once* made these notes to keep up with my classes.
+
+- Aircraft Structures - I (AE8401)
+- Numerical Methods (MA8353)
+- Transform Techniques & Partial Differential Equations (MA8357)
+
+#### I don't write notes these days!
+
+... because I've got other things to attend to. But, I do need LyX (my favorite LaTeX processor) and Geogebra (my favorite SVG generator) for a few assignments, and especially for our Aircraft Design Project report.
