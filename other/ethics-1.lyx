@@ -25,9 +25,10 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
-\papersize default
-\use_geometry false
+\papersize a4paper
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -51,10 +52,14 @@
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 2cm
+\topmargin 1.5cm
+\rightmargin 2cm
+\bottommargin 1.5cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\paragraph_indentation default
+\paragraph_indentation 1cm
 \quotes_language english
 \papercolumns 1
 \papersides 1
@@ -69,15 +74,174 @@
 \begin_body
 
 \begin_layout Title
+\paragraph_spacing onehalf
 Is photocopying ethically right or wrong?
 \end_layout
 
 \begin_layout Author
+\paragraph_spacing onehalf
 Ravi Shankar (2012501030)
 \end_layout
 
 \begin_layout Date
+\paragraph_spacing onehalf
 Engineering Ethics (Assignment - I)
+\end_layout
+
+\begin_layout Subsection*
+\paragraph_spacing single
+Introduction:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+Almost every creation of a human being in any field (like art, technology,
+ or academia) is being copyright-protected nowadays.
+ That's the only way to reduce (if not prevent) 
+\begin_inset Quotes eld
+\end_inset
+
+plagiarism
+\begin_inset Quotes erd
+\end_inset
+
+, which still prevails in such fields.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+\paragraph_spacing single
+
+\family sans
+Plagiarism is the "wrongful appropriation" and "stealing and publication"
+ of an author's language, thoughts, ideas, or expressions and the representation
+ of them as one's own original work.
+\end_layout
+
+\begin_layout Quote
+\noindent
+\align right
+
+\family sans
+(Source: Wikipedia)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+Plagiarism is considered morally 
+\series bold
+wrong 
+\series default
+because if someone gets involved in such an act (of 
+\begin_inset Quotes eld
+\end_inset
+
+plagiarizing
+\begin_inset Quotes erd
+\end_inset
+
+ someone else's creation), then the creator won't be attributed for his
+ work and the wrong guy (who may not have done anything at all!) gets the
+ credit.
+ For example, if I had given the above definition of 
+\begin_inset Quotes eld
+\end_inset
+
+plagiarism
+\begin_inset Quotes erd
+\end_inset
+
+ without the proper citation (to Wikipedia), then it's an act of plagiarism.
+ In the present state of our world, plagiarism (if caught) may lead to punishmen
+t, depending on the level of involvement.
+\end_layout
+
+\begin_layout Subsection*
+Photocopying:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset space \hspace{}
+\length 2.5em
+\end_inset
+
+While plagiarism is ethically wrong and is closely related to copyright
+ infringement (if the real work is copyright-protected), photocopying is
+ not necessarily wrong (ethically), but instead it depends on the situation
+ - like, where the problem emerges, whether it's been plagiarized, the purpose
+ of it, etc.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As an example, let's consider a guy who wants to photocopy a book.
+ From the ethical point of view, there are different cases where the act
+ can be considered right or wrong.
+\end_layout
+
+\begin_layout Paragraph*
+It is ethically right, if the guy...
+\end_layout
+
+\begin_layout Itemize
+just wants to learn something and doesn't use it for any other benefits,
+ reputation or gain in any way
+\end_layout
+
+\begin_layout Itemize
+includes proper attribution to the author (by citing the reference) while
+ including the content in his work
+\end_layout
+
+\begin_layout Itemize
+gets permission from the author before publishing his modification of the
+ author's content
+\end_layout
+
+\begin_layout Paragraph*
+It is ethically wrong (in every way!), if the guy...
+\end_layout
+
+\begin_layout Itemize
+simply plagiarizes the author's content for his own benefits
+\end_layout
+
+\begin_layout Subsection*
+Conclusion:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 2.5em
+\end_inset
+
+The 
+\series bold
+absence of citation
+\series default
+ to the real authors of the work is something that's going on for decades
+ in many fields (especially in academia).
+ That's why copyright infringement acts have been passed to protect the
+ creation of creators.
+\end_layout
+
+\begin_layout Standard
+But, unlike plagiarism, photocopying is not a global phenomena.
+ It's only done by amateurs, book vendors, students and (probably) teachers
+ too.
+ So, whether their act is worthy or not, whether it's actually right or
+ wrong is left to the individual's conscience, as he/she is taking the risk
+ of being caught for his act some day in the near future.
+ Ethically speaking, it's always a good practice to cite to the proper authors
+ while using their work (which also applies to the information obtained
+ through photocopying).
 \end_layout
 
 \end_body
