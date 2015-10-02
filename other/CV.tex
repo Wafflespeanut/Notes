@@ -1,0 +1,181 @@
+% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{black}                              % color options 'black', 'blue' (default), 'green', 'grey', 'orange', 'purple' and 'red'
+% \renewcommand{\familydefault}{\sfdefault}          % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+% \nopagenumbers{}                                   % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+% \usepackage[utf8]{inputenc}                        % if you are not using xelatex ou lualatex, replace by the encoding you are using
+% \usepackage{CJKutf8}                               % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+% \setlength{\hintscolumnwidth}{3cm}                 % if you want to change the width of the column with the dates
+% \setlength{\makecvtitlenamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Ravi}{Shankar}
+% \title{Resumé}
+% \address{street and number}{postcode city}{country} % the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{+91~9551404646}                     % the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+% \phone[fixed]{+2~(345)~678~901}
+% \phone[fax]{+3~(456)~789~012}
+\email{wafflespeanut@gmail.com}
+% \homepage{wafflespeanut.github.io}
+% \social[linkedin]{wafflespeanut}
+% \social[twitter]{wafflespeanut}
+\social[github]{wafflespeanut}
+% \extrainfo{additional information}
+% \photo[64pt][0.4pt]{picture}                       % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{Some quote}                                 
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+\definecolor{linky}{rgb}{0.08, 0.38, 0.74}
+\newcommand\chref[3][linky]{\href{#2}{\color{#1}#3}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+% \begin{CJK*}{UTF8}{gbsn}                         % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+% \section{Education}
+% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+
+% \section{Master thesis}
+% \cvitem{title}{\emph{Title}}
+% \cvitem{supervisors}{Supervisors}
+% \cvitem{description}{Short thesis abstract}
+
+\section{Open source contributions:}
+\subsection*{Mozilla:}
+\begin{itemize}
+\item \textbf{\chref{https://mozillians.org/en-US/u/wafflespeanut/}{Mozillian}} since the summer of 2015. Occasional contributor to Firefox and Seamonkey, where I've patched simple Javascript bugs.
+\item \textbf{\chref{http://servostat.youknowone.org/}{Active contributor}} to the \chref{https://github.com/servo/servo}{Servo browser engine} (project by Mozilla, currently being written in Rust), primarily concentrating on plugins, understanding DOM and improving the code structure. Some of my contributions:
+    \begin{itemize}
+    \item Worked with my mentor and \chref{https://github.com/servo/servo/pull/6829}{fixed a channel}, which enabled communication between Firefox's devtools and Servo's workers.
+    \item \chref{https://github.com/servo/servo/pull/7698}{Sorted the declaration statements} in the entire codebase (according to Rust's styling rules) using \chref{https://github.com/Wafflespeanut/rust-sorty}{my AST plugin} and a simple Python script.
+    \end{itemize}
+\end{itemize}
+\subsection{Personal projects:}
+\begin{itemize}
+\item \textbf{\chref{https://github.com/Wafflespeanut/biographer}{Biographer}}: A command-line based private diary written in Python, which allows users to write their everyday stories and view them later. It makes use of a simple shifting cipher to encrypt/decrypt the contents in $O(n)$ time. I've also written a Rust library for it, which uses FFI and concurrency to reduce the searching time by a factor of $\approx 230$.
+\item \textbf{\chref{https://github.com/joelewis/carrot}{Carrot}}: An MVC-based webapp which lets organizations to notify their users of the changes made to their webapp(s) by using a simple <script> tag embedded on their webpage, which gets data from our server through the JSONP technique. It was made in a hackathon where I teamed up with another guy and developed the app within 12 hours.
+\item \chref{https://github.com/Wafflespeanut/scripts/tree/master/python}{Various Python scripts} written mostly for solving problems in our coursework, our aircraft design project and other routines, which reduced a great deal of time for the fellow undergrads.
+\end{itemize}
+
+% \cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.}
+% \cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+
+% \section{Languages}
+% \cvitemwithcomment{Language 1}{Skill level}{Comment}
+% \cvitemwithcomment{Language 2}{Skill level}{Comment}
+% \cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+% \section{Skills:}
+% \cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+% \cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
+% \cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+
+\section{Programming skills:}
+\cvitem{Languages}{Python, Rust, C, Javascript, Bash, HTML5 and \textrm{\LaTeX}}
+\cvitem{Technologies}{Git, Mathematica, some Django and Angular JS}
+
+\section{Volunteer contributions:}
+\begin{itemize}
+\item Reviewer of Q{\&}A at \chref{https://physics.stackexchange.com/users/11062/waffles-crazy-peanut}{Physics Stack Exchange} for the past two years
+\item Gave multiple talks about Python in college
+\item Volunteer at ``Mozboot'' sessions (conducted by Mozilla) in college
+\end{itemize}
+
+\section{Achievements:}
+\begin{itemize}
+\item Blogger for the past two years (started off with \chref{https://wafflescrazypeanut.wordpress.com/}{Wordpress}, and landed in \chref{https://wafflespeanut.github.io/}{Github pages})
+\item \chref{https://github.com/Wafflespeanut}{Full-time coder} since the summer of 2014
+\item \chref{https://projecteuler.net/profile/Wafflespeanut.png}{Reached level 3} in Project Euler and ranked {\#}135 among the Indian users within 3 months
+\item Completed a wide variety of online courses in MOOC platforms
+\item ... also, learned to juggle and play bansuri when I'm away from my keyboard
+\end{itemize}
+
+% \section{Extra 1}
+% \cvlistitem{Item 1}
+% \cvlistitem{Item 2}
+% \cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+% \section{Extra 2}
+% \cvlistdoubleitem{Item 1}{Item 4}
+% \cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+% \cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+% \section{References}
+% \begin{cvcolumns}
+%   \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+%   \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+%   \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+% \end{cvcolumns}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+% \nocite{*}
+% \bibliographystyle{plain}
+% \bibliography{publications}                      % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+% \section{Publications}
+% \nocitebook{book1,book2}
+% \bibliographystylebook{plain}
+% \bibliographybook{publications}                  % 'publications' is the name of a BibTeX file
+% \nocitemisc{misc1,misc2,misc3}
+% \bibliographystylemisc{plain}
+% \bibliographymisc{publications}                  % 'publications' is the name of a BibTeX file
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{[Company] Recruitment team}{[Company], Inc.}
+\date{September 24, 2015}
+\opening{Dear [Name],}
+% \closing{Yours faithfully,}
+% \enclosure[Attached]{curriculum vit\ae{}}        % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+
+\makelettertitle
+
+I'm sure you already have enough information about me from my CV, but let me explain a few more aspects which I'd like you to know.
+
+Over the past 3 years, I've pursued various sciences including physics, aeronautics and computer science. It was only last year, when I realized the fact that all those sciences cease to develop in the absence of ``code'', which was also when my field of interest moved into the art of coding.
+
+I believe that programming languages don't really determine someone's skill in coding, since one can always switch to another language with the help of Stackoverflow. I really hope you believe the same if you think I haven't learned a particular language.
+
+I'm a problem solver, a quick learner and a \textit{perfectionist} with a keen eye for detail. That doesn't mean that I solve problems \textit{quickly}. I always try to generalize things up to cover all cases of a particular problem, and looking for such an algorithm does consume time, but I'll find it eventually. That explains why time-based tests can't really evaluate my skill.
+
+I love an environment where I can enjoy learning, so that I can enhance my coding skills along the way. I think [Company] already provides such an environment, and so this would be a great opportunity for me. I'm very happy about your reply, and I assure you of my enthusiasm to contribute my best to the development of [Company].
+
+Thank you for taking time to consider this application and I look forward to hearing from you in the near future.
+
+$\ $
+
+Yours faithfully,
+
+\textbf{Ravi Shankar}
+
+% \clearpage\end{CJK*}                             % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
