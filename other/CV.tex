@@ -69,17 +69,19 @@
 \subsection*{Mozilla:}
 \begin{itemize}
 \item \textbf{\chref{https://mozillians.org/en-US/u/wafflespeanut/}{Mozillian}} since the summer of 2015. Occasional contributor to Firefox and Seamonkey, where I've patched simple Javascript bugs.
-\item \textbf{\chref{http://servostat.youknowone.org/}{Active contributor}} to the \chref{https://github.com/servo/servo}{Servo browser engine} (project by Mozilla, currently being written in Rust), primarily concentrating on plugins, understanding DOM and improving the code structure. Some of my contributions:
-    \begin{itemize}
-    \item Worked with my mentor and \chref{https://github.com/servo/servo/pull/6829}{fixed a channel}, which enabled communication between Firefox's devtools and Servo's workers.
-    \item \chref{https://github.com/servo/servo/pull/7698}{Sorted the declaration statements} in the entire codebase (according to Rust's styling rules) using \chref{https://github.com/Wafflespeanut/rust-sorty}{my AST plugin} and a simple Python script.
-    \end{itemize}
+\item \textbf{\chref{http://servostat.youknowone.org/}{Active contributor}} to the \chref{https://github.com/servo/servo}{Servo browser engine} (project by Mozilla, currently being written in Rust), primarily concentrating on plugins, understanding DOM and improving the code structure.
+% Some of my contributions:
+%     \begin{itemize}
+%     \item Worked with my mentor and \chref{https://github.com/servo/servo/pull/6829}{fixed a channel}, which enabled communication between Firefox's devtools and Servo's workers.
+%     \item \chref{https://github.com/servo/servo/pull/7698}{Sorted the declaration statements} in the entire codebase (according to Rust's styling rules) using \chref{https://github.com/Wafflespeanut/rust-sorty}{my AST plugin} and a simple Python script.
+%     \end{itemize}
 \end{itemize}
 \subsection{Personal projects:}
 \begin{itemize}
-\item \textbf{\chref{https://github.com/Wafflespeanut/biographer}{Biographer}}: A command-line based private diary written in Python, which allows users to write their everyday stories and view them later. It makes use of a simple shifting cipher to encrypt/decrypt the contents in $O(n)$ time. I've also written a Rust library for it, which uses FFI and concurrency to reduce the searching time by a factor of $\approx 230$.
-\item \textbf{\chref{https://github.com/joelewis/carrot}{Carrot}}: An MVC-based webapp which lets organizations to notify their users of the changes made to their webapp(s) by using a simple <script> tag embedded on their webpage, which gets data from our server through the JSONP technique. It was made in a hackathon where I teamed up with another guy and developed the app within 12 hours.
-\item \chref{https://github.com/Wafflespeanut/scripts/tree/master/python}{Various Python scripts} written mostly for solving problems in our coursework, our aircraft design project and other routines, which reduced a great deal of time for the fellow undergrads.
+\item \textbf{\chref{https://github.com/Wafflespeanut/biographer}{Biographer}}: A command-line based private diary written in Python, which allows users to write their everyday stories, view them (or search through them) later. It makes use of a simple shifting cipher to encrypt/decrypt the contents in $O(n)$ time. I've also written a Rust library for it, which uses FFI and concurrency to reduce the searching time by a factor of $\approx 230$.
+\item \textbf{\chref{https://github.com/joelewis/carrot}{Carrot}}: An MVC-based webapp which lets organizations to notify their users of the changes made to their webapp(s) by using a simple \texttt{<script>} tag embedded on their webpage, which gets data from our server through the JSONP technique. It was made in a hackathon where I teamed up with another guy and developed the app within 12 hours.
+\item \textbf{\chref{https://github.com/Wafflespeanut/free-fall}{Free fall}} (\textit{ongoing}): A terminal based 1D-game written in Rust (from scratch), where the users try to save a jumper from hitting the cliffs (when the game ends). The game makes use of the terminal's raw mode and interacts with the Unix C libraries for polling the keystroke inputs and prints thousands of characters frame by frame to indicate motion.
+\item \chref{https://github.com/Wafflespeanut/scripts/tree/master/python}{Various Python scripts} written mostly for solving problems in our coursework, our aircraft design project and other routines, which reduced a great deal of time for the fellow undergrads (and me).
 \end{itemize}
 
 % \cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.}
@@ -87,13 +89,9 @@
 
 % \section{Languages}
 % \cvitemwithcomment{Language 1}{Skill level}{Comment}
-% \cvitemwithcomment{Language 2}{Skill level}{Comment}
-% \cvitemwithcomment{Language 3}{Skill level}{Comment}
 
 % \section{Skills:}
-% \cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-% \cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-% \cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+% \cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 2}{XXX, YYY, ZZZ}
 
 \section{Programming skills:}
 \cvitem{Languages}{Python, Rust, C, Javascript, Bash, HTML5 and \textrm{\LaTeX}}
@@ -112,13 +110,12 @@
 \item \chref{https://github.com/Wafflespeanut}{Full-time coder} since the summer of 2014
 \item \chref{https://projecteuler.net/profile/Wafflespeanut.png}{Reached level 3} in Project Euler and ranked {\#}135 among the Indian users within 3 months
 \item Completed a wide variety of online courses in MOOC platforms
-\item ... also, learned to juggle and play bansuri when I'm away from my keyboard
+\item ... also, learned to juggle and play \textit{Bansuri} (a flute) when I'm away from my keyboard
 \end{itemize}
 
 % \section{Extra 1}
 % \cvlistitem{Item 1}
-% \cvlistitem{Item 2}
-% \cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+% \cvlistitem{Item 2. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
 
 % \section{Extra 2}
 % \cvlistdoubleitem{Item 1}{Item 4}
@@ -148,34 +145,36 @@
 % \bibliographystylemisc{plain}
 % \bibliographymisc{publications}                  % 'publications' is the name of a BibTeX file
 
-\clearpage
+% \clearpage
 %-----       letter       ---------------------------------------------------------
 % recipient data
-\recipient{[Company] Recruitment team}{[Company], Inc.}
-\date{September 24, 2015}
-\opening{Dear [Name],}
+% \recipient{[Company] Recruitment team}{[Company], Inc.}
+% \date{September 24, 2015}
+% \opening{Dear [Name],}
+
 % \closing{Yours faithfully,}
+
 % \enclosure[Attached]{curriculum vit\ae{}}        % use an optional argument to use a string other than "Enclosure", or redefine \enclname
 
-\makelettertitle
+% \makelettertitle
 
-I'm sure you already have enough information about me from my CV, but let me explain a few more aspects which I'd like you to know.
+% I'm sure you already have enough information about me from my CV, but let me explain a few more aspects which I'd like you to know.
 
-Over the past 3 years, I've pursued various sciences including physics, aeronautics and computer science. It was only last year, when I realized the fact that all those sciences cease to develop in the absence of ``code'', which was also when my field of interest moved into the art of coding.
+% Over the past 3 years, I've pursued various sciences including physics, aeronautics and computer science. It was only last year, when I realized the fact that all those sciences cease to develop in the absence of ``code'', which was also when my field of interest moved into the art of coding.
 
-I believe that programming languages don't really determine someone's skill in coding, since one can always switch to another language with the help of Stackoverflow. I really hope you believe the same if you think I haven't learned a particular language.
+% I believe that programming languages don't really determine someone's skill in coding, since one can always switch to another language with the help of Stackoverflow. I really hope you believe the same if you think I haven't learned a particular language.
 
-I'm a problem solver, a quick learner and a \textit{perfectionist} with a keen eye for detail. That doesn't mean that I solve problems \textit{quickly}. I always try to generalize things up to cover all cases of a particular problem, and looking for such an algorithm does consume time, but I'll find it eventually. That explains why time-based tests can't really evaluate my skill.
+% I'm a problem solver, a quick learner and a \textit{perfectionist} with a keen eye for detail. That doesn't mean that I solve problems \textit{quickly}. I always try to generalize things up to cover all cases of a particular problem, and looking for such an algorithm does consume time, but I'll find it eventually. That explains why time-based tests can't really evaluate my skill.
 
-I love an environment where I can enjoy learning, so that I can enhance my coding skills along the way. I think [Company] already provides such an environment, and so this would be a great opportunity for me. I'm very happy about your reply, and I assure you of my enthusiasm to contribute my best to the development of [Company].
+% I love an environment where I can enjoy learning, so that I can enhance my coding skills along the way. I think [Company] already provides such an environment, and so this would be a great opportunity for me. I'm very happy about your reply, and I assure you of my enthusiasm to contribute my best to the development of [Company].
 
-Thank you for taking time to consider this application and I look forward to hearing from you in the near future.
+% Thank you for taking time to consider this application and I look forward to hearing from you in the near future.
 
-$\ $
+% $\ $
 
-Yours faithfully,
+% Yours faithfully,
 
-\textbf{Ravi Shankar}
+% \textbf{Ravi Shankar}
 
 % \clearpage\end{CJK*}                             % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
