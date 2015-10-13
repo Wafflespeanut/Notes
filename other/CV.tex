@@ -10,7 +10,7 @@
 \moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
 \moderncvcolor{black}                              % color options 'black', 'blue' (default), 'green', 'grey', 'orange', 'purple' and 'red'
 % \renewcommand{\familydefault}{\sfdefault}          % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-% \nopagenumbers{}                                   % uncomment to suppress automatic page numbering for CVs longer than one page
+\nopagenumbers                                     % uncomment to suppress automatic page numbering for CVs longer than one page
 
 % character encoding
 % \usepackage[utf8]{inputenc}                        % if you are not using xelatex ou lualatex, replace by the encoding you are using
@@ -46,15 +46,21 @@
 %\usepackage{multibib}
 %\newcites{book,misc}{{Books},{Others}}
 
-\definecolor{linky}{rgb}{0.08, 0.38, 0.74}
+\definecolor{linky}{rgb}{0.1, 0.2, 0.9}
 \newcommand\chref[3][linky]{\href{#2}{\color{#1}#3}}
+
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
+
 \begin{document}
 % \begin{CJK*}{UTF8}{gbsn}                         % to typeset your resume in Chinese using CJK
+
 %-----       resume       ---------------------------------------------------------
+
+\vspace*{-2\baselineskip}
 \makecvtitle
+\vspace{-2\baselineskip}
 
 % \section{Education}
 % \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
@@ -66,10 +72,10 @@
 % \cvitem{description}{Short thesis abstract}
 
 \section{Open source contributions:}
-\subsection*{Mozilla:}
+\subsection{Mozilla:}
 \begin{itemize}
 \item \textbf{\chref{https://mozillians.org/en-US/u/wafflespeanut/}{Mozillian}} since the summer of 2015. Occasional contributor to Firefox and Seamonkey, where I've patched simple Javascript bugs.
-\item \textbf{\chref{http://servostat.youknowone.org/}{Active contributor}} to the \chref{https://github.com/servo/servo}{Servo browser engine} (project by Mozilla, currently being written in Rust), primarily concentrating on plugins, understanding DOM and improving the code structure.
+\item \textbf{\chref{http://servostat.youknowone.org/\#author-wafflespeanut-a-gmail-o-com}{Active contributor}} to the \chref{https://github.com/servo/servo}{Servo browser engine} (project by Mozilla, currently being written in Rust), primarily concentrating on plugins, understanding DOM and improving the code structure.
 % Some of my contributions:
 %     \begin{itemize}
 %     \item Worked with my mentor and \chref{https://github.com/servo/servo/pull/6829}{fixed a channel}, which enabled communication between Firefox's devtools and Servo's workers.
@@ -146,7 +152,9 @@
 % \bibliographymisc{publications}                  % 'publications' is the name of a BibTeX file
 
 % \clearpage
+
 %-----       letter       ---------------------------------------------------------
+
 % recipient data
 % \recipient{[Company] Recruitment team}{[Company], Inc.}
 % \date{September 24, 2015}
