@@ -1,0 +1,27 @@
+\documentclass{article}
+\title{\Huge Rockets \& Missiles}
+\Large{\author{$\mathcal{WAFFLE'S\ \ CRAZY\ \ PEANUT}$}}
+\date{(Last updated: 28/10/15)}
+\newcommand{\para}[1]{\paragraph{#1}\mbox{}\\}
+\pagenumbering{gobble}
+\begin{document}
+\maketitle
+\textbf{\section{\huge Chapter 3 Formulas:}}
+\
+{\Large
+\para{\LARGE Basic substitutions:}
+{\LARGE $$\psi_0 = \frac{F}{m_0\ g_0}$$ \
+$$ \Lambda = \frac{m_0}{m_0 - \dot{m_0}\ t} $$
+$$ P(t) = 1 - \frac{1}{\Lambda} \big(\mathrm{ln} \Lambda + 1\big)$$} \\
+(for constant thrust),
+{\LARGE $$ t_b = \frac{I_{sp}}{\psi_0}\ \bigg(1 - \frac{1}{\Lambda} \bigg) $$} \\
+(for constant specific thrust),
+{\LARGE $$ t_b = \frac{I_{sp}}{\beta_0}\ \mathrm{ln} \Lambda $$}
+
+\subsection{\LARGE Vertical flight:}
+{\LARGE $$ v = g_0\ I_{sp}\ \mathrm{ln} \Lambda - g_0\ t$$
+$$ t_c = I_{sp}\  \mathrm{ln} \Lambda$$
+$$ h(t) = g_0\ \frac{I_{sp} ^ 2}{\psi_0}\ P(t) - \frac{1}{2}\ g_0\ t^2 $$
+$$ h(t_c) = g_0\ \frac{I_{sp} ^ 2}{\psi_0}\ \bigg(\frac{1}{2}\ \psi_0\ (\mathrm{ln} \Lambda) ^ 2 - \mathrm{ln} \Lambda + 1 - \frac{1}{\Lambda} \bigg) $$
+}
+}\end{document}

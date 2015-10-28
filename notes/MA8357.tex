@@ -76,7 +76,7 @@ A solution can either be made of arbitrary constants or arbitrary functions. Bot
     ]}
 \draw [decorate,decoration={brace,amplitude=12pt,mirror,raise=4pt},thick,yshift=0pt]
     (9.2,0.1) -- (9.2,2.3) node [black,midway,xshift=2.35cm,yshift=-0.1cm] {\footnotesize
-    {\Large \textit{First order only}}};
+    {\Large \textit{first order only}}};
 \end{tikzpicture}
 \end{center}
 \newpage
@@ -103,7 +103,7 @@ $$\implies\mathbf{z}=\frac{x^2}2\ log_e(y)+\phi(y)+g(x)$$}
 $\\ $
 \item $\mathbf z$ is a $f(x,y)$. When you integrate $\mathbf z$ with respect to $x$, the integration constant could be a function of $y$. So, the constants that come out during integration, should be replaced by new functions $f(y)$, $g(x)$, etc.
 $\\ $
-\item $\phi(y)$ denotes that you've already integrated $f(y)$, and it should be distinguished from its parent - $\phi(y)$. And, $g(x)$ has appeared as a result of integrating $f(y)$ due to the same reason mentioned at (b).
+\item $\phi(y)$ denotes that you've already integrated $f(y)$, and so it should be distinguished from its parent. And, $g(x)$ has appeared as a result of integrating $f(y)$ due to the same reason mentioned in (b).
 $\\ $
 \item Cases where the function itself depends on its own derivative, such as $\textbf{z}=t$ \textit{(notation)}, can be solved by using a characteristic function (same as in ODE), which includes all possible constants (so, you don't have to insert a constant after each integration).
 
@@ -152,12 +152,12 @@ $\ $
 \begin{enumerate}[1)]
 \item Write complete solution: {\LARGE $$\textbf{z}=ax+by+c$$}
 \item Substitute $(a,b)$ for $(p,q)$ in the given function, and find {\LARGE $b=f(a)$} by equating {\LARGE $f(a,b)=0$}.
-\item Substitute {\LARGE $b=f(a)$} in the complete solution,{\LARGE $$\textbf{z}=ax+f(a)y+c$$}.
+\item Substitute {\LARGE $b=f(a)$} in the complete solution,{\LARGE $$\textbf{z}=ax+f(a)y+c$$}
 \end{enumerate}
 \item General solution:
 \begin{enumerate}[1)]
-\item Substitute {\LARGE $c=\phi(a)$} in the complete solution, {\LARGE $$\textbf{z}=ax+f(a)y+\phi(a)$$}.
-\item Differentiate partially with respect to $a$, {\LARGE $$x+f'(a)y+\phi'(a)=0$$}.
+\item Substitute {\LARGE $c=\phi(a)$} in the complete solution, {\LARGE $$\textbf{z}=ax+f(a)y+\phi(a)$$}
+\item Differentiate partially with respect to $a$, {\LARGE $$x+f'(a)y+\phi'(a)=0$$}
 \item \textbf{Don't forget} to write, ``By eliminating {\LARGE $a$} from (1) and (2), we obtain the general solution".
 \end{enumerate}
 $\ $
@@ -173,10 +173,11 @@ $$\frac{\partial u}{\partial x}=1,\  \frac{\partial u}{\partial y}=a$$}
 Since {\LARGE $u=f(x,y)$}, {\LARGE $\textbf{z}$} can be {\LARGE $f(u)$}.
 {\LARGE $$\implies p=\frac{\partial \textbf{z}}{\partial x}=\frac{d \textbf{z}}{d u}\cdot\frac{\partial u}{\partial x}=\frac{d \textbf{z}}{d u}$$}
 {\LARGE $$\implies q=\frac{\partial \textbf{z}}{\partial y}=\frac{d \textbf{z}}{d u}\cdot\frac{\partial u}{\partial y}=a\frac{d \textbf{z}}{d u}$$}
-\newpage
+\\
 \item Substitute the ``new" $p,q$ in {\LARGE $F(\textbf{z},p,q)=0$}.
+\newpage
 \item Rearrange the equation (variable-separable method), and integrate it with the respective $(u,\textbf{z})$, to get the corresponding $f(u,\textbf{z})$.
-\item Substitute {\LARGE $u=x+ay$} in the equation, and rearrange it, to obtain the complete solution in the form {\LARGE $\textbf{z}=f(x,y)\\ $}.
+\item Substitute {\LARGE $u=x+ay$} in the equation, and rearrange it, to obtain the complete solution in the form {\LARGE $\textbf{z}=f(x,y)\\ $}
 \end{enumerate}
 \item General solution:
 \begin{enumerate}[1)]
@@ -184,8 +185,7 @@ Since {\LARGE $u=f(x,y)$}, {\LARGE $\textbf{z}$} can be {\LARGE $f(u)$}.
 \item Differentiate partially with respect to $a$.
 \item \textbf{Don't forget} to write, ``By eliminating {\LARGE $a$} from expressions (1) and (2), we obtain the general solution".
 \end{enumerate}
-$\ $
-\item Singular solution: \\
+\item Singular solution:
 Partially differentiate complete solution with respect to {\LARGE $c$}, and you'll get {\LARGE $0=1$}. But since {\LARGE $0\neq 1$}, there's \textbf{no singular solution}.
 \end{itemize}
 \para{{\Large \underline{Type 3}: {\LARGE $\ F(x,p)=f(y,q)$}}}
@@ -283,8 +283,8 @@ For e.g., {\LARGE $$\mathrm{P.I}=\frac{(y-1)e^x}{D^2-DD'-2D'^2}$$}
 \begin{enumerate}[(i)]
 \item Factorize the mixture of $D,D',D^2,D'^2,DD'$ to one of the forms,
 \begin{itemize}
-\item {\LARGE $(D-m_1D'-c_1)(D-m_2D'-c_2)$}
-\item {\LARGE $(D'-m_1D-c_1)(D'-m_2D-c_2)$}
+\item {\LARGE $(D-m_1D'+c_1)(D-m_2D'+c_2)$}
+\item {\LARGE $(D'-m_1D+c_1)(D'-m_2D+c_2)$}
 \end{itemize}
 \item Find the coefficients {\LARGE $m$} and {\LARGE $c$}.
 \item Substitute in the respective C.F,
