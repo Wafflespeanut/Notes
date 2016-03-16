@@ -25,6 +25,7 @@
 \name{Ravi}{Shankar}
 % \title{Resumé}
 % \address{street and number}{postcode city}{country} % the "postcode city" and "country" arguments can be omitted or provided empty
+\address{\textbf{UG Final Year (B.E. Aeronautics)}}{Madras Institute of Technology}
 \phone[mobile]{+91~9551404646}                     % the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
 % \phone[fixed]{+2~(345)~678~901}
 % \phone[fax]{+3~(456)~789~012}
@@ -33,7 +34,7 @@
 % \social[linkedin]{wafflespeanut}
 % \social[twitter]{wafflespeanut}
 \social[github]{wafflespeanut}
-% \extrainfo{additional information}
+% \extrainfo{}
 % \photo[64pt][0.4pt]{picture}                       % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 % \quote{Some quote}                                 
 % bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
@@ -62,61 +63,73 @@
 \makecvtitle
 \vspace{-2\baselineskip}
 
-% \section{Education}
-% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
-% \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+%\section{Education}
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}
 
 % \section{Master thesis}
 % \cvitem{title}{\emph{Title}}
 % \cvitem{supervisors}{Supervisors}
 % \cvitem{description}{Short thesis abstract}
 
-\section{Open source contributions:}
-\subsection{Mozilla:}
+\section{Projects}
+\cventry{Madras Institute of Technology}{Prof. Jayaraman}{Aircraft Design Project}{December, 2014 -- 2015}{}
+{\begin{itemize}
+\item Studied and calculated the various parameters required for designing a 420-seater "jumbo jet" aircraft.
+\item \chref{https://github.com/Wafflespeanut/scripts/tree/5610248de2d47311f128fecd015e2af8becca26f/python/Course}{Wrote a number of Python scripts} for automating the data collection and plotting, which reduced a great deal of time for the fellow undergrads.
+\end{itemize}}
+\cventry{Genome Life Sciences}{Giriraj Namachivayam (Lead Developer)}{Backend Developer Intern}{January, 2015 -- Present}{}
+{\begin{itemize}
+\item Wrote utilities to parse and analyze large quantities of chromosome data.
+\item Introduced the Rust language to the team, and rewrote a number of Bash and Python scripts in Rust, which showed a drastic improvement in performance.
+\item Currently writing a parser in Rust to process data, which is expected to bring down the processing time from seconds to a few milliseconds.
+\end{itemize}}
+\cventry{Madras Institute of Technology}{Prof. Arumugam}{Improving the fracture toughness of tapered composites}{January, 2015 -- Present}{}
+{\begin{itemize}
+\item Conducted various tensile tests and acoustic experiments on tapered composites and studied about the discontinuous stress distributions in each lamina.
+\item Currently trying to improve the fracture toughness by the addition of filler material in an iterative process.
+\end{itemize}}
+
+\section{Open source contributions}
+\subsection{Mozilla}
 \begin{itemize}
-\item \textbf{\chref{https://mozillians.org/en-US/u/wafflespeanut/}{Mozillian}} since the summer of 2015. Occasional contributor to Firefox and Seamonkey, where I've patched simple Javascript bugs.
-\item \textbf{\chref{http://servostat.youknowone.org/\#author-wafflespeanut-a-gmail-o-com}{Active contributor}} to the \chref{https://github.com/servo/servo}{Servo browser engine} (project by Mozilla, currently being written in Rust), primarily concentrating on plugins, understanding DOM and improving the code structure.
-% Some of my contributions:
-%     \begin{itemize}
-%     \item Worked with my mentor and \chref{https://github.com/servo/servo/pull/6829}{fixed a channel}, which enabled communication between Firefox's devtools and Servo's workers.
-%     \item \chref{https://github.com/servo/servo/pull/7698}{Sorted the declaration statements} in the entire codebase (according to Rust's styling rules) using \chref{https://github.com/Wafflespeanut/rust-sorty}{my AST plugin} and a simple Python script.
-%     \end{itemize}
+\item \chref{https://github.com/servo/servo/commits?author=Wafflespeanut}{Contributor} and \chref{https://blog.servo.org/2016/01/11/twis-47/}{reviewer} for the \chref{https://github.com/servo/servo}{Servo browser engine} project over the last few months, primarily concentrating on the python code used by the build system and mentoring the newcomers.
+\item Occassional contributor to the \chref{https://github.com/rust-lang/rust}{Rust programming language}, its documentation and related tooling.
+\item \textbf{\chref{https://mozillians.org/en-US/u/wafflespeanut}{Mozillian}} since the summer of 2015.
 \end{itemize}
-\subsection{Personal projects:}
+\subsection{Personal projects}
 \begin{itemize}
-\item \textbf{\chref{https://github.com/Wafflespeanut/biographer}{Biographer}}: A command-line based private diary written in Python, which allows users to write their everyday stories, view them (or search through them) later. It makes use of a simple shifting cipher to encrypt/decrypt the contents in $O(n)$ time. I've also written a Rust library for it, which uses FFI and concurrency to reduce the searching time by a factor of $\approx 230$.
-\item \textbf{\chref{https://github.com/joelewis/carrot}{Carrot}}: An MVC-based webapp which lets organizations to notify their users of the changes made to their webapp(s) by using a simple \texttt{<script>} tag embedded on their webpage, which gets data from our server through the JSONP technique. It was made in a hackathon where I teamed up with another guy and developed the app within 12 hours.
-\item \textbf{\chref{https://github.com/Wafflespeanut/free-fall}{Free fall}} (\textit{ongoing}): A terminal based 1D-game written in Rust (from scratch), where the users try to save a jumper from hitting the cliffs (when the game ends). The game makes use of the terminal's raw mode and interacts with the Unix C libraries for polling the keystroke inputs and prints thousands of characters frame by frame to indicate motion.
-\item \chref{https://github.com/Wafflespeanut/scripts/tree/master/python}{Various Python scripts} written mostly for solving problems in our coursework, our aircraft design project and other routines, which reduced a great deal of time for the fellow undergrads (and me).
+\item \textbf{\chref{https://github.com/Wafflespeanut/biographer}{Biographer}}: A command-line based private diary written in Python, which allows users to write their everyday stories, view them, or search through them later. It makes use of a simple shifting cipher to encrypt/decrypt the contents. It also contains a Rust library, which uses FFI and concurrency to reduce the searching time by a factor of $\approx 100$.
+\item \textbf{\chref{https://github.com/Wafflespeanut/free-fall}{Free fall}}: A terminal based ASCII 2D game written in Rust, where the users try to save a jumper from hitting the cliffs. The game makes use of the terminal's raw mode and interacts with the Unix C libraries for polling the keystroke inputs and prints thousands of characters frame by frame to indicate motion.
+\item \textbf{\chref{https://github.com/Wafflespeanut/flight-2016}{Flight '16}}: A \chref{http://wafflespeanut.github.io/flight-2016}{responsive website} written in pure HTML/JS/CSS (for our dept. symposium) without the use of any external libraries. Since most of the audience were 2G users, it's optimized in such a way that the desktop version consumes atmost 5 MB, and the mobile version consumes barely 1.5 MB, which brings the loading time to a few hundred milliseconds.
+\item \textbf{\chref{https://github.com/joelewis/carrot}{Carrot}}: An MVC-based webapp which lets organizations to notify their users of the changes made to their webapp(s) by using a simple \texttt{<script>} tag embedded on their webpage, which gets data from our server through the JSONP technique.
 \end{itemize}
 
-% \cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.}
-% \cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
-
+\newpage
 % \section{Languages}
 % \cvitemwithcomment{Language 1}{Skill level}{Comment}
 
 % \section{Skills:}
 % \cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 2}{XXX, YYY, ZZZ}
 
-\section{Programming skills:}
-\cvitem{Languages}{Python, Rust, C, Javascript, Bash, HTML5 and \textrm{\LaTeX}}
+\section{Programming skills}
+\cvitem{Languages}{Python, Rust, HTML5, Javascript, CSS, Bash, and some \textrm{\LaTeX}}
 \cvitem{Technologies}{Git, Mathematica, some Django and Angular JS}
 
-\section{Volunteer contributions:}
+\section{Key Courses Undertaken}
+\cvitem{Aeronautics}{Aircraft Structures, Aerodynamics, Propulsion, Flight Mechanics, Aircraft Stability}
+\cvitem{Mathematics}{Numerical Methods, Transform Techniques \& PDE, Finite Element Method}
+
+\section{Public speaking}
 \begin{itemize}
-\item Reviewer of Q{\&}A at \chref{https://physics.stackexchange.com/users/11062/waffles-crazy-peanut}{Physics Stack Exchange} for the past two years
-\item Gave multiple talks about Python in college
+\item Conducted introductory hands-on sessions for Python in college
 \item Volunteer at ``Mozboot'' sessions (conducted by Mozilla) in college
 \end{itemize}
 
-\section{Achievements:}
+\section{Miscellaneous}
 \begin{itemize}
-\item Blogger for the past two years (started off with \chref{https://wafflescrazypeanut.wordpress.com/}{Wordpress}, and landed in \chref{https://wafflespeanut.github.io/}{Github pages})
-\item \chref{https://github.com/Wafflespeanut}{Full-time coder} since the summer of 2014
-\item \chref{https://projecteuler.net/profile/Wafflespeanut.png}{Reached level 3} in Project Euler and ranked {\#}135 among the Indian users within 3 months
-\item Completed a wide variety of online courses in MOOC platforms
-\item ... also, learned to juggle and play \textit{Bansuri} (a flute) when I'm away from my keyboard
+\item Blogger for the past two years on \chref{https://wafflescrazypeanut.wordpress.com/}{wafflescrazypeanut.wordpress.com} and \chref{https://wafflespeanut.github.io/}{wafflespeanut.github.io}
+\item I also play the Indian flute, and sometimes juggle
 \end{itemize}
 
 % \section{Extra 1}
@@ -151,38 +164,20 @@
 % \bibliographystylemisc{plain}
 % \bibliographymisc{publications}                  % 'publications' is the name of a BibTeX file
 
-% \clearpage
+\clearpage
 
 %-----       letter       ---------------------------------------------------------
 
 % recipient data
-% \recipient{[Company] Recruitment team}{[Company], Inc.}
-% \date{September 24, 2015}
-% \opening{Dear [Name],}
+% \recipient{[Company] Recruitment team}{[Company]}
+% \date{}
+% \opening{Hello,}
 
 % \closing{Yours faithfully,}
 
 % \enclosure[Attached]{curriculum vit\ae{}}        % use an optional argument to use a string other than "Enclosure", or redefine \enclname
 
 % \makelettertitle
-
-% I'm sure you already have enough information about me from my CV, but let me explain a few more aspects which I'd like you to know.
-
-% Over the past 3 years, I've pursued various sciences including physics, aeronautics and computer science. It was only last year, when I realized the fact that all those sciences cease to develop in the absence of ``code'', which was also when my field of interest moved into the art of coding.
-
-% I believe that programming languages don't really determine someone's skill in coding, since one can always switch to another language with the help of Stackoverflow. I really hope you believe the same if you think I haven't learned a particular language.
-
-% I'm a problem solver, a quick learner and a \textit{perfectionist} with a keen eye for detail. That doesn't mean that I solve problems \textit{quickly}. I always try to generalize things up to cover all cases of a particular problem, and looking for such an algorithm does consume time, but I'll find it eventually. That explains why time-based tests can't really evaluate my skill.
-
-% I love an environment where I can enjoy learning, so that I can enhance my coding skills along the way. I think [Company] already provides such an environment, and so this would be a great opportunity for me. I'm very happy about your reply, and I assure you of my enthusiasm to contribute my best to the development of [Company].
-
-% Thank you for taking time to consider this application and I look forward to hearing from you in the near future.
-
-% $\ $
-
-% Yours faithfully,
-
-% \textbf{Ravi Shankar}
 
 % \clearpage\end{CJK*}                             % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
