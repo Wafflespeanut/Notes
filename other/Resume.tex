@@ -66,7 +66,7 @@
 \section{Education}
 \cventry{Ponjesly Public Matriculation School}{440/500 (91\%)}{10th grade}{2009 -- 2010}{}{}  % arguments 3 to 6 can be left empty
 \cventry{DVD Higher Secondary School}{1131/1200 (94.25\%)}{12th grade}{2011 -- 2012}{}{}
-\cventry{Madras Institute of Technology}{CGPA: 6.23}{Bachelors Degree - Aeronautics}{2012 -- Present}{}{}
+\cventry{Madras Institute of Technology}{CGPA: 6.23}{Bachelors Degree - Aeronautics}{2012 -- 2016}{}{}
 
 % \section{Master thesis}
 % \cvitem{title}{\emph{Title}}
@@ -79,31 +79,48 @@
 \item Studied and calculated the various parameters required for designing a 420-seater "jumbo jet" aircraft.
 \item \chref{https://github.com/Wafflespeanut/scripts/tree/5610248de2d47311f128fecd015e2af8becca26f/python/Course}{Wrote a number of Python scripts} for automating the data collection and plotting, which reduced a great deal of time for the fellow undergrads.
 \end{itemize}}
-\cventry{Genome Life Sciences}{Giriraj Namachivayam (Lead Developer)}{Backend Developer Intern}{January, 2016 -- Present}{}
+\cventry{Madras Institute of Technology}{Prof. Arumugam}{Residual Strength Estimation of Stiffened Composites}{January, 2016 -- April, 2016}{}
 {\begin{itemize}
-\item Wrote utilities to parse and analyze large quantities of chromosome data.
+\item Fabricated a number of ordinary and stiffened composite laminates using the hand lay-up method.
+\item Conducted various tensile, compressive and acoustic tests on those laminates and studied about their strength and failure modes, especially how they behave in the presence of a hole.
+\end{itemize}}
+\cventry{Genome Life Sciences}{Giriraj Namachivayam (Team Lead)}{Backend Developer Intern}{January, 2016 -- May, 2016}{}
+{\begin{itemize}
 \item Introduced the Rust language to the team, and rewrote a number of Bash and Python scripts in Rust, which showed a drastic improvement in performance.
-\item Currently writing a parser in Rust to process data, which is expected to bring down the processing time from seconds to a few milliseconds.
+\item Wrote a few utilities (FastQ+, Varchek+, MapQ+) in Rust for parallel processing of large quantities of chromosome and DNA sequence data.
 \end{itemize}}
-\cventry{Madras Institute of Technology}{Prof. Arumugam}{Improving the fracture toughness of tapered composites}{January, 2016 -- April, 2016}{}
+
+\section{Experience:}
+\cventry{Genome Life Sciences}{Giriraj Namachivayam (Team Lead)}{Junior Bioinformatics Programmer}{June, 2016 -- Present}{}
 {\begin{itemize}
-\item Conducted various tensile tests and acoustic experiments on tapered composites and studied about the discontinuous stress distributions in each lamina.
-\item Currently trying to improve the fracture toughness by the addition of filler material in an iterative process.
+\item Wrote an utility which collects known species data from various references and tries to predict the species from the given DNA sequence in O(1) time or O(log-n) time depending on the space-time tradeoff.
+\item Wrote a few more utilities for validation and analysis of biological data.
+\item Only fresher to earn the "Game changer" award for Q1 and Q2.
 \end{itemize}}
+
+\section{Programming skills}
+\cvitem{Languages}{Python, Rust, Bash, HTML5, Javascript, CSS, and some \textrm{\LaTeX}}
+\cvitem{Technologies}{Git}
+
+\newpage
 
 \section{Open source contributions}
 \subsection{Mozilla}
 \begin{itemize}
 \item \chref{https://github.com/servo/servo/commits?author=Wafflespeanut}{Contributor} and \chref{https://blog.servo.org/2016/01/11/twis-47/}{reviewer} for the \chref{https://github.com/servo/servo}{Servo browser engine} project over the last few months, primarily concentrating on the python code used by the build system and mentoring the newcomers.
+\begin{itemize}
+\item Wrote a \chref{https://github.com/Wafflespeanut/rust-sorty}{compiler plugin} for checking sorted order of declaration statements.
+\item  \chref{https://github.com/servo/highfive/commits?author=Wafflespeanut}{Wrote various handlers} for \chref{https://github.com/servo/highfive}{highfive} (a bot which uses the Github webhooks API to welcome newcomers, assign/tag issues, post the build failures, etc.) and a \chref{https://github.com/servo/highfive/pull/115}{"mark and sweep" JSON cleaner} for the tests.
+\end{itemize}
 \item Occassional contributor to the \chref{https://github.com/rust-lang/rust}{Rust programming language}, its documentation and related tooling.
-\item \textbf{\chref{https://mozillians.org/en-US/u/wafflespeanut}{Mozillian}} since the summer of 2015.
+\item \chref{https://mozillians.org/en-US/u/wafflespeanut}{Mozillian} since the summer of 2015.
 \end{itemize}
 \subsection{Personal projects}
 \begin{itemize}
-\item \textbf{\chref{https://github.com/Wafflespeanut/biographer}{Biographer}}: A command-line based private diary written in Python, which allows users to write their everyday stories, view them, or search through them later. It makes use of a simple shifting cipher to encrypt/decrypt the contents. It also contains a Rust library, which uses FFI and concurrency to reduce the searching time by a factor of $\approx 100$.
-\item \textbf{\chref{https://github.com/Wafflespeanut/free-fall}{Free fall}}: A terminal based ASCII 2D game written in Rust, where the users try to save a jumper from hitting the cliffs. The game makes use of the terminal's raw mode and interacts with the Unix C libraries for polling the keystroke inputs and prints thousands of characters frame by frame to indicate motion.
+\item \textbf{\chref{https://github.com/Wafflespeanut/rust-catalog}{Catalog}}: A "file-backed" map for maintaining key/value pairs in a file (sorted with respect to their hashes), which uses binary search and file seeking to "get" the value for the given key in O(log-n) time, which is always in the range of a millisecond.
+\item \textbf{\chref{https://github.com/Wafflespeanut/biographer}{Biographer}}: A command-line based private diary written in Python, which allows users to write their everyday stories, view them, or search through them later. It makes use of a simple shifting cipher to encrypt/decrypt the contents. It also contains a Rust library, which uses FFI and parallelization to reduce the searching time by a factor of $\approx 100$.
+\item \textbf{\chref{https://github.com/Wafflespeanut/free-fall}{Free fall}}: A terminal based 2D ASCII game written in Rust, where the users try to save a jumper from hitting the cliffs. The game makes use of the terminal's raw mode and interacts with the Unix C libraries for polling the keystroke inputs and prints thousands of characters frame by frame to indicate motion.
 \item \textbf{\chref{https://github.com/Wafflespeanut/flight-2016}{Flight '16}}: A \chref{http://wafflespeanut.github.io/flight-2016}{responsive website} written in pure HTML/JS/CSS (for our dept. symposium) without the use of any external libraries. Since most of the audience were 2G users, it's optimized in such a way that the desktop version consumes atmost 5 MB, and the mobile version consumes barely 1.5 MB, which brings the loading time to a few hundred milliseconds.
-\item \textbf{\chref{https://github.com/joelewis/carrot}{Carrot}}: An MVC-based webapp which lets organizations to notify their users of the changes made to their webapp(s) by using a simple \texttt{<script>} tag embedded on their webpage, which gets data from our server through the JSONP technique.
 \end{itemize}
 
 % \section{Languages}
@@ -112,24 +129,11 @@
 % \section{Skills:}
 % \cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 2}{XXX, YYY, ZZZ}
 
-\section{Programming skills}
-\cvitem{Languages}{Python, Rust, HTML5, Javascript, CSS, Bash, and some \textrm{\LaTeX}}
-\cvitem{Technologies}{Git, Mathematica, some Django and Angular JS}
-
-\section{Key Courses Undertaken}
-\cvitem{Aeronautics}{Aircraft Structures, Aerodynamics, Propulsion, Flight Mechanics, Aircraft Stability}
-\cvitem{Mathematics}{Numerical Methods, Transform Techniques \& PDE, Finite Element Method}
-
-\section{Public speaking}
-\begin{itemize}
-\item Conducted introductory hands-on sessions for Python in college
-\item Volunteer at ``Mozboot'' sessions (conducted by Mozilla) in college
-\end{itemize}
-
 \section{Miscellaneous}
 \begin{itemize}
-\item Blogger for the past two years on \chref{https://wafflescrazypeanut.wordpress.com/}{wafflescrazypeanut.wordpress.com} and \chref{https://wafflespeanut.github.io/}{wafflespeanut.github.io}
-\item I also play the Indian flute, and sometimes juggle
+\item Conducted introductory hands-on sessions for Python in college
+\item Blogger for two years on \chref{https://wafflescrazypeanut.wordpress.com/}{wafflescrazypeanut.wordpress.com} and \chref{https://wafflespeanut.github.io/}{wafflespeanut.github.io}
+\item I also play the Indian flute, try to compose music, and juggle when I'm AFK.
 \end{itemize}
 
 % \section{Extra 1}
