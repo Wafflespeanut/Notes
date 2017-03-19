@@ -73,41 +73,26 @@
 % \cvitem{supervisors}{Supervisors}
 % \cvitem{description}{Short thesis abstract}
 
-\section{Projects}
-\cventry{Madras Institute of Technology}{Prof. Jayaraman}{Aircraft Design Project}{December, 2014 -- 2015}{}
-{\begin{itemize}
-\item Studied and calculated the various parameters required for designing a 420-seater "jumbo jet" aircraft.
-\item \chref{https://github.com/Wafflespeanut/scripts/tree/5610248de2d47311f128fecd015e2af8becca26f/python/Course}{Wrote a number of Python scripts} for automating the data collection and plotting, which reduced a great deal of time for the fellow undergrads.
-\end{itemize}}
-\cventry{Madras Institute of Technology}{Prof. Arumugam}{Residual Strength Estimation of Stiffened Composites}{January, 2016 -- April, 2016}{}
-{\begin{itemize}
-\item Fabricated a number of ordinary and stiffened composite laminates using the hand lay-up method.
-\item Conducted various tensile, compressive and acoustic tests on those laminates and studied about their strength and failure modes, especially how they behave in the presence of a hole.
-\end{itemize}}
-\cventry{Genome Life Sciences}{Giriraj Namachivayam (Product Manager)}{Backend Developer Intern}{January, 2016 -- May, 2016}{}
+\section{Experience}
+\cventry{Genome Life Sciences}{Ref. Giriraj Namachivayam (Product Manager)}{Backend Developer Intern}{January, 2016 -- May, 2016}{}
 {\begin{itemize}
 \item Introduced Rust language to the team, and rewrote a number of Bash and Python scripts in Rust, which showed a drastic improvement in performance.
-\item Wrote a few utilities (FastQ+, Varchek+, MapQ+) in Rust for parallel processing of large quantities of chromosome and DNA sequence data (in FASTQ, VCF and SAM formats).
+\item Wrote a few utilities in Rust for bulk parallel processing of chromosome and DNA sequence data in FASTQ, SAM and VCF file formats.
+\item Earned the "game changer" award.
 \end{itemize}}
-
-\section{Experience}
-\cventry{Genome Life Sciences}{Giriraj Namachivayam (Product Manager)}{Junior Bioinformatics Programmer}{June, 2016 -- Present}{}
+\cventry{Genome Life Sciences}{Ref. Giriraj Namachivayam (Product Manager)}{Bioinformatics Programmer}{June, 2016 -- Present}{}
 {\begin{itemize}
 \item Wrote an utility which collects known species data from various references and tries to predict the species from the given DNA sequence in O(1) time or O(log-n) time depending on the space-time tradeoff.
-\item Wrote a few more utilities for validation and analysis of biological data.
-\item Earned the "game changer" award for Q1 and Q2.
+\item Wrote a few more utilities for analysis of bio-data, some of which now power the backend pipelines.
 \end{itemize}}
 
 \section{Programming skills}
 \cvitem{Languages}{Python, Rust, HTML5, Javascript, CSS, Bash}
-\cvitem{Technologies}{Git, Mercurial}
-
-\newpage
+\cvitem{Technologies}{Git, Mercurial, Flask}
 
 \section{Open source contributions}
-\subsection{Mozilla}
 \begin{itemize}
-\item \chref{https://github.com/servo/servo/commits?author=Wafflespeanut}{Active contributor} and \chref{https://blog.servo.org/2016/01/11/twis-47/}{reviewer} for the \chref{https://github.com/servo/servo}{Servo browser engine} project, primarily concentrating on the python code used by the build system, Mako-based glue code used in the style system, and mentoring the newcomers.
+\item \chref{https://github.com/servo/servo/commits?author=Wafflespeanut}{Active contributor} and \chref{https://blog.servo.org/2016/01/11/twis-47/}{reviewer} for the \chref{https://github.com/servo/servo}{Servo browser engine} project, primarily concentrating on the python code used by the build system, style system, and mentoring the newcomers.
 \newline
 \textit{Notable contributions:}
 \begin{itemize}
@@ -118,11 +103,14 @@
 \item Occassional contributor to the \chref{https://github.com/rust-lang/rust}{Rust programming language}, its documentation and related tooling.
 \item \chref{https://mozillians.org/en-US/u/wafflespeanut}{Mozillian} since the summer of 2015.
 \end{itemize}
-\subsection{Personal projects}
+
+\newpage
+
+\section{Personal projects}
 \begin{itemize}
 \item \textbf{\chref{https://github.com/servo-automation/highfive}{Highfive}}: A complete rework of all the webhook event handlers from Servo's \chref{https://github.com/servo/highfive}{highfive} for efficiency. Apart from handling Github's webhook events, it supports sharing the load between multiple bots, and offers configuration for individual repositories, events and their corresponding handlers.
-\item \textbf{\chref{https://github.com/Wafflespeanut/rust-helix}{Helix}}: An ongoing project written in Rust, to map short DNA sequence reads to the reference genome. It makes use of suffix array to generate the Burrows-Wheeler transform, from which an FM index is built and used for finding exact matches.
-\item \textbf{\chref{https://github.com/Wafflespeanut/rust-catalog}{Catalog}}: A "file-backed" map written in Rust, for maintaining key/value pairs in a file (sorted with respect to their hashes), which uses binary search and file seeking to "get" the value for the given key in O(log-n) time.
+\item \textbf{\chref{https://github.com/Wafflespeanut/rust-helix}{Helix}}: A Rust library to map short DNA sequence reads to the reference genome. It makes use of suffix array to generate the Burrows-Wheeler transform, from which an FM-index is built and used for finding exact matches in O(1) time.
+\item \textbf{\chref{https://github.com/Wafflespeanut/rust-catalog}{Catalog}}: A "file-backed" map written in Rust, for maintaining key/value pairs in a file (sorted with respect to their hashes), which uses binary search and file seeking to "get" the values in O(log-n) time.
 \item \textbf{\chref{https://github.com/Wafflespeanut/biographer}{Biographer}}: A command-line based private diary written in Python, which allows users to write their everyday stories, view them, or search through them later. It makes use of a simple shifting cipher to encrypt/decrypt the contents. It also contains a Rust library, which uses FFI and parallelization to reduce the searching time by a factor of $\approx 100$.
 \item \textbf{\chref{https://github.com/Wafflespeanut/free-fall}{Free fall}}: A terminal based 2D-ASCII game written in Rust, where the users try to save a jumper from hitting the cliffs. The game makes use of the terminal's raw mode and interacts with the Unix C libraries for polling the keystroke inputs and prints thousands of characters frame by frame to indicate motion.
 \end{itemize}
@@ -135,16 +123,16 @@
 
 \section{Miscellaneous}
 \begin{itemize}
-\item Being a fan of browser engines (especially Servo), I also play with the web stuff sometimes:
+\item I also play with code and make some cool stuff in my free time:
 \begin{itemize}
 \item A \chref{https://github.com/Wafflespeanut/flight-2016}{responsive website} (for a symposium) without the use of any external libraries.
 \item A \chref{https://github.com/Wafflespeanut/volcano-min}{method} for selective-plotting of volcano plots.
 \item A \chref{https://github.com/Wafflespeanut/AISH}{CSS injector} that slowly injects a stylesheet into a style element in the DOM and gets rendered in realtime.
+\item An \chref{https://ascii-gen.herokuapp.com/}{ASCII Art Generator} for JPEG/PNG images which \chref{http://wafflespeanut.github.io/blog/2017/03/01/ascii-sketch/}{extracts the necessary details} for generating the ASCII sketch.
 \end{itemize}
-\item Conducted introductory hands-on sessions for Python/Rust in college and workplace.
 \item Blogger since 2013 on \chref{https://wafflescrazypeanut.wordpress.com/}{wafflescrazypeanut.wordpress.com} and now, at \chref{https://wafflespeanut.github.io/}{wafflespeanut.github.io}
 \item \chref{https://physics.stackexchange.com/users/11062}{Contributor and reviewer} of posts at Physics Stack Exchange for two years (2013-2015).
-\item I also play the Indian flute, try to compose music, and juggle when I'm AFK.
+\item I'm also an avid gamer, hobby composer and juggler when I'm AFK.
 \end{itemize}
 
 % \section{Extra 1}
@@ -184,15 +172,30 @@
 %-----       letter       ---------------------------------------------------------
 
 % recipient data
-% \recipient{[Company] Recruitment team}{[Company]}
-% \date{}
-% \opening{Hello,}
-
-% \closing{Yours faithfully,}
-
+\recipient{EMBL Recruitment team}{European Molecular Biology Laboratory}
+\date{March 19, 2017}
+\opening{Dear member(s) of the committee,}
 % \enclosure[Attached]{curriculum vit\ae{}}        % use an optional argument to use a string other than "Enclosure", or redefine \enclname
 
-% \makelettertitle
+\makelettertitle
+
+I'm writing to apply for the Backend Developer position advertised in your website. I'm currently a research programmer at \textit{Genome Life Sciences}, a bioinformatics company, where I've been writing code for backend engines for over an year. I'm extremely interested in obtaining the position at EMBL, where I can continue exploring new things in the domain, improve my skills and apply them in problems that matter in the field.
+
+Even though I dropped out of college in my final year, my academic experience and diversified knowledge in Aeronautics, Physics and Computer Science is what makes me believe that I could be an effective asset in your research environment. I have 3 years of experience in Python and 2 years in Rust (a compiled language that offers the performance of C++).
+
+Throughout the year in my current job, I've been developing applications for handling large datasets in FASTQ, SAM and VCF file formats, to produce results as fast as possible while utilizing the available resources. One such application was FASTQ+, a parallel processing engine for validating FASTQ files. With help from the bioinformaticians in our company, I rewrote FastQC (the existing validation tool widely used by the bioinformatics community) in Rust in a week, and it turned out to be 5x faster than the existing tool.
+
+I'm a science enthusiast, an avid programmer, and a quick learner. I love learning new stuff, I enjoy solving problems (either by my own, or collaboratively with other people), and I especially like creating applications or features that save time for a lot of people. I also love to share my knowledge to others, which explains my contributions to Mozilla's open-source software. It's all these experiences that have built my confidence over time, and that's also why I think I'm fit for this job.
+
+I don't really know whether this is enough to convince you about my potential for this position, but I can assure you that I'll prove my worth if I'm given a chance. I would enjoy discussing this with you in the weeks to come. In the meantime, I'm enclosing my curriculum vitae along with this letter.
+
+Thank you very much for taking your time for consideration.
+
+$\ $
+
+Yours sincerely,
+\\
+Ravi Shankar
 
 % \clearpage\end{CJK*}                             % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
