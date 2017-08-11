@@ -1,3 +1,3 @@
-## My tex works
+## LaTex works
 
-I use Geogebra to generate SVGs on the fly. Then, there are my assignments, ADP reports and my old & abandoned notes (all of which are now in the logs)...
+This repo contains a lot of my old stuff (in its history) - like the Geogebra I used to generate SVGs, my notes, assignments, Aircraft Design Project reports, etc.
