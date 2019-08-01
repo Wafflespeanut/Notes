@@ -1,0 +1,217 @@
+% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+% Ubuntu packages: texstudio, texlive-latex-extra, texlive-fonts-extra (apt-cache search {moderncv,fontawesome})
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{black}                              % color options 'black', 'blue' (default), 'green', 'grey', 'orange', 'purple' and 'red'
+% \renewcommand{\familydefault}{\sfdefault}          % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+\nopagenumbers                                     % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+% \usepackage[utf8]{inputenc}                        % if you are not using xelatex ou lualatex, replace by the encoding you are using
+% \usepackage{CJKutf8}                               % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75,tmargin=3cm,bmargin=3cm]{geometry}
+% \setlength{\hintscolumnwidth}{3cm}                 % if you want to change the width of the column with the dates
+% \setlength{\makecvtitlenamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Ravi}{Shankar}
+% \title{Resumé}
+% \address{street and number}{postcode city}{country} % the "postcode city" and "country" arguments can be omitted or provided empty
+% \phone[mobile]{+91~9999999999}                     % the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+% \phone[fixed]{+2~(345)~678~901}
+% \phone[fax]{+3~(456)~789~012}
+\email{wafflespeanut@gmail.com}
+\homepage{waffles.space}
+\social[linkedin]{wafflespeanut}
+\social[twitter]{wafflespeanut}
+\social[github]{wafflespeanut}
+% \extrainfo{}
+% \photo[64pt][0.4pt]{picture}                       % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{Some quote}
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+\definecolor{linky}{rgb}{0.1, 0.2, 0.9}
+\newcommand\chref[3][linky]{\href{#2}{\color{#1}#3}}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\begin{document}
+% \begin{CJK*}{UTF8}{gbsn}                         % to typeset your resume in Chinese using CJK
+
+%-----       resume       ---------------------------------------------------------
+
+\vspace*{-1.8\baselineskip}
+\makecvtitle
+\vspace{-1.75\baselineskip}
+
+% \section{Master thesis}
+% \cvitem{title}{\emph{Title}}
+% \cvitem{supervisors}{Supervisors}
+% \cvitem{description}{Short thesis abstract}
+
+\section{Programming skills}
+\cvitem{Languages}{Rust, Python, Swift, HTML5, TypeScript, Go, Bash}
+\cvitem{Technologies}{Unix (OS X, Ubuntu), Git, REST, Vue JS, Docker, Kubernetes}
+\cvitem{Practices}{Version-controlled, Agile, Test-driven}
+
+\section{Experience}
+\cventry{April, 2019 -- Present}{Senior Software Engineer}{Genome}{Chennai, IN}{}{}
+{\begin{itemize}
+		\item Initiated and incrementally ported the backend pipelines in Python to Go.
+		\item Helped with building an analytics engine (in Python and Rust) for monitoring AWS services.
+		\item Booted \chref{https://github.com/wafflespeanut/paperclip}{paperclip} - an open source OpenAPI tooling library for type-safe compile-time checked HTTP APIs in Rust. It supports generating client library and CLI for APIs based on an OpenAPI v2 spec and offers a plugin for actix-web framework to automatically host an OpenAPI v2 spec.
+	\end{itemize}}
+
+\cventry{October, 2018 -- March, 2019}{Cofounder / Engineer}{Naamio}{Remote}{}{}
+{\begin{itemize}
+		\item Built an automated platform-agnostic operator for managing Kubernetes clusters without having to rely on a cloud provider's Kubernetes service - it supports autoscaling nodes on demand, partitioning/attaching/cleaning up disks, creating/managing load balancers and deploying apps using Helm charts without the use of \texttt{kubectl} / \texttt{helm} CLI.
+		\item Helped a client migrate their apps to Kubernetes clusters (in Azure) using the operator.
+		\item Wrote a tool for automating deployment of internal web apps through CI for review, staging and production.
+	\end{itemize}}
+
+\cventry{October, 2017 -- September, 2018}{Full-stack Developer}{Omnijar Studio}{Remote}{}{}
+{\begin{itemize}
+		\item Contributed to building a scalable e-commerce platform from scratch (in Swift, backed by CockroachDB) gated by an OAuth2 service with RBAC (in Go).
+		\item Also worked on the storefront and admin apps (in VueJS) for the e-commerce platform.
+		\item Wrote a \chref{https://github.com/OmnijarBots/beryllium}{bot library for Wire} messaging app (in Rust).
+	\end{itemize}}
+
+\cventry{June -- August, 2017}{Full-stack Developer}{Surematics}{Mountain View, CA}{}{}
+{\begin{itemize}
+		\item Contracted for a startup that develops applications for insurance brokers, which participated in the YCombinator summer (S-17) batch.
+		\item Wrote backend services for chat, auth and crypto (in Rust), worked on the webapp (pure TS) and took care of deployments in a Kubernetes cluster.
+	\end{itemize}}
+
+\cventry{January, 2016 - February, 2018}{Backend Developer}{Genome Life Sciences}{Chennai, IN}{}{}
+{\begin{itemize}
+		\item Wrote utilities in Rust for bulk parallel processing of chromosome and DNA sequence data in FASTQ, SAM and VCF file formats.
+		\textit{Notable tools:}
+		{\begin{itemize}
+				\item A species finder that matches and maps sample DNA data to find known species.
+				\item A sequence aligner which uses Burrows-Wheeler transform and FM-index to backtrack and map DNA sequences to the human reference genome. Its backend is now \chref{https://github.com/wafflespeanut/nucleic-acid}{open-source} and I've \chref{https://blog.waffles.space/2017/02/12/exploring-the-human-genome-part-1/}{blogged} about its basics.
+			\end{itemize}}
+		\end{itemize}}
+
+\section{Open source contributions}
+\subsection{Servo}
+\begin{itemize}
+	\item Contributor and \chref{https://blog.servo.org/2016/01/11/twis-47/}{reviewer} for \chref{https://github.com/servo/servo}{Servo browser engine} project (2015 - 2017).
+	\item I worked on the style system (as part of Quantum CSS project), python-based build system, and mentored newcomers. Apart from helping folks in IRC and Github issues, I've authored \chref{https://github.com/servo/servo/commits?author=wafflespeanut}{more than 100 commits} and reviewed \chref{https://github.com/servo/servo/pulls?q=is:pr+assignee:wafflespeanut+is:closed}{more than 200 pull requests}.
+	\item Implemented code for parsing and serialization of CSS \texttt{grid} shorthand and longhand properties.
+	\item Wrote \chref{https://github.com/servo/highfive/commits?author=wafflespeanut}{handlers} for \chref{https://github.com/servo/highfive}{highfive} (a bot that responds to Github webhook payloads by welcoming newcomers, assign/tag issues and pull requests, post build failures, etc.) and a "mark and sweep" \chref{https://github.com/servo/highfive/pull/115}{JSON cleaner} for its tests.
+	\item Created a \chref{https://github.com/servo-automation/servo-wpt}{watcher} that tests Servo builds in a machine, analyzes the logs, keeps track of "rr" recordings of intermittent failures, and uses the Github API to file issues or comments to notify the people who work on such issues.
+	\item Wrote a \chref{https://github.com/wafflespeanut/rust-sorty}{compiler plugin} for checking sorted order of declaration statements.
+\end{itemize}
+
+\subsection{Other}
+\begin{itemize}
+	\item Wrote a \chref{https://github.com/servo-automation/highfive}{Github app} (bot) which provides a friendly welcoming environment to open-source contributors. It tracks issues and pull requests, and performs actions such as assigning, labelling and commenting on issues and pull requests (using the Github API).
+	\item Occassional contributor to the \chref{https://github.com/rust-lang/rust}{Rust programming language}, its documentation and related tooling.
+	\item \chref{https://mozillians.org/en-US/u/wafflespeanut}{Mozillian} since the summer of 2015.
+\end{itemize}
+
+\section{Miscellaneous}
+\begin{itemize}
+	\item Organizer for the \chref{https://www.meetup.com/mad-rs/}{Rust Chennai meetup}.
+	\item \chref{https://teams.railsgirlssummerofcode.org/users/2358}{RGSoC Coach} (primarily for Rust/Servo).
+	\item Blogger since 2013 at \chref{https://wafflescrazypeanut.wordpress.com/}{wafflescrazypeanut.wordpress.com} and now, at \chref{https://blog.waffles.space/}{blog.waffles.space}.
+	\item \chref{https://physics.stackexchange.com/users/11062}{Contributor and reviewer} of posts at Physics Stack Exchange for two years (2013-2015).
+	\item I also play with code and make some cool stuff in my free time:
+	\begin{itemize}
+		\item An \chref{https://github.com/wafflespeanut/ascii-art-generator}{ASCII Art Generator} for images which \chref{https://blog.waffles.space/2017/03/01/ascii-sketch/}{extracts the necessary details} for generating the ASCII sketch - \chref{https://github.com/wafflespeanut/ascii-art-generator/tree/0b519b00b43eadb8500db30c304b2b87ad7eb159}{written in Python}, later ported to Rust, \chref{https://waffles.space/ascii-gen/}{now running} in pure Wasm.
+		\item A \chref{https://github.com/wafflespeanut/AISH}{CSS injector} that slowly injects a stylesheet into a style element in the DOM and gets rendered in realtime.
+		\item A \chref{https://github.com/wafflespeanut/flight-2016}{responsive website} for our college symposium without the use of any external libraries.
+		\item A terminal based \chref{https://github.com/wafflespeanut/free-fall}{2D-ASCII game} (in Rust) which makes use of terminal's raw mode, interacting with Unix C APIs for polling keystroke inputs, and prints thousands of characters frame by frame to indicate motion.
+		\item A \chref{https://github.com/wafflespeanut/biographer}{private diary} (in Python), which allows users to write their everyday stories, view them, or search through them later. It makes use of a simple shifting cipher to encrypt/decrypt the contents. It also uses a Rust library (through FFI) for searching.
+		\item A \chref{https://github.com/wafflespeanut/rust-catalog}{"file-backed" map} (in Rust) which uses binary search and file seeking to insert/get key-value pairs in disk.
+	\end{itemize}
+\end{itemize}
+
+% \section{Languages}
+% \cvitemwithcomment{Language 1}{Skill level}{Comment}
+
+% \section{Skills:}
+% \cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 2}{XXX, YYY, ZZZ}
+
+% \section{Extra 1}
+% \cvlistitem{Item 1}
+% \cvlistitem{Item 2. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+% \section{Extra 2}
+% \cvlistdoubleitem{Item 1}{Item 4}
+% \cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+% \cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+% \section{References}
+% \begin{cvcolumns}
+%   \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+%   \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+%   \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+% \end{cvcolumns}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+% \nocite{*}
+% \bibliographystyle{plain}
+% \bibliography{publications}                      % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+% \section{Publications}
+% \nocitebook{book1,book2}
+% \bibliographystylebook{plain}
+% \bibliographybook{publications}                  % 'publications' is the name of a BibTeX file
+% \nocitemisc{misc1,misc2,misc3}
+% \bibliographystylemisc{plain}
+% \bibliographymisc{publications}                  % 'publications' is the name of a BibTeX file
+
+\clearpage
+
+%-----       letter       ---------------------------------------------------------
+
+% recipient data
+\recipient{Smarkets Recruitment Team}{Smarkets}
+\date{August 01, 2019}
+\opening{Hello,}
+% \enclosure[Attached]{curriculum vit\ae{}}        % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+
+\makelettertitle
+
+I'm writing to apply for the "Rust Developer" position advertised in your website. I'm currently an engineer at \textit{Genome}, a bioinformatics company, where I've been writing code for backend pipelines in Python, Go and Rust, alongside managing the development team from time to time.
+
+I'm a science enthusiast, passionate programmer, and a quick learner. I love learning new stuff, I enjoy solving problems or diagnosing complications (either by my own, or collaboratively with others), and I especially like to create things (let it be an app, a cool feature, an automation or anything that saves time for people).
+
+I'm a big fan of Rust and I've been playing with it for 4 years now (ever since its 1.0 release) and have used it in production during my previous employments.
+
+It's all these experiences that have built my confidence over time, and that's also why I believe I'm a good fit for this job. I would enjoy discussing this with you in the near future. In the meantime, I'm enclosing my resume along with this letter.
+
+Thank you very much for taking your time for consideration.
+
+$\ $
+
+Yours sincerely,
+\\
+Ravi Shankar
+
+% \clearpage\end{CJK*}                             % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
